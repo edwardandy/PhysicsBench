@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entries</key>
+	<array>
+		<dict>
+			<key>separator</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>folder</key>
+			<string>Sounds</string>
+			<key>url</key>
+			<string>/System/Library/Sounds/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cocoa.h</string>
+			<key>url</key>
+			<string>/System/Library/Frameworks/Cocoa.framework/Versions/A/Headers/Cocoa.h</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>AppKit.h</string>
+			<key>url</key>
+			<string>/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/AppKit.h</string>
+		</dict>
+		<dict>
+			<key>separator</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

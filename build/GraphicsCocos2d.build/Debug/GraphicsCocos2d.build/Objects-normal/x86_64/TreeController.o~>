@@ -1,0 +1,5 @@
+/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m: In function '-[TreeController outlineView:dataCellForTableColumn:item:]':
+/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:149: warning: local declaration of 'tableColumn' hides instance variable
+/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:151: warning: local declaration of 'tableColumn' hides instance variable
+/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m: In function '-[TreeController outlineView:willDisplayCell:forTableColumn:item:]':
+/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:206: warning: local declaration of 'tableColumn' hides instance variable
