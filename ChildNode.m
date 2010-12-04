@@ -92,7 +92,7 @@
     layer.delegate = newContents;
     
     // Update contents
-    self.contents = newContents;
+    contents = newContents;
     
 }
 

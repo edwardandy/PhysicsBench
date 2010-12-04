@@ -46,6 +46,7 @@ typedef enum {
 - (void) addNewGroupFromMenu:(id)sender;
 - (void)addChild:(NSString *)folderName withContents:(id)content;
 - (void)addFolder:(NSString *)folderName;
+- (void)addFolder:(NSString *)folderName withContents:(id)content;
 - (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withController:(NSTreeController*)controller;
 
 @end

@@ -434,6 +434,10 @@
 		[self selectParentFromSelection];
 }
 
+- (void)addFolder:(NSString *)folderName {
+    [self addFolder:folderName withContents:[[PhysicsGroup alloc] init]];
+}
+
 // -------------------------------------------------------------------------------
 //	addFolder:folderName:
 // -------------------------------------------------------------------------------
