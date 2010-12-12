@@ -5,7 +5,9 @@
 //  Created by JONATHAN on 8/26/10.
 //  Copyright 2010 Personal. All rights reserved.
 //
+
 #import <Cocoa/Cocoa.h>
+#import "Workbench.h"
 
 @class PhysicsObject, FrameworkDefinition;
 
@@ -14,7 +16,7 @@
 /* to ask each renderable to conform to the following standard.
 /* This ensures we are using the appropriate display loop.
 /*****************************************/ 
-@protocol PhysicsRenderable
+@protocol PhysicsRenderable <RenderLayer>
 
 @required
 	- (void) simulateRenderObject;

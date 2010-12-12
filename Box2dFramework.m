@@ -10,7 +10,6 @@
 
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"
-#import "PhysicsGroup.h"
 
 #import "GCb2Circle.h"
 #import "GCb2Rect.h"
@@ -117,8 +116,7 @@
 	
 	// This needs to change this isn't safe, document should dictate this
 	
-	PhysicsGroup *group = (PhysicsGroup*) [delegate.document.physicsGroups lastObject]; 
-	[group.physicsObjects addObject:object];
+	
 	
 }
 

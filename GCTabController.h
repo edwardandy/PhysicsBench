@@ -8,32 +8,25 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class BaseGridView, Document;
+@class PhysicsGrid, Document;
 
 @interface GCTabController : NSViewController {
 @public	
-	NSTreeController	*treeController;
-    NSArrayController   *subChildren; 
-    
-    id                  content;
-    NSArray         *selectionIndexPaths;
+
     Document            *document;
 @private	
-	BaseGridView		*grid;
-	NSArray             *oldArray;
+	PhysicsGrid		*grid;
+
 
     
     
 }
 
-@property (nonatomic, assign) __weak NSArrayController *subChildren;
-@property (nonatomic, retain) NSArray *oldArray;
 @property (nonatomic, assign) __weak Document *document;
-@property (nonatomic, retain)     NSArray         *selectionIndexPaths;
-@property (nonatomic, retain)   id content;
-@property (nonatomic, retain) 	BaseGridView *grid;
-@property (nonatomic, assign) __weak 	NSTreeController *treeController;
+@property (nonatomic, retain) 	PhysicsGrid *grid;
+
 
 - (id) initWithView:(NSView*) view controller:(NSTreeController*)tController;
-- (void) performBinding;
+
+
 @end

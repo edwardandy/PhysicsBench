@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10F569</string>
+		<string key="IBDocument.SystemVersion">10H574</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
-		<string key="IBDocument.AppKitVersion">1038.29</string>
+		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<string>NSTextFieldCell</string>
@@ -62,7 +62,7 @@
 										<string key="NSFrameSize">{292, 760}</string>
 										<reference key="NSSuperview" ref="3253856"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="28042394"/>
+										<reference key="NSNextKeyView" ref="897358141"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTableHeaderView" key="NSHeaderView" id="948718302">
 											<reference key="NSNextResponder" ref="897358141"/>
@@ -193,7 +193,6 @@
 								<string key="NSFrame">{{1, 762}, {292, 15}}</string>
 								<reference key="NSSuperview" ref="1032974885"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<int key="NSsFlags">1</int>
 								<reference key="NSTarget" ref="1032974885"/>
 								<string key="NSAction">_doScroller:</string>
@@ -219,7 +218,7 @@
 						<string key="NSFrameSize">{294, 778}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="897358141"/>
+						<reference key="NSNextKeyView" ref="3253856"/>
 						<int key="NSsFlags">562</int>
 						<reference key="NSVScroller" ref="28042394"/>
 						<reference key="NSHScroller" ref="246852644"/>
@@ -268,11 +267,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">tableColumn</string>
+						<string key="label">tableOutletColumn</string>
 						<reference key="source" ref="1001"/>
 						<reference key="destination" ref="874993220"/>
 					</object>
-					<int key="connectionID">30</int>
+					<int key="connectionID">68</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -415,7 +414,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">67</int>
+			<int key="maxID">68</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -428,7 +427,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>outlineView</string>
-							<string>tableColumn</string>
+							<string>tableOutletColumn</string>
 							<string>treeController</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">

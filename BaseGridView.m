@@ -12,7 +12,7 @@
 #import "GridDrawObject.h"
 #import "TrackingArea.h"
 #import "GCTabController.h"
-#import "ChildNode.h"
+
 #import "GraphicsCocos2dAppDelegate.h"
 
 @interface BaseGridView (Private)

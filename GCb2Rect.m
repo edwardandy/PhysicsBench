@@ -25,7 +25,7 @@
 	if (self != nil) {
 		size		= NSMakeSize(50.0f, 50.0f);
 		position	= NSMakePoint(50.0, 100.0);
-		self.bounds = NSMakeRect(position.x, position.y, size.width, size.height);
+		
 	}
 	return self;
 }

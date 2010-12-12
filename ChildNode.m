@@ -65,7 +65,7 @@
 		isDefault = NO;
         layer = [[CALayer alloc] init];
         
-         [self addObserver:self forKeyPath:@"children" options:NSKeyValueObservingOptionNew context:nil];
+        [self addObserver:self forKeyPath:@"children" options:NSKeyValueObservingOptionNew context:nil];
         
 	}
 	return self;

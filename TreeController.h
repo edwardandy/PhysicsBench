@@ -28,7 +28,7 @@ typedef enum {
 	@public
 		IBOutlet NSOutlineView				*outlineView;
 		IBOutlet NSTreeController			*treeController;
-		IBOutlet NSTableColumn				*tableColumn;
+		IBOutlet NSTableColumn				*tableOutletColumn;
 	
 		NSImage						*folderImage;
 	
@@ -43,40 +43,9 @@ typedef enum {
 @property (nonatomic, assign)  __weak NSTreeController			*treeController;
 @property (nonatomic, assign)  __weak Document *					document;
 
-- (void) addNewGroupFromMenu:(id)sender;
-- (void)addChild:(NSString *)folderName withContents:(id)content;
-- (void)addFolder:(NSString *)folderName;
-- (void)addFolder:(NSString *)folderName withContents:(id)content;
-- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withController:(NSTreeController*)controller;
 
 @end
 
-
-// -------------------------------------------------------------------------------
-//	TreeAdditionObj
-//
-//	This object is used for passing data between the main and secondary thread
-//	which populates the outline view.
-// -------------------------------------------------------------------------------
-@interface TreeAdditionObj : NSObject
-{
-	NSIndexPath *indexPath;
-	NSString	*nodeURL;
-	NSString	*nodeName;
-	BOOL		selectItsParent;
-	
-	
-	ObjectType	type;
-	id			content;
-	
-}
-
-@property (nonatomic, assign) id content;
-@property (readonly) ObjectType type;
-@property (assign) NSIndexPath *indexPath;
-@property (readonly) NSString *nodeURL;
-@property (readonly) NSString *nodeName;
-@property (readonly) BOOL selectItsParent;
 
 
 @end

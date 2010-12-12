@@ -12,11 +12,11 @@
 @implementation GCb2Circle
 
 
-// -------------------------------------------------------------------------------
-//	init
-//
-//	Provide document standard properties on initialization
-// -------------------------------------------------------------------------------
+/**
+ *	init
+ *
+ *	Provide document standard properties on initialization
+ */
 - (id) init
 {
 	self = [super init];
@@ -24,16 +24,16 @@
 		radius		= 25.0f;
 		size		= NSMakeSize(50.0f, 50.0f);
 		position	= NSMakePoint(50.0, 100.0);
-		self.bounds = NSMakeRect(position.x, position.y, size.width, size.height);
+		
 	}
 	return self;
 }
 
-// -------------------------------------------------------------------------------
-//	dealloc
-//
-//	Yes, it's all about memory management!
-// -------------------------------------------------------------------------------
+/**
+ *	dealloc
+ *
+ *	Yes, it's all about memory management!
+ */
 - (void) dealloc
 {
 	[super dealloc];
@@ -42,11 +42,11 @@
 
 #pragma mark Drawing Routines
 
-// -------------------------------------------------------------------------------
-//	simulateRenderObject
-//
-//	Render a 2d representation of the circle within the workbench
-// -------------------------------------------------------------------------------
+/**
+ *	simulateRenderObject
+ *
+ *	Render a 2d representation of the circle within the workbench
+ */
 - (void) simulateRenderObject {
 	
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
@@ -83,6 +83,9 @@
 #pragma mark -
 #pragma mark Physics2dObject protocol
 
+/**
+ * @see PhysicsObject/PhysicsObject.m
+ */
 - (NSArray*) doesConformToFrameworkClasses {
 	return 	[NSArray arrayWithObjects:@"b2CircleShape", @"b2Shape", @"b2BodyDef", nil ];
 }

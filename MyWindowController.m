@@ -9,11 +9,12 @@
 #import "MyWindowController.h"
 #import "TreeController.h"
 #import "GCTabController.h"
-#import "BaseGridView.h"
+#import "PhysicsGrid.h"
+#import "PhysicsObject.h"
 #import "FrameworkManager.h"
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"
-
+#import "DocNode.h"
 
 //=========================
 // Private class Methods
@@ -24,8 +25,6 @@
 - (void) populateMenu;
 - (void) menuItemResponder:(id)sender;
 @end
-
-
 
 //=========================
 // Class Implementation
@@ -64,8 +63,6 @@
 // -------------------------------------------------------------------------------
 - (void)awakeFromNib {
 		
-	
-	
 	// Left View
 	// Create our outline view
 	treeController = [[TreeController alloc] initWithNibName:@"TreeOutlineView" bundle:nil withController:outlineController];
@@ -76,7 +73,7 @@
 	// Middle View
 	// Create our tab view with a physics grid
 	
-	BaseGridView *grid = [[BaseGridView alloc] initWithFrame:middleView.bounds];
+	PhysicsGrid *grid = [[PhysicsGrid alloc] initWithFrame:middleView.bounds];
 //	[middleView addSubview:grid];
 	tabController = [[GCTabController alloc] initWithView:grid controller:outlineController];
 	
@@ -93,19 +90,21 @@
 	
 }
 
-- (void)windowDidLoad {
-	[tabController performBinding];
-}
 
-
+#pragma mark -
+#pragma mark Delegate
 // -------------------------------------------------------------------------------
 //	addPhysicsGroup:(id)sender
 // -------------------------------------------------------------------------------
 - (IBAction) addPhysicsGroup:(id)sender {
-	[treeController addNewGroupFromMenu:sender];
+    PhysicsObject *pObj = [[PhysicsObject alloc] init];
+    
+    DocNode *node = [[DocNode alloc] initWithRepresentedObject:pObj];
+    [node setNodeTitle:@"Group"];
+    [node setContents:pObj];
+    
+    [outlineController add:node];
 }
-
-
 
 // -------------------------------------------------------------------------------
 //	populateMenu:
@@ -139,10 +138,18 @@
 - (void) menuItemResponder:(id)sender {
 	// Get our item name
 	NSMenuItem *item = (NSMenuItem*) sender;
-	// Create our object
+	
+    // Create our object
 	PhysicsObject *pObj = [[FrameworkManager sharedFrameworkManager] initObjectWithKey:item.title];
-	// Add to our controller
-	[treeController addChild:item.title withContents:pObj];
+	
+    // Create a docnode
+    DocNode *node = [[DocNode alloc] init];
+    [node setNodeTitle:item.title];
+    [node setContents:pObj];    
+        
+    // Add to our controller
+    [outlineController add:node];
+
 	
 }
 

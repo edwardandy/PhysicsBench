@@ -7,8 +7,7 @@
 //
 
 #import "Document.h"
-#import "ChildNode.h"
-
+#import "DocNode.h"
 
 @interface Document (PrivateMethods)
 - (CALayer*) newLayer;
@@ -18,7 +17,7 @@ NSString* DocumentDidUpdatePhysicsGroup = @"DocDidUpdatePhysicsGroup";
 
 @implementation Document
 
-@synthesize title, created, owner, physicsGroups, treeController, m_physicsGroups, rootLayer;
+@synthesize title, created, owner, physicsGroups, m_physicsGroups, rootLayer;
 
 // -------------------------------------------------------------------------------
 //	init
@@ -52,7 +51,6 @@ NSString* DocumentDidUpdatePhysicsGroup = @"DocDidUpdatePhysicsGroup";
 {
     [self removeObserver:self forKeyPath:@"m_physicsGroups"];
     [rootLayer release];
-	[treeController release];
 	[title release];
 	[created release];
 	[owner release];
@@ -61,6 +59,11 @@ NSString* DocumentDidUpdatePhysicsGroup = @"DocDidUpdatePhysicsGroup";
 	[super dealloc];
 }
 
+/**
+ * Key-value observing compliant. Essentially we are monitoring changes to make sure that
+ * whatever we do will reflect on our rootlayer. This provides us a way of keeping our
+ * layer tree in sync with our CALayer hiearchy since we cannot directly map the trees together
+ */ 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     int value = [[change objectForKey:NSKeyValueChangeKindKey] intValue];
     NSIndexSet *set = [change objectForKey:NSKeyValueChangeIndexesKey];
@@ -68,11 +71,10 @@ NSString* DocumentDidUpdatePhysicsGroup = @"DocDidUpdatePhysicsGroup";
     switch (value) {
         case NSKeyValueChangeInsertion: 
         {
-            ChildNode * obj = [m_physicsGroups objectAtIndex:index];
+            DocNode * obj = [m_physicsGroups objectAtIndex:index];
             NSLog(@"class type %@", [obj nodeTitle]);
             
-
-            [rootLayer addSublayer:[obj layer]];
+            [rootLayer addSublayer:[obj contents]];
             break;
         }
         case NSKeyValueChangeRemoval:

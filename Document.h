@@ -24,7 +24,6 @@
 	
 	// Contains a listing of all the physics data
 	NSArray				*physicsGroups;
-	NSTreeController	*treeController;
 			
 	// Hide our mutable physics group
 	NSMutableArray		*m_physicsGroups;
@@ -39,7 +38,6 @@
 @property (nonatomic, retain) NSDate				*created;
 @property (nonatomic, retain) NSString				*owner;
 @property (nonatomic, copy)   NSArray				*physicsGroups;
-@property (nonatomic, retain) NSTreeController		*treeController;
 @property (nonatomic, retain) NSMutableArray		*m_physicsGroups;
 
 //********************* Methods  ********************

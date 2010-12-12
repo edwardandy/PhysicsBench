@@ -11,7 +11,7 @@
 #import "SeparatorCell.h"
 #import "ImageAndTextCell.h"
 #import "PhysicsGrid.h"
-#import "PhysicsGroup.h"
+
 
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"

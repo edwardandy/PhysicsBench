@@ -7,15 +7,14 @@
 //
 
 #import "GCTabController.h"
-#import "BaseGridView.h"
+#import "PhysicsGrid.h"
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"
 
-#import "ChildNode.h"
 
 @implementation GCTabController
 
-@synthesize grid, treeController, content, selectionIndexPaths, document, oldArray, subChildren;
+@synthesize grid;
 
 // -------------------------------------------------------------------------------
 //	init:
@@ -39,12 +38,13 @@
 - (id) initWithView:(NSView*) view controller:(NSTreeController*)tController; {
 	self = [super initWithNibName:nil bundle:nil];
 	if (self != nil) {
-		grid = (BaseGridView*)view;
-		treeController = tController;
+		grid = (PhysicsGrid*)view;
 		
-				
-		// Init goes here, we want to force our own loadview
-//		[self setView:view];		
+        GraphicsCocos2dAppDelegate *appDelegate = (GraphicsCocos2dAppDelegate*)[[NSApplication sharedApplication] delegate];
+        document = [appDelegate document];
+        
+        [grid gridWithDocument:document];
+        				
 	}
 	return self;
 }
@@ -56,33 +56,6 @@
 	[grid setAutoresizesSubviews:YES];
 	[self setView:grid];
 }
-
-// 
-- (void) performBinding {
-    //[self addObserver:self forKeyPath:@"treeController.arrangedObjects.nodeTitle" options:0 context:nil];
-}
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-	NSLog(@"here");	
-
-    for (id keys in [change allKeys] ) {
-        id value = [change objectForKey:keys];
-        NSLog(@"key: %@ value %@", keys, value);
-        
-    }
-    
-
-/*
-    NSLog(@"Index Path: %@", [treeController selectionIndexPath]);
-    NSTreeNode *nodeT = [[treeController arrangedObjects] descendantNodeAtIndexPath:[treeController selectionIndexPath]];
-    ChildNode* node   = [nodeT representedObject];
-    
-    
-    NSLog(@"Node Title: %@", [node nodeTitle]);
-    
-*/
-}
-
-
 
 // -------------------------------------------------------------------------------
 //	dealloc:
