@@ -19,15 +19,34 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0133570312B5D65D00A3E102"
+            BuildableName = "Tests.app"
+            BlueprintName = "Tests"
+            ReferencedContainer = "container:GraphicsCocos2d.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      persistedCurrentAnalysisToolIdentifier = ""
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
       shouldUseLaunchSchemeArgsEnv = "YES"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0133570312B5D65D00A3E102"
+            BuildableName = "Tests.app"
+            BlueprintName = "Tests"
+            ReferencedContainer = "container:GraphicsCocos2d.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <ArchiveAction
       buildConfiguration = "Release">

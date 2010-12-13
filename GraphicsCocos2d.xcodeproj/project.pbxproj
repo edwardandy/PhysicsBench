@@ -7,59 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0103490C12B42580005B5826 /* BaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103490912B42580005B5826 /* BaseNode.m */; };
-		0103490D12B42580005B5826 /* ChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103490B12B42580005B5826 /* ChildNode.m */; };
-		0105C5E9122F222B001B650B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C5E8122F222B001B650B /* Document.m */; };
-		0105C5F8122F24DA001B650B /* PhysicsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C5F7122F24DA001B650B /* PhysicsObject.m */; };
-		0105C606122F265C001B650B /* GCb2Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C605122F265C001B650B /* GCb2Circle.m */; };
-		0105C641122F2DF9001B650B /* PhysicsGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 0105C640122F2DF9001B650B /* PhysicsGrid.m */; };
-		011BBE3D1263F8E80055B4CE /* GridDrawObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BBE3C1263F8E80055B4CE /* GridDrawObject.m */; };
-		011BC10C12654C940055B4CE /* TrackingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 011BC10B12654C940055B4CE /* TrackingArea.m */; };
-		011E12D412B32D3700F97F16 /* DocNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E12D312B32D3700F97F16 /* DocNode.m */; };
-		011E12D812B32F5B00F97F16 /* BaseDrawableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E12D712B32F5B00F97F16 /* BaseDrawableObject.m */; };
-		0124F95B1239B4C700752810 /* SKTFoundationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124F95A1239B4C700752810 /* SKTFoundationExtras.m */; };
-		012C534612B5AD5B00B39BBC /* FrameworkManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C534512B5AD5B00B39BBC /* FrameworkManagerTest.m */; };
-		012C534812B5AF7A00B39BBC /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534712B5AF7A00B39BBC /* GHUnit.framework */; };
-		012C535012B5AFCD00B39BBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534F12B5AFCD00B39BBC /* Cocoa.framework */; };
-		012C535512B5AFCD00B39BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 012C535312B5AFCD00B39BBC /* InfoPlist.strings */; };
-		012C535712B5AFCD00B39BBC /* Tests-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C535612B5AFCD00B39BBC /* Tests-main.m */; };
-		012C535A12B5AFCD00B39BBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C535812B5AFCD00B39BBC /* MainMenu.xib */; };
-		012C535D12B5AFCD00B39BBC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 012C535B12B5AFCD00B39BBC /* Credits.rtf */; };
-		012C536012B5AFCD00B39BBC /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C535F12B5AFCD00B39BBC /* TestsAppDelegate.m */; };
-		012C536812B5AFCD00B39BBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534F12B5AFCD00B39BBC /* Cocoa.framework */; };
-		012C536C12B5AFCD00B39BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 012C536B12B5AFCD00B39BBC /* InfoPlist.strings */; };
-		012C536E12B5AFCD00B39BBC /* TestsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 012C536D12B5AFCD00B39BBC /* TestsTests.h */; };
-		012C537012B5AFCD00B39BBC /* TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C536F12B5AFCD00B39BBC /* TestsTests.m */; };
 		012FA94312B52417007D3FF8 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 012FA94212B52417007D3FF8 /* build.sh */; };
-		012FA94512B52BCA007D3FF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 012FA94412B52BCA007D3FF8 /* LICENSE */; };
-		0131303C123F03D30061B4EF /* GCb2Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0131303B123F03D30061B4EF /* GCb2Rect.m */; };
-		01443D8E123080EE00D42BB8 /* FrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01443D8D123080EE00D42BB8 /* FrameworkManager.m */; };
-		01443D91123081C400D42BB8 /* Box2dFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 01443D90123081C400D42BB8 /* Box2dFramework.m */; };
+		013356D612B5D37B00A3E102 /* BaseDrawableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133569712B5D37B00A3E102 /* BaseDrawableObject.m */; };
+		013356D712B5D37B00A3E102 /* BaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133569912B5D37B00A3E102 /* BaseGridView.m */; };
+		013356D812B5D37B00A3E102 /* BaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133569B12B5D37B00A3E102 /* BaseNode.m */; };
+		013356D912B5D37B00A3E102 /* Box2dFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133569D12B5D37B00A3E102 /* Box2dFramework.m */; };
+		013356DA12B5D37B00A3E102 /* ChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133569F12B5D37B00A3E102 /* ChildNode.m */; };
+		013356DB12B5D37B00A3E102 /* DocNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356A112B5D37B00A3E102 /* DocNode.m */; };
+		013356DC12B5D37B00A3E102 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356A312B5D37B00A3E102 /* Document.m */; };
+		013356DD12B5D37B00A3E102 /* FrameworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356A512B5D37B00A3E102 /* FrameworkClass.m */; };
+		013356DE12B5D37B00A3E102 /* FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356A712B5D37B00A3E102 /* FrameworkDefinition.m */; };
+		013356DF12B5D37B00A3E102 /* FrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356A912B5D37B00A3E102 /* FrameworkManager.m */; };
+		013356E112B5D37B00A3E102 /* GCb2Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356AC12B5D37B00A3E102 /* GCb2Circle.m */; };
+		013356E212B5D37B00A3E102 /* GCb2Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356AE12B5D37B00A3E102 /* GCb2Rect.m */; };
+		013356E312B5D37B00A3E102 /* GCb2Types.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356B012B5D37B00A3E102 /* GCb2Types.m */; };
+		013356E412B5D37B00A3E102 /* GCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356B212B5D37B00A3E102 /* GCTabController.m */; };
+		013356E612B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356B512B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.m */; };
+		013356E712B5D37B00A3E102 /* GridDrawObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356B712B5D37B00A3E102 /* GridDrawObject.m */; };
+		013356E812B5D37B00A3E102 /* GridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356B912B5D37B00A3E102 /* GridLayer.m */; };
+		013356E912B5D37B00A3E102 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356BB12B5D37B00A3E102 /* ImageAndTextCell.m */; };
+		013356EA12B5D37B00A3E102 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356BD12B5D37B00A3E102 /* MyWindowController.m */; };
+		013356EB12B5D37B00A3E102 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356BF12B5D37B00A3E102 /* NSArray_Extensions.m */; };
+		013356EC12B5D37B00A3E102 /* PhysicsGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356C212B5D37B00A3E102 /* PhysicsGrid.m */; };
+		013356ED12B5D37B00A3E102 /* PhysicsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356C412B5D37B00A3E102 /* PhysicsGroup.m */; };
+		013356EE12B5D37B00A3E102 /* PhysicsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356C612B5D37B00A3E102 /* PhysicsObject.m */; };
+		013356EF12B5D37B00A3E102 /* RulerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356C812B5D37B00A3E102 /* RulerLayer.m */; };
+		013356F012B5D37B00A3E102 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CA12B5D37B00A3E102 /* SeparatorCell.m */; };
+		013356F112B5D37B00A3E102 /* SKTFoundationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CC12B5D37B00A3E102 /* SKTFoundationExtras.m */; };
+		013356F312B5D37B00A3E102 /* TrackingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356D012B5D37B00A3E102 /* TrackingArea.m */; };
+		013356F412B5D37B00A3E102 /* TreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356D212B5D37B00A3E102 /* TreeController.m */; };
+		013356F512B5D37B00A3E102 /* WorkspaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356D512B5D37B00A3E102 /* WorkspaceObject.m */; };
+		0133570612B5D65D00A3E102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534F12B5AFCD00B39BBC /* Cocoa.framework */; };
+		0133570A12B5D65D00A3E102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0133570912B5D65D00A3E102 /* InfoPlist.strings */; };
+		0133570C12B5D65D00A3E102 /* Tests-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133570B12B5D65D00A3E102 /* Tests-main.m */; };
+		0133570E12B5D65D00A3E102 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0133570D12B5D65D00A3E102 /* MainMenu.xib */; };
+		0133571012B5D65D00A3E102 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0133570F12B5D65D00A3E102 /* Credits.rtf */; };
+		0133571312B5D65D00A3E102 /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133571212B5D65D00A3E102 /* TestsAppDelegate.m */; };
+		0133571B12B5D65E00A3E102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534F12B5AFCD00B39BBC /* Cocoa.framework */; };
+		0133571F12B5D65E00A3E102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0133571E12B5D65E00A3E102 /* InfoPlist.strings */; };
+		0133572112B5D65E00A3E102 /* TestsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0133572012B5D65E00A3E102 /* TestsTests.h */; };
+		0133572312B5D65E00A3E102 /* TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133572212B5D65E00A3E102 /* TestsTests.m */; };
+		0133573C12B5D67000A3E102 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356FE12B5D59200A3E102 /* GHUnitTestMain.m */; };
+		0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */; };
+		0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 013356CD12B5D37B00A3E102 /* TestAppDelegate.h */; };
+		0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CE12B5D37B00A3E102 /* TestAppDelegate.m */; };
+		0133574212B5D8B100A3E102 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0133574112B5D8B100A3E102 /* RunTests.sh */; };
 		0167C0291257DB0C00CD1F35 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */; };
 		01692583125D4ED90010CE55 /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692582125D4ED90010CE55 /* PropertyCell.xib */; };
 		01692597125EA0C80010CE55 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692596125EA0C80010CE55 /* MainWindow.xib */; };
-		016925D1125EA30B0010CE55 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016925D0125EA30B0010CE55 /* MyWindowController.m */; };
 		016925D9125EA5F50010CE55 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016925D8125EA5F50010CE55 /* Quartz.framework */; };
-		016925DF125EA75A0010CE55 /* TreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016925DE125EA75A0010CE55 /* TreeController.m */; };
 		016925E3125EA7F40010CE55 /* TreeOutlineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016925E2125EA7F40010CE55 /* TreeOutlineView.xib */; };
-		0170FA751227494700E80355 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170FA741227494700E80355 /* NSArray_Extensions.m */; };
-		0170FAE912274F9A00E80355 /* GCb2Types.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170FAE812274F9A00E80355 /* GCb2Types.m */; };
-		0170FAEB122751D300E80355 /* GCb2Types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0170FAEA122751D300E80355 /* GCb2Types.plist */; };
-		0184C372122736D8002055E0 /* MyWindowController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0184C371122736D8002055E0 /* MyWindowController2.m */; };
 		0187BF391229B7F90020BFC9 /* Outline.dict in Resources */ = {isa = PBXBuildFile; fileRef = 0187BF381229B7F90020BFC9 /* Outline.dict */; };
-		0187BF4F1229BB3E0020BFC9 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187BF4C1229BB3E0020BFC9 /* ImageAndTextCell.m */; };
-		0187BF501229BB3E0020BFC9 /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187BF4E1229BB3E0020BFC9 /* SeparatorCell.m */; };
-		0187C1C8122B40BA0020BFC9 /* BaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187C1C7122B40BA0020BFC9 /* BaseGridView.m */; };
-		01946E87125A9F5300E5CAB0 /* FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 01946E86125A9F5300E5CAB0 /* FrameworkDefinition.m */; };
-		01946E8C125A9F8100E5CAB0 /* FrameworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01946E8B125A9F8100E5CAB0 /* FrameworkClass.m */; };
-		01A1F8841235C5C20067B1F9 /* GridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A1F8831235C5C20067B1F9 /* GridLayer.m */; };
-		01A1F8921235C6180067B1F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A1F8911235C6180067B1F9 /* QuartzCore.framework */; };
-		01A1FADA1235D8030067B1F9 /* RulerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A1FAD91235D8030067B1F9 /* RulerLayer.m */; };
 		01B141991258D93400E244E1 /* Properties.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B141981258D93400E244E1 /* Properties.xib */; };
-		01BF71A912623B7F001BB5F5 /* GCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF71A812623B7F001BB5F5 /* GCTabController.m */; };
-		01C1DACD12B3CB600068FDD9 /* WorkspaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DACC12B3CB600068FDD9 /* WorkspaceObject.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		256AC3DA0F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -79,100 +79,111 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0103490812B42580005B5826 /* BaseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNode.h; sourceTree = "<group>"; };
-		0103490912B42580005B5826 /* BaseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNode.m; sourceTree = "<group>"; };
-		0103490A12B42580005B5826 /* ChildNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNode.h; sourceTree = "<group>"; };
-		0103490B12B42580005B5826 /* ChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNode.m; sourceTree = "<group>"; };
-		0105C5E7122F222B001B650B /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		0105C5E8122F222B001B650B /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		0105C5F6122F24DA001B650B /* PhysicsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsObject.h; sourceTree = "<group>"; };
-		0105C5F7122F24DA001B650B /* PhysicsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsObject.m; sourceTree = "<group>"; };
-		0105C604122F265C001B650B /* GCb2Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Circle.h; sourceTree = "<group>"; };
-		0105C605122F265C001B650B /* GCb2Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Circle.m; sourceTree = "<group>"; };
-		0105C63F122F2DF9001B650B /* PhysicsGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsGrid.h; sourceTree = "<group>"; };
-		0105C640122F2DF9001B650B /* PhysicsGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsGrid.m; sourceTree = "<group>"; };
-		011BBE3B1263F8E80055B4CE /* GridDrawObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridDrawObject.h; sourceTree = "<group>"; };
-		011BBE3C1263F8E80055B4CE /* GridDrawObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridDrawObject.m; sourceTree = "<group>"; };
-		011BC10A12654C940055B4CE /* TrackingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingArea.h; sourceTree = "<group>"; };
-		011BC10B12654C940055B4CE /* TrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingArea.m; sourceTree = "<group>"; };
-		011E12D212B32D3700F97F16 /* DocNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocNode.h; sourceTree = "<group>"; };
-		011E12D312B32D3700F97F16 /* DocNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocNode.m; sourceTree = "<group>"; };
-		011E12D512B32E0D00F97F16 /* Workbench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workbench.h; sourceTree = "<group>"; };
-		011E12D612B32F5B00F97F16 /* BaseDrawableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawableObject.h; sourceTree = "<group>"; };
-		011E12D712B32F5B00F97F16 /* BaseDrawableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawableObject.m; sourceTree = "<group>"; };
-		0124F9591239B4C700752810 /* SKTFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTFoundationExtras.h; sourceTree = "<group>"; };
-		0124F95A1239B4C700752810 /* SKTFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTFoundationExtras.m; sourceTree = "<group>"; };
-		012C534412B5AD5B00B39BBC /* FrameworkManagerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkManagerTest.h; sourceTree = "<group>"; };
-		012C534512B5AD5B00B39BBC /* FrameworkManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkManagerTest.m; sourceTree = "<group>"; };
-		012C534712B5AF7A00B39BBC /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = /Library/Frameworks/GHUnit.framework; sourceTree = "<absolute>"; };
-		012C534D12B5AFCC00B39BBC /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012C534F12B5AFCD00B39BBC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		012C535112B5AFCD00B39BBC /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		012C535212B5AFCD00B39BBC /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		012C535412B5AFCD00B39BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		012C535612B5AFCD00B39BBC /* Tests-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tests-main.m"; sourceTree = "<group>"; };
 		012C535912B5AFCD00B39BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		012C535C12B5AFCD00B39BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		012C535E12B5AFCD00B39BBC /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestsAppDelegate.h; path = Classes/TestsAppDelegate.h; sourceTree = "<group>"; };
-		012C535F12B5AFCD00B39BBC /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate.m; path = Classes/TestsAppDelegate.m; sourceTree = "<group>"; };
-		012C536712B5AFCD00B39BBC /* TestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		012C536912B5AFCD00B39BBC /* TestsTests-Info.plist */ = {isa = PBXFileReference; path = "TestsTests-Info.plist"; sourceTree = "<group>"; };
-		012C536A12B5AFCD00B39BBC /* TestsTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestsTests-Prefix.pch"; sourceTree = "<group>"; };
+		012C536912B5AFCD00B39BBC /* TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestsTests-Info.plist"; sourceTree = "<group>"; };
+		012C536A12B5AFCD00B39BBC /* TestsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestsTests-Prefix.pch"; sourceTree = "<group>"; };
 		012C536B12B5AFCD00B39BBC /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/TestsTests/InfoPlist.strings; sourceTree = "<group>"; };
-		012C536D12B5AFCD00B39BBC /* TestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsTests.h; sourceTree = "<group>"; };
-		012C536F12B5AFCD00B39BBC /* TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsTests.m; sourceTree = "<group>"; };
+		012C538312B5B06600B39BBC /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = /Library/Frameworks/GHUnit.framework; sourceTree = "<absolute>"; };
 		012FA94212B52417007D3FF8 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
-		012FA94412B52BCA007D3FF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = GraphicsCocos2d.xcodeproj/LICENSE; sourceTree = "<group>"; };
-		0131303A123F03D30061B4EF /* GCb2Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Rect.h; sourceTree = "<group>"; };
-		0131303B123F03D30061B4EF /* GCb2Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Rect.m; sourceTree = "<group>"; };
-		01443D8C123080EE00D42BB8 /* FrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkManager.h; sourceTree = "<group>"; };
-		01443D8D123080EE00D42BB8 /* FrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkManager.m; sourceTree = "<group>"; };
-		01443D8F123081C400D42BB8 /* Box2dFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dFramework.h; sourceTree = "<group>"; };
-		01443D90123081C400D42BB8 /* Box2dFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box2dFramework.m; sourceTree = "<group>"; };
+		0133569612B5D37B00A3E102 /* BaseDrawableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawableObject.h; sourceTree = "<group>"; };
+		0133569712B5D37B00A3E102 /* BaseDrawableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawableObject.m; sourceTree = "<group>"; };
+		0133569812B5D37B00A3E102 /* BaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGridView.h; sourceTree = "<group>"; };
+		0133569912B5D37B00A3E102 /* BaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGridView.m; sourceTree = "<group>"; };
+		0133569A12B5D37B00A3E102 /* BaseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNode.h; sourceTree = "<group>"; };
+		0133569B12B5D37B00A3E102 /* BaseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNode.m; sourceTree = "<group>"; };
+		0133569C12B5D37B00A3E102 /* Box2dFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dFramework.h; sourceTree = "<group>"; };
+		0133569D12B5D37B00A3E102 /* Box2dFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box2dFramework.m; sourceTree = "<group>"; };
+		0133569E12B5D37B00A3E102 /* ChildNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNode.h; sourceTree = "<group>"; };
+		0133569F12B5D37B00A3E102 /* ChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNode.m; sourceTree = "<group>"; };
+		013356A012B5D37B00A3E102 /* DocNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocNode.h; sourceTree = "<group>"; };
+		013356A112B5D37B00A3E102 /* DocNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocNode.m; sourceTree = "<group>"; };
+		013356A212B5D37B00A3E102 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		013356A312B5D37B00A3E102 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		013356A412B5D37B00A3E102 /* FrameworkClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkClass.h; sourceTree = "<group>"; };
+		013356A512B5D37B00A3E102 /* FrameworkClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkClass.m; sourceTree = "<group>"; };
+		013356A612B5D37B00A3E102 /* FrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkDefinition.h; sourceTree = "<group>"; };
+		013356A712B5D37B00A3E102 /* FrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkDefinition.m; sourceTree = "<group>"; };
+		013356A812B5D37B00A3E102 /* FrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkManager.h; sourceTree = "<group>"; };
+		013356A912B5D37B00A3E102 /* FrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkManager.m; sourceTree = "<group>"; };
+		013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrameworkManagerTest.m; path = Classes/FrameworkManagerTest.m; sourceTree = "<group>"; };
+		013356AB12B5D37B00A3E102 /* GCb2Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Circle.h; sourceTree = "<group>"; };
+		013356AC12B5D37B00A3E102 /* GCb2Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Circle.m; sourceTree = "<group>"; };
+		013356AD12B5D37B00A3E102 /* GCb2Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Rect.h; sourceTree = "<group>"; };
+		013356AE12B5D37B00A3E102 /* GCb2Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Rect.m; sourceTree = "<group>"; };
+		013356AF12B5D37B00A3E102 /* GCb2Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Types.h; sourceTree = "<group>"; };
+		013356B012B5D37B00A3E102 /* GCb2Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Types.m; sourceTree = "<group>"; };
+		013356B112B5D37B00A3E102 /* GCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCTabController.h; sourceTree = "<group>"; };
+		013356B212B5D37B00A3E102 /* GCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCTabController.m; sourceTree = "<group>"; };
+		013356B412B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCocos2dAppDelegate.h; sourceTree = "<group>"; };
+		013356B512B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsCocos2dAppDelegate.m; sourceTree = "<group>"; };
+		013356B612B5D37B00A3E102 /* GridDrawObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridDrawObject.h; sourceTree = "<group>"; };
+		013356B712B5D37B00A3E102 /* GridDrawObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridDrawObject.m; sourceTree = "<group>"; };
+		013356B812B5D37B00A3E102 /* GridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayer.h; sourceTree = "<group>"; };
+		013356B912B5D37B00A3E102 /* GridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayer.m; sourceTree = "<group>"; };
+		013356BA12B5D37B00A3E102 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		013356BB12B5D37B00A3E102 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		013356BC12B5D37B00A3E102 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		013356BD12B5D37B00A3E102 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		013356BE12B5D37B00A3E102 /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
+		013356BF12B5D37B00A3E102 /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
+		013356C012B5D37B00A3E102 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		013356C112B5D37B00A3E102 /* PhysicsGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsGrid.h; sourceTree = "<group>"; };
+		013356C212B5D37B00A3E102 /* PhysicsGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsGrid.m; sourceTree = "<group>"; };
+		013356C312B5D37B00A3E102 /* PhysicsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsGroup.h; sourceTree = "<group>"; };
+		013356C412B5D37B00A3E102 /* PhysicsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsGroup.m; sourceTree = "<group>"; };
+		013356C512B5D37B00A3E102 /* PhysicsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsObject.h; sourceTree = "<group>"; };
+		013356C612B5D37B00A3E102 /* PhysicsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsObject.m; sourceTree = "<group>"; };
+		013356C712B5D37B00A3E102 /* RulerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerLayer.h; sourceTree = "<group>"; };
+		013356C812B5D37B00A3E102 /* RulerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerLayer.m; sourceTree = "<group>"; };
+		013356C912B5D37B00A3E102 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
+		013356CA12B5D37B00A3E102 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
+		013356CB12B5D37B00A3E102 /* SKTFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTFoundationExtras.h; sourceTree = "<group>"; };
+		013356CC12B5D37B00A3E102 /* SKTFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTFoundationExtras.m; sourceTree = "<group>"; };
+		013356CD12B5D37B00A3E102 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAppDelegate.h; path = Classes/TestAppDelegate.h; sourceTree = "<group>"; };
+		013356CE12B5D37B00A3E102 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAppDelegate.m; path = Classes/TestAppDelegate.m; sourceTree = "<group>"; };
+		013356CF12B5D37B00A3E102 /* TrackingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingArea.h; sourceTree = "<group>"; };
+		013356D012B5D37B00A3E102 /* TrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingArea.m; sourceTree = "<group>"; };
+		013356D112B5D37B00A3E102 /* TreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeController.h; sourceTree = "<group>"; };
+		013356D212B5D37B00A3E102 /* TreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeController.m; sourceTree = "<group>"; };
+		013356D312B5D37B00A3E102 /* Workbench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workbench.h; sourceTree = "<group>"; };
+		013356D412B5D37B00A3E102 /* WorkspaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkspaceObject.h; sourceTree = "<group>"; };
+		013356D512B5D37B00A3E102 /* WorkspaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkspaceObject.m; sourceTree = "<group>"; };
+		013356FE12B5D59200A3E102 /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = "<group>"; };
+		0133570412B5D65D00A3E102 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0133570712B5D65D00A3E102 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tests-Info.plist"; path = "Tests/Tests-Info.plist"; sourceTree = "<group>"; };
+		0133570812B5D65D00A3E102 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Tests-Prefix.pch"; path = "Tests/Tests-Prefix.pch"; sourceTree = "<group>"; };
+		0133570912B5D65D00A3E102 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/Tests/InfoPlist.strings; sourceTree = "<group>"; };
+		0133570B12B5D65D00A3E102 /* Tests-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tests-main.m"; sourceTree = "<group>"; };
+		0133570D12B5D65D00A3E102 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = en.lproj/Tests/MainMenu.xib; sourceTree = "<group>"; };
+		0133570F12B5D65D00A3E102 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = en.lproj/Tests/Credits.rtf; sourceTree = "<group>"; };
+		0133571112B5D65D00A3E102 /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsAppDelegate.h; sourceTree = "<group>"; };
+		0133571212B5D65D00A3E102 /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsAppDelegate.m; sourceTree = "<group>"; };
+		0133571A12B5D65D00A3E102 /* TestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0133571C12B5D65E00A3E102 /* TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestsTests-Info.plist"; path = "TestsTests/TestsTests-Info.plist"; sourceTree = "<group>"; };
+		0133571D12B5D65E00A3E102 /* TestsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestsTests-Prefix.pch"; path = "TestsTests/TestsTests-Prefix.pch"; sourceTree = "<group>"; };
+		0133571E12B5D65E00A3E102 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/TestsTests/TestsTests/InfoPlist.strings; sourceTree = "<group>"; };
+		0133572012B5D65E00A3E102 /* TestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsTests.h; sourceTree = "<group>"; };
+		0133572212B5D65E00A3E102 /* TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsTests.m; sourceTree = "<group>"; };
+		0133574112B5D8B100A3E102 /* RunTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
 		0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/jonathanfontanez/Development/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		01692582125D4ED90010CE55 /* PropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
 		01692596125EA0C80010CE55 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		016925CF125EA30B0010CE55 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
-		016925D0125EA30B0010CE55 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
 		016925D8125EA5F50010CE55 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		016925DD125EA75A0010CE55 /* TreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeController.h; sourceTree = "<group>"; };
-		016925DE125EA75A0010CE55 /* TreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeController.m; sourceTree = "<group>"; };
 		016925E2125EA7F40010CE55 /* TreeOutlineView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TreeOutlineView.xib; sourceTree = "<group>"; };
-		0170FA731227494700E80355 /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
-		0170FA741227494700E80355 /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
-		0170FAE712274F9A00E80355 /* GCb2Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Types.h; sourceTree = "<group>"; };
-		0170FAE812274F9A00E80355 /* GCb2Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Types.m; sourceTree = "<group>"; };
-		0170FAEA122751D300E80355 /* GCb2Types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GCb2Types.plist; sourceTree = "<group>"; };
-		0184C370122736D8002055E0 /* MyWindowController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController2.h; sourceTree = "<group>"; };
-		0184C371122736D8002055E0 /* MyWindowController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController2.m; sourceTree = "<group>"; };
-		0184C39B12273ED0002055E0 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
 		0187BF381229B7F90020BFC9 /* Outline.dict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Outline.dict; sourceTree = "<group>"; };
-		0187BF4B1229BB3E0020BFC9 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
-		0187BF4C1229BB3E0020BFC9 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
-		0187BF4D1229BB3E0020BFC9 /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
-		0187BF4E1229BB3E0020BFC9 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
-		0187C1C6122B40BA0020BFC9 /* BaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGridView.h; sourceTree = "<group>"; };
-		0187C1C7122B40BA0020BFC9 /* BaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGridView.m; sourceTree = "<group>"; };
-		01946E85125A9F5300E5CAB0 /* FrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkDefinition.h; sourceTree = "<group>"; };
-		01946E86125A9F5300E5CAB0 /* FrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkDefinition.m; sourceTree = "<group>"; };
-		01946E8A125A9F8100E5CAB0 /* FrameworkClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkClass.h; sourceTree = "<group>"; };
-		01946E8B125A9F8100E5CAB0 /* FrameworkClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkClass.m; sourceTree = "<group>"; };
-		01A1F8821235C5C20067B1F9 /* GridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayer.h; sourceTree = "<group>"; };
-		01A1F8831235C5C20067B1F9 /* GridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayer.m; sourceTree = "<group>"; };
 		01A1F8911235C6180067B1F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		01A1FAD81235D8030067B1F9 /* RulerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerLayer.h; sourceTree = "<group>"; };
-		01A1FAD91235D8030067B1F9 /* RulerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerLayer.m; sourceTree = "<group>"; };
 		01B141981258D93400E244E1 /* Properties.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Properties.xib; sourceTree = "<group>"; };
-		01BF71A712623B7F001BB5F5 /* GCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCTabController.h; sourceTree = "<group>"; };
-		01BF71A812623B7F001BB5F5 /* GCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCTabController.m; sourceTree = "<group>"; };
-		01C1DACB12B3CB600068FDD9 /* WorkspaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkspaceObject.h; sourceTree = "<group>"; };
-		01C1DACC12B3CB600068FDD9 /* WorkspaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkspaceObject.m; sourceTree = "<group>"; };
+		01D7F48212B5C9D70000E6EC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		01D7F48312B5C9D70000E6EC /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCocos2dAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsCocos2dAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* GraphicsCocos2d_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCocos2d_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -182,19 +193,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		012C534A12B5AFCC00B39BBC /* Frameworks */ = {
+		0133570112B5D65D00A3E102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C535012B5AFCD00B39BBC /* Cocoa.framework in Frameworks */,
+				0133570612B5D65D00A3E102 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		012C536312B5AFCD00B39BBC /* Frameworks */ = {
+		0133571612B5D65D00A3E102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C536812B5AFCD00B39BBC /* Cocoa.framework in Frameworks */,
+				0133571B12B5D65E00A3E102 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C534812B5AF7A00B39BBC /* GHUnit.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				01A1F8921235C6180067B1F9 /* QuartzCore.framework in Frameworks */,
 				016925D9125EA5F50010CE55 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,226 +221,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0105C5E5122F2207001B650B /* Model */ = {
+		0133569512B5D37B00A3E102 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0184C39A12273EB2002055E0 /* Physics */,
-				0105C5E6122F2210001B650B /* Documents */,
+				0133569612B5D37B00A3E102 /* BaseDrawableObject.h */,
+				0133569712B5D37B00A3E102 /* BaseDrawableObject.m */,
+				0133569812B5D37B00A3E102 /* BaseGridView.h */,
+				0133569912B5D37B00A3E102 /* BaseGridView.m */,
+				0133569A12B5D37B00A3E102 /* BaseNode.h */,
+				0133569B12B5D37B00A3E102 /* BaseNode.m */,
+				0133569C12B5D37B00A3E102 /* Box2dFramework.h */,
+				0133569D12B5D37B00A3E102 /* Box2dFramework.m */,
+				0133569E12B5D37B00A3E102 /* ChildNode.h */,
+				0133569F12B5D37B00A3E102 /* ChildNode.m */,
+				013356A012B5D37B00A3E102 /* DocNode.h */,
+				013356A112B5D37B00A3E102 /* DocNode.m */,
+				013356A212B5D37B00A3E102 /* Document.h */,
+				013356A312B5D37B00A3E102 /* Document.m */,
+				013356A412B5D37B00A3E102 /* FrameworkClass.h */,
+				013356A512B5D37B00A3E102 /* FrameworkClass.m */,
+				013356A612B5D37B00A3E102 /* FrameworkDefinition.h */,
+				013356A712B5D37B00A3E102 /* FrameworkDefinition.m */,
+				013356A812B5D37B00A3E102 /* FrameworkManager.h */,
+				013356A912B5D37B00A3E102 /* FrameworkManager.m */,
+				013356AB12B5D37B00A3E102 /* GCb2Circle.h */,
+				013356AC12B5D37B00A3E102 /* GCb2Circle.m */,
+				013356AD12B5D37B00A3E102 /* GCb2Rect.h */,
+				013356AE12B5D37B00A3E102 /* GCb2Rect.m */,
+				013356AF12B5D37B00A3E102 /* GCb2Types.h */,
+				013356B012B5D37B00A3E102 /* GCb2Types.m */,
+				013356B112B5D37B00A3E102 /* GCTabController.h */,
+				013356B212B5D37B00A3E102 /* GCTabController.m */,
+				013356B412B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.h */,
+				013356B512B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.m */,
+				013356B612B5D37B00A3E102 /* GridDrawObject.h */,
+				013356B712B5D37B00A3E102 /* GridDrawObject.m */,
+				013356B812B5D37B00A3E102 /* GridLayer.h */,
+				013356B912B5D37B00A3E102 /* GridLayer.m */,
+				013356BA12B5D37B00A3E102 /* ImageAndTextCell.h */,
+				013356BB12B5D37B00A3E102 /* ImageAndTextCell.m */,
+				013356BC12B5D37B00A3E102 /* MyWindowController.h */,
+				013356BD12B5D37B00A3E102 /* MyWindowController.m */,
+				013356BE12B5D37B00A3E102 /* NSArray_Extensions.h */,
+				013356BF12B5D37B00A3E102 /* NSArray_Extensions.m */,
+				013356C012B5D37B00A3E102 /* Physics.h */,
+				013356C112B5D37B00A3E102 /* PhysicsGrid.h */,
+				013356C212B5D37B00A3E102 /* PhysicsGrid.m */,
+				013356C312B5D37B00A3E102 /* PhysicsGroup.h */,
+				013356C412B5D37B00A3E102 /* PhysicsGroup.m */,
+				013356C512B5D37B00A3E102 /* PhysicsObject.h */,
+				013356C612B5D37B00A3E102 /* PhysicsObject.m */,
+				013356C712B5D37B00A3E102 /* RulerLayer.h */,
+				013356C812B5D37B00A3E102 /* RulerLayer.m */,
+				013356C912B5D37B00A3E102 /* SeparatorCell.h */,
+				013356CA12B5D37B00A3E102 /* SeparatorCell.m */,
+				013356CB12B5D37B00A3E102 /* SKTFoundationExtras.h */,
+				013356CC12B5D37B00A3E102 /* SKTFoundationExtras.m */,
+				013356CF12B5D37B00A3E102 /* TrackingArea.h */,
+				013356D012B5D37B00A3E102 /* TrackingArea.m */,
+				013356D112B5D37B00A3E102 /* TreeController.h */,
+				013356D212B5D37B00A3E102 /* TreeController.m */,
+				013356D312B5D37B00A3E102 /* Workbench.h */,
+				013356D412B5D37B00A3E102 /* WorkspaceObject.h */,
+				013356D512B5D37B00A3E102 /* WorkspaceObject.m */,
+				0133571112B5D65D00A3E102 /* TestsAppDelegate.h */,
+				0133571212B5D65D00A3E102 /* TestsAppDelegate.m */,
 			);
-			name = Model;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		0105C5E6122F2210001B650B /* Documents */ = {
+		013356F712B5D41100A3E102 /* Test Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0105C5E7122F222B001B650B /* Document.h */,
-				0105C5E8122F222B001B650B /* Document.m */,
+				013356FE12B5D59200A3E102 /* GHUnitTestMain.m */,
+				013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */,
+				013356CD12B5D37B00A3E102 /* TestAppDelegate.h */,
+				013356CE12B5D37B00A3E102 /* TestAppDelegate.m */,
 			);
-			name = Documents;
+			name = "Test Classes";
 			sourceTree = "<group>";
 		};
-		011BBE3A1263F84C0055B4CE /* WorkspaceGrid */ = {
+		0133571412B5D65D00A3E102 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				011BC10612654C3F0055B4CE /* Layers */,
-				0187C1C6122B40BA0020BFC9 /* BaseGridView.h */,
-				0187C1C7122B40BA0020BFC9 /* BaseGridView.m */,
-				0105C63F122F2DF9001B650B /* PhysicsGrid.h */,
-				0105C640122F2DF9001B650B /* PhysicsGrid.m */,
-			);
-			name = WorkspaceGrid;
-			sourceTree = "<group>";
-		};
-		011BC10612654C3F0055B4CE /* Layers */ = {
-			isa = PBXGroup;
-			children = (
-				01A1F8821235C5C20067B1F9 /* GridLayer.h */,
-				01A1F8831235C5C20067B1F9 /* GridLayer.m */,
-				01A1FAD81235D8030067B1F9 /* RulerLayer.h */,
-				01A1FAD91235D8030067B1F9 /* RulerLayer.m */,
-				011BBE3B1263F8E80055B4CE /* GridDrawObject.h */,
-				011BBE3C1263F8E80055B4CE /* GridDrawObject.m */,
-				011BC10A12654C940055B4CE /* TrackingArea.h */,
-				011BC10B12654C940055B4CE /* TrackingArea.m */,
-			);
-			name = Layers;
-			sourceTree = "<group>";
-		};
-		0124F95D1239B4DA00752810 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				0170FA731227494700E80355 /* NSArray_Extensions.h */,
-				0170FA741227494700E80355 /* NSArray_Extensions.m */,
-				0124F95E1239B4E600752810 /* SKT */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		0124F95E1239B4E600752810 /* SKT */ = {
-			isa = PBXGroup;
-			children = (
-				0124F9591239B4C700752810 /* SKTFoundationExtras.h */,
-				0124F95A1239B4C700752810 /* SKTFoundationExtras.m */,
-			);
-			name = SKT;
-			sourceTree = "<group>";
-		};
-		012C534312B5AD2800B39BBC /* TestClasses */ = {
-			isa = PBXGroup;
-			children = (
-				012C534412B5AD5B00B39BBC /* FrameworkManagerTest.h */,
-				012C534512B5AD5B00B39BBC /* FrameworkManagerTest.m */,
-			);
-			name = TestClasses;
-			sourceTree = "<group>";
-		};
-		012C536112B5AFCD00B39BBC /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				012C536D12B5AFCD00B39BBC /* TestsTests.h */,
-				012C536F12B5AFCD00B39BBC /* TestsTests.m */,
+				0133572012B5D65E00A3E102 /* TestsTests.h */,
+				0133572212B5D65E00A3E102 /* TestsTests.m */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		014E85B812370BFF00DC51EF /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				0170FAE712274F9A00E80355 /* GCb2Types.h */,
-				0170FAE812274F9A00E80355 /* GCb2Types.m */,
-				0170FAEA122751D300E80355 /* GCb2Types.plist */,
-				01443D8F123081C400D42BB8 /* Box2dFramework.h */,
-				01443D90123081C400D42BB8 /* Box2dFramework.m */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		0170FACF12274EA000E80355 /* Box2d */ = {
-			isa = PBXGroup;
-			children = (
-				014E85B812370BFF00DC51EF /* Common */,
-				0170FAD012274EA800E80355 /* Shapes */,
-			);
-			name = Box2d;
-			sourceTree = "<group>";
-		};
-		0170FAD012274EA800E80355 /* Shapes */ = {
-			isa = PBXGroup;
-			children = (
-				0105C604122F265C001B650B /* GCb2Circle.h */,
-				0105C605122F265C001B650B /* GCb2Circle.m */,
-				0131303A123F03D30061B4EF /* GCb2Rect.h */,
-				0131303B123F03D30061B4EF /* GCb2Rect.m */,
-			);
-			name = Shapes;
-			sourceTree = "<group>";
-		};
-		0184C384122738BD002055E0 /* MainWindowControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0184C370122736D8002055E0 /* MyWindowController2.h */,
-				0184C371122736D8002055E0 /* MyWindowController2.m */,
-			);
-			name = MainWindowControllers;
-			sourceTree = "<group>";
-		};
-		0184C39312273E46002055E0 /* Tree Support */ = {
-			isa = PBXGroup;
-			children = (
-				0103490812B42580005B5826 /* BaseNode.h */,
-				0103490912B42580005B5826 /* BaseNode.m */,
-				0103490A12B42580005B5826 /* ChildNode.h */,
-				0103490B12B42580005B5826 /* ChildNode.m */,
-				011E12D212B32D3700F97F16 /* DocNode.h */,
-				011E12D312B32D3700F97F16 /* DocNode.m */,
-			);
-			name = "Tree Support";
-			sourceTree = "<group>";
-		};
-		0184C39A12273EB2002055E0 /* Physics */ = {
-			isa = PBXGroup;
-			children = (
-				01946E89125A9F6E00E5CAB0 /* Framework */,
-				0170FACF12274EA000E80355 /* Box2d */,
-				0105C5F6122F24DA001B650B /* PhysicsObject.h */,
-				0105C5F7122F24DA001B650B /* PhysicsObject.m */,
-			);
-			name = Physics;
-			sourceTree = "<group>";
-		};
-		0187BF4A1229BB3E0020BFC9 /* Cell Support */ = {
-			isa = PBXGroup;
-			children = (
-				0187BF4B1229BB3E0020BFC9 /* ImageAndTextCell.h */,
-				0187BF4C1229BB3E0020BFC9 /* ImageAndTextCell.m */,
-				0187BF4D1229BB3E0020BFC9 /* SeparatorCell.h */,
-				0187BF4E1229BB3E0020BFC9 /* SeparatorCell.m */,
-			);
-			name = "Cell Support";
-			sourceTree = "<group>";
-		};
-		0187C1C3122B40830020BFC9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				011E12D612B32F5B00F97F16 /* BaseDrawableObject.h */,
-				011E12D712B32F5B00F97F16 /* BaseDrawableObject.m */,
-				01C1DACB12B3CB600068FDD9 /* WorkspaceObject.h */,
-				01C1DACC12B3CB600068FDD9 /* WorkspaceObject.m */,
-				011BBE3A1263F84C0055B4CE /* WorkspaceGrid */,
-				0187BF4A1229BB3E0020BFC9 /* Cell Support */,
-				0184C39312273E46002055E0 /* Tree Support */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		01946E89125A9F6E00E5CAB0 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				01443D8C123080EE00D42BB8 /* FrameworkManager.h */,
-				01443D8D123080EE00D42BB8 /* FrameworkManager.m */,
-				01946E85125A9F5300E5CAB0 /* FrameworkDefinition.h */,
-				01946E86125A9F5300E5CAB0 /* FrameworkDefinition.m */,
-				01946E8A125A9F8100E5CAB0 /* FrameworkClass.h */,
-				01946E8B125A9F8100E5CAB0 /* FrameworkClass.m */,
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
-		01B141A61258DB6600E244E1 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0184C384122738BD002055E0 /* MainWindowControllers */,
-				01BF71A712623B7F001BB5F5 /* GCTabController.h */,
-				01BF71A812623B7F001BB5F5 /* GCTabController.m */,
-				016925CF125EA30B0010CE55 /* MyWindowController.h */,
-				016925D0125EA30B0010CE55 /* MyWindowController.m */,
-				016925DD125EA75A0010CE55 /* TreeController.h */,
-				016925DE125EA75A0010CE55 /* TreeController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				011E12D512B32E0D00F97F16 /* Workbench.h */,
-				0184C39B12273ED0002055E0 /* Physics.h */,
-				01B141A61258DB6600E244E1 /* Controllers */,
-				0124F95D1239B4DA00752810 /* Utils */,
-				0105C5E5122F2207001B650B /* Model */,
-				0187C1C3122B40830020BFC9 /* Views */,
-				256AC3D80F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.m */,
-				012C535E12B5AFCD00B39BBC /* TestsAppDelegate.h */,
-				012C535F12B5AFCD00B39BBC /* TestsAppDelegate.m */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				012C534712B5AF7A00B39BBC /* GHUnit.framework */,
+				012C538312B5B06600B39BBC /* GHUnit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */,
 			);
@@ -454,8 +336,8 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* GraphicsCocos2d.app */,
-				012C534D12B5AFCC00B39BBC /* Tests.app */,
-				012C536712B5AFCD00B39BBC /* TestsTests.octest */,
+				0133570412B5D65D00A3E102 /* Tests.app */,
+				0133571A12B5D65D00A3E102 /* TestsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -463,9 +345,10 @@
 		29B97314FDCFA39411CA2CEA /* GraphicsCocos2d */ = {
 			isa = PBXGroup;
 			children = (
-				012FA94412B52BCA007D3FF8 /* LICENSE */,
-				012C534312B5AD2800B39BBC /* TestClasses */,
-				080E96DDFE201D6D7F000001 /* Classes */,
+				013356F712B5D41100A3E102 /* Test Classes */,
+				0133569512B5D37B00A3E102 /* Classes */,
+				01D7F48212B5C9D70000E6EC /* LICENSE */,
+				01D7F48312B5C9D70000E6EC /* Makefile */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -473,7 +356,7 @@
 				01692582125D4ED90010CE55 /* PropertyCell.xib */,
 				01692596125EA0C80010CE55 /* MainWindow.xib */,
 				016925E2125EA7F40010CE55 /* TreeOutlineView.xib */,
-				012C536112B5AFCD00B39BBC /* Tests */,
+				0133571412B5D65D00A3E102 /* Tests */,
 			);
 			name = GraphicsCocos2d;
 			sourceTree = "<group>";
@@ -484,8 +367,10 @@
 				256AC3F00F4B6AF500CF3369 /* GraphicsCocos2d_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				012C535212B5AFCD00B39BBC /* Tests-Prefix.pch */,
-				012C535612B5AFCD00B39BBC /* Tests-main.m */,
 				012C536A12B5AFCD00B39BBC /* TestsTests-Prefix.pch */,
+				0133570812B5D65D00A3E102 /* Tests-Prefix.pch */,
+				0133570B12B5D65D00A3E102 /* Tests-main.m */,
+				0133571D12B5D65E00A3E102 /* TestsTests-Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -493,6 +378,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0133574112B5D8B100A3E102 /* RunTests.sh */,
 				0187BF381229B7F90020BFC9 /* Outline.dict */,
 				8D1107310486CEB800E47090 /* GraphicsCocos2d-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -505,6 +391,12 @@
 				012C535B12B5AFCD00B39BBC /* Credits.rtf */,
 				012C536912B5AFCD00B39BBC /* TestsTests-Info.plist */,
 				012C536B12B5AFCD00B39BBC /* InfoPlist.strings */,
+				0133570712B5D65D00A3E102 /* Tests-Info.plist */,
+				0133570912B5D65D00A3E102 /* InfoPlist.strings */,
+				0133570D12B5D65D00A3E102 /* MainMenu.xib */,
+				0133570F12B5D65D00A3E102 /* Credits.rtf */,
+				0133571C12B5D65E00A3E102 /* TestsTests-Info.plist */,
+				0133571E12B5D65E00A3E102 /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -522,13 +414,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		012C534C12B5AFCC00B39BBC /* Tests */ = {
+		0133570312B5D65D00A3E102 /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 012C537512B5AFCD00B39BBC /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = 0133572812B5D65E00A3E102 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				012C534912B5AFCC00B39BBC /* Sources */,
-				012C534A12B5AFCC00B39BBC /* Frameworks */,
-				012C534B12B5AFCC00B39BBC /* Resources */,
+				0133570012B5D65D00A3E102 /* Sources */,
+				0133570112B5D65D00A3E102 /* Frameworks */,
+				0133570212B5D65D00A3E102 /* Resources */,
+				0133574012B5D83C00A3E102 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -536,17 +429,17 @@
 			);
 			name = Tests;
 			productName = Tests;
-			productReference = 012C534D12B5AFCC00B39BBC /* Tests.app */;
+			productReference = 0133570412B5D65D00A3E102 /* Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		012C536612B5AFCD00B39BBC /* TestsTests */ = {
+		0133571912B5D65D00A3E102 /* TestsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 012C537A12B5AFCD00B39BBC /* Build configuration list for PBXNativeTarget "TestsTests" */;
+			buildConfigurationList = 0133573112B5D65E00A3E102 /* Build configuration list for PBXNativeTarget "TestsTests" */;
 			buildPhases = (
-				012C536212B5AFCD00B39BBC /* Sources */,
-				012C536312B5AFCD00B39BBC /* Frameworks */,
-				012C536412B5AFCD00B39BBC /* Resources */,
-				012C536512B5AFCD00B39BBC /* ShellScript */,
+				0133571512B5D65D00A3E102 /* Sources */,
+				0133571612B5D65D00A3E102 /* Frameworks */,
+				0133571712B5D65D00A3E102 /* Resources */,
+				0133571812B5D65D00A3E102 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -554,7 +447,7 @@
 			);
 			name = TestsTests;
 			productName = TestsTests;
-			productReference = 012C536712B5AFCD00B39BBC /* TestsTests.octest */;
+			productReference = 0133571A12B5D65D00A3E102 /* TestsTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8D1107260486CEB800E47090 /* GraphicsCocos2d */ = {
@@ -593,29 +486,30 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* GraphicsCocos2d */,
-				012C534C12B5AFCC00B39BBC /* Tests */,
-				012C536612B5AFCD00B39BBC /* TestsTests */,
+				0133570312B5D65D00A3E102 /* Tests */,
+				0133571912B5D65D00A3E102 /* TestsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		012C534B12B5AFCC00B39BBC /* Resources */ = {
+		0133570212B5D65D00A3E102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C535512B5AFCD00B39BBC /* InfoPlist.strings in Resources */,
-				012C535A12B5AFCD00B39BBC /* MainMenu.xib in Resources */,
-				012C535D12B5AFCD00B39BBC /* Credits.rtf in Resources */,
+				0133570A12B5D65D00A3E102 /* InfoPlist.strings in Resources */,
+				0133570E12B5D65D00A3E102 /* MainMenu.xib in Resources */,
+				0133571012B5D65D00A3E102 /* Credits.rtf in Resources */,
+				0133574212B5D8B100A3E102 /* RunTests.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		012C536412B5AFCD00B39BBC /* Resources */ = {
+		0133571712B5D65D00A3E102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C536C12B5AFCD00B39BBC /* InfoPlist.strings in Resources */,
-				012C536E12B5AFCD00B39BBC /* TestsTests.h in Resources */,
+				0133571F12B5D65E00A3E102 /* InfoPlist.strings in Resources */,
+				0133572112B5D65E00A3E102 /* TestsTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,21 +519,19 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				0170FAEB122751D300E80355 /* GCb2Types.plist in Resources */,
 				0187BF391229B7F90020BFC9 /* Outline.dict in Resources */,
 				01B141991258D93400E244E1 /* Properties.xib in Resources */,
 				01692583125D4ED90010CE55 /* PropertyCell.xib in Resources */,
 				01692597125EA0C80010CE55 /* MainWindow.xib in Resources */,
 				016925E3125EA7F40010CE55 /* TreeOutlineView.xib in Resources */,
 				012FA94312B52417007D3FF8 /* build.sh in Resources */,
-				012FA94512B52BCA007D3FF8 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		012C536512B5AFCD00B39BBC /* ShellScript */ = {
+		0133571812B5D65D00A3E102 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -652,23 +544,40 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		0133574012B5D83C00A3E102 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/RunTests.sh;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		012C534912B5AFCC00B39BBC /* Sources */ = {
+		0133570012B5D65D00A3E102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C535712B5AFCD00B39BBC /* Tests-main.m in Sources */,
-				012C536012B5AFCD00B39BBC /* TestsAppDelegate.m in Sources */,
+				0133573C12B5D67000A3E102 /* GHUnitTestMain.m in Sources */,
+				0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */,
+				0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */,
+				0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */,
+				0133570C12B5D65D00A3E102 /* Tests-main.m in Sources */,
+				0133571312B5D65D00A3E102 /* TestsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		012C536212B5AFCD00B39BBC /* Sources */ = {
+		0133571512B5D65D00A3E102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012C537012B5AFCD00B39BBC /* TestsTests.m in Sources */,
+				0133572312B5D65E00A3E102 /* TestsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,36 +586,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				256AC3DA0F4B6AC300CF3369 /* GraphicsCocos2dAppDelegate.m in Sources */,
-				0184C372122736D8002055E0 /* MyWindowController2.m in Sources */,
-				0170FA751227494700E80355 /* NSArray_Extensions.m in Sources */,
-				0170FAE912274F9A00E80355 /* GCb2Types.m in Sources */,
-				0187BF4F1229BB3E0020BFC9 /* ImageAndTextCell.m in Sources */,
-				0187BF501229BB3E0020BFC9 /* SeparatorCell.m in Sources */,
-				0187C1C8122B40BA0020BFC9 /* BaseGridView.m in Sources */,
-				0105C5E9122F222B001B650B /* Document.m in Sources */,
-				0105C5F8122F24DA001B650B /* PhysicsObject.m in Sources */,
-				0105C606122F265C001B650B /* GCb2Circle.m in Sources */,
-				0105C641122F2DF9001B650B /* PhysicsGrid.m in Sources */,
-				01443D8E123080EE00D42BB8 /* FrameworkManager.m in Sources */,
-				01443D91123081C400D42BB8 /* Box2dFramework.m in Sources */,
-				01A1F8841235C5C20067B1F9 /* GridLayer.m in Sources */,
-				01A1FADA1235D8030067B1F9 /* RulerLayer.m in Sources */,
-				0124F95B1239B4C700752810 /* SKTFoundationExtras.m in Sources */,
-				0131303C123F03D30061B4EF /* GCb2Rect.m in Sources */,
-				01946E87125A9F5300E5CAB0 /* FrameworkDefinition.m in Sources */,
-				01946E8C125A9F8100E5CAB0 /* FrameworkClass.m in Sources */,
-				016925D1125EA30B0010CE55 /* MyWindowController.m in Sources */,
-				016925DF125EA75A0010CE55 /* TreeController.m in Sources */,
-				01BF71A912623B7F001BB5F5 /* GCTabController.m in Sources */,
-				011BBE3D1263F8E80055B4CE /* GridDrawObject.m in Sources */,
-				011BC10C12654C940055B4CE /* TrackingArea.m in Sources */,
-				011E12D412B32D3700F97F16 /* DocNode.m in Sources */,
-				011E12D812B32F5B00F97F16 /* BaseDrawableObject.m in Sources */,
-				01C1DACD12B3CB600068FDD9 /* WorkspaceObject.m in Sources */,
-				0103490C12B42580005B5826 /* BaseNode.m in Sources */,
-				0103490D12B42580005B5826 /* ChildNode.m in Sources */,
-				012C534612B5AD5B00B39BBC /* FrameworkManagerTest.m in Sources */,
+				013356D612B5D37B00A3E102 /* BaseDrawableObject.m in Sources */,
+				013356D712B5D37B00A3E102 /* BaseGridView.m in Sources */,
+				013356D812B5D37B00A3E102 /* BaseNode.m in Sources */,
+				013356D912B5D37B00A3E102 /* Box2dFramework.m in Sources */,
+				013356DA12B5D37B00A3E102 /* ChildNode.m in Sources */,
+				013356DB12B5D37B00A3E102 /* DocNode.m in Sources */,
+				013356DC12B5D37B00A3E102 /* Document.m in Sources */,
+				013356DD12B5D37B00A3E102 /* FrameworkClass.m in Sources */,
+				013356DE12B5D37B00A3E102 /* FrameworkDefinition.m in Sources */,
+				013356DF12B5D37B00A3E102 /* FrameworkManager.m in Sources */,
+				013356E112B5D37B00A3E102 /* GCb2Circle.m in Sources */,
+				013356E212B5D37B00A3E102 /* GCb2Rect.m in Sources */,
+				013356E312B5D37B00A3E102 /* GCb2Types.m in Sources */,
+				013356E412B5D37B00A3E102 /* GCTabController.m in Sources */,
+				013356E612B5D37B00A3E102 /* GraphicsCocos2dAppDelegate.m in Sources */,
+				013356E712B5D37B00A3E102 /* GridDrawObject.m in Sources */,
+				013356E812B5D37B00A3E102 /* GridLayer.m in Sources */,
+				013356E912B5D37B00A3E102 /* ImageAndTextCell.m in Sources */,
+				013356EA12B5D37B00A3E102 /* MyWindowController.m in Sources */,
+				013356EB12B5D37B00A3E102 /* NSArray_Extensions.m in Sources */,
+				013356EC12B5D37B00A3E102 /* PhysicsGrid.m in Sources */,
+				013356ED12B5D37B00A3E102 /* PhysicsGroup.m in Sources */,
+				013356EE12B5D37B00A3E102 /* PhysicsObject.m in Sources */,
+				013356EF12B5D37B00A3E102 /* RulerLayer.m in Sources */,
+				013356F012B5D37B00A3E102 /* SeparatorCell.m in Sources */,
+				013356F112B5D37B00A3E102 /* SKTFoundationExtras.m in Sources */,
+				013356F312B5D37B00A3E102 /* TrackingArea.m in Sources */,
+				013356F412B5D37B00A3E102 /* TreeController.m in Sources */,
+				013356F512B5D37B00A3E102 /* WorkspaceObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,7 +688,31 @@
 			};
 			name = Release;
 		};
-		012C537612B5AFCD00B39BBC /* Debug */ = {
+		0133572412B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0133572512B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0133572612B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0133572712B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0133572912B5D65E00A3E102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -800,7 +732,7 @@
 			};
 			name = Debug;
 		};
-		012C537712B5AFCD00B39BBC /* Release */ = {
+		0133572A12B5D65E00A3E102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -819,7 +751,7 @@
 			};
 			name = Release;
 		};
-		012C537812B5AFCD00B39BBC /* Debug */ = {
+		0133572B12B5D65E00A3E102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -829,7 +761,7 @@
 			};
 			name = Debug;
 		};
-		012C537912B5AFCD00B39BBC /* Release */ = {
+		0133572C12B5D65E00A3E102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -838,7 +770,45 @@
 			};
 			name = Release;
 		};
-		012C537B12B5AFCD00B39BBC /* Debug */ = {
+		0133572D12B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		0133572E12B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		0133572F12B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		0133573012B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		0133573212B5D65E00A3E102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -863,7 +833,7 @@
 			};
 			name = Debug;
 		};
-		012C537C12B5AFCD00B39BBC /* Release */ = {
+		0133573312B5D65E00A3E102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -887,7 +857,7 @@
 			};
 			name = Release;
 		};
-		012C537D12B5AFCD00B39BBC /* Debug */ = {
+		0133573412B5D65E00A3E102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -897,7 +867,7 @@
 			};
 			name = Debug;
 		};
-		012C537E12B5AFCD00B39BBC /* Release */ = {
+		0133573512B5D65E00A3E102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -906,7 +876,7 @@
 			};
 			name = Release;
 		};
-		012C537F12B5AFCD00B39BBC /* Debug */ = {
+		0133573612B5D65E00A3E102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -916,7 +886,45 @@
 			};
 			name = Debug;
 		};
-		012C538012B5AFCD00B39BBC /* Release */ = {
+		0133573712B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = TestsTests;
+			};
+			name = Release;
+		};
+		0133573812B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = TestsTests;
+			};
+			name = Debug;
+		};
+		0133573912B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = TestsTests;
+			};
+			name = Release;
+		};
+		0133573A12B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = TestsTests;
+			};
+			name = Debug;
+		};
+		0133573B12B5D65E00A3E102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
@@ -968,6 +976,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -981,6 +990,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
@@ -991,26 +1001,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		012C537512B5AFCD00B39BBC /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		0133572812B5D65E00A3E102 /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				012C537612B5AFCD00B39BBC /* Debug */,
-				012C537712B5AFCD00B39BBC /* Release */,
-				012C537812B5AFCD00B39BBC /* Debug */,
-				012C537912B5AFCD00B39BBC /* Release */,
+				0133572912B5D65E00A3E102 /* Debug */,
+				0133572A12B5D65E00A3E102 /* Release */,
+				0133572B12B5D65E00A3E102 /* Debug */,
+				0133572C12B5D65E00A3E102 /* Release */,
+				0133572D12B5D65E00A3E102 /* Debug */,
+				0133572E12B5D65E00A3E102 /* Release */,
+				0133572F12B5D65E00A3E102 /* Debug */,
+				0133573012B5D65E00A3E102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		012C537A12B5AFCD00B39BBC /* Build configuration list for PBXNativeTarget "TestsTests" */ = {
+		0133573112B5D65E00A3E102 /* Build configuration list for PBXNativeTarget "TestsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				012C537B12B5AFCD00B39BBC /* Debug */,
-				012C537C12B5AFCD00B39BBC /* Release */,
-				012C537D12B5AFCD00B39BBC /* Debug */,
-				012C537E12B5AFCD00B39BBC /* Release */,
-				012C537F12B5AFCD00B39BBC /* Debug */,
-				012C538012B5AFCD00B39BBC /* Release */,
+				0133573212B5D65E00A3E102 /* Debug */,
+				0133573312B5D65E00A3E102 /* Release */,
+				0133573412B5D65E00A3E102 /* Debug */,
+				0133573512B5D65E00A3E102 /* Release */,
+				0133573612B5D65E00A3E102 /* Debug */,
+				0133573712B5D65E00A3E102 /* Release */,
+				0133573812B5D65E00A3E102 /* Debug */,
+				0133573912B5D65E00A3E102 /* Release */,
+				0133573A12B5D65E00A3E102 /* Debug */,
+				0133573B12B5D65E00A3E102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1033,6 +1051,10 @@
 				012C537212B5AFCD00B39BBC /* Release */,
 				012C537312B5AFCD00B39BBC /* Debug */,
 				012C537412B5AFCD00B39BBC /* Release */,
+				0133572412B5D65E00A3E102 /* Debug */,
+				0133572512B5D65E00A3E102 /* Release */,
+				0133572612B5D65E00A3E102 /* Debug */,
+				0133572712B5D65E00A3E102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
