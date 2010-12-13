@@ -51,6 +51,8 @@
 		0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CE12B5D37B00A3E102 /* TestAppDelegate.m */; };
 		0133574212B5D8B100A3E102 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0133574112B5D8B100A3E102 /* RunTests.sh */; };
 		0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356FE12B5D59200A3E102 /* GHUnitTestMain.m */; };
+		0133574412B5DB6000A3E102 /* Tests-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133570B12B5D65D00A3E102 /* Tests-main.m */; };
+		0133574612B5DB8A00A3E102 /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0133574512B5DB8A00A3E102 /* GHUnit.framework */; };
 		0167C0291257DB0C00CD1F35 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */; };
 		01692583125D4ED90010CE55 /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692582125D4ED90010CE55 /* PropertyCell.xib */; };
 		01692597125EA0C80010CE55 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692596125EA0C80010CE55 /* MainWindow.xib */; };
@@ -169,6 +171,7 @@
 		0133572012B5D65E00A3E102 /* TestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsTests.h; sourceTree = "<group>"; };
 		0133572212B5D65E00A3E102 /* TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsTests.m; sourceTree = "<group>"; };
 		0133574112B5D8B100A3E102 /* RunTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
+		0133574512B5DB8A00A3E102 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Library/Frameworks/GHUnit.framework; sourceTree = SDKROOT; };
 		0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/jonathanfontanez/Development/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		01692582125D4ED90010CE55 /* PropertyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
 		01692596125EA0C80010CE55 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -196,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0133574612B5DB8A00A3E102 /* GHUnit.framework in Frameworks */,
 				0133570612B5D65D00A3E102 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +348,7 @@
 		29B97314FDCFA39411CA2CEA /* GraphicsCocos2d */ = {
 			isa = PBXGroup;
 			children = (
+				0133574512B5DB8A00A3E102 /* GHUnit.framework */,
 				013356F712B5D41100A3E102 /* Test Classes */,
 				0133569512B5D37B00A3E102 /* Classes */,
 				01D7F48212B5C9D70000E6EC /* LICENSE */,
@@ -554,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/RunTests.sh;
+			shellScript = RunTests.sh;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -563,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0133574412B5DB6000A3E102 /* Tests-main.m in Sources */,
 				0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */,
 				0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */,
 				0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */,
