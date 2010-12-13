@@ -39,7 +39,6 @@
 		013356F512B5D37B00A3E102 /* WorkspaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356D512B5D37B00A3E102 /* WorkspaceObject.m */; };
 		0133570612B5D65D00A3E102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C534F12B5AFCD00B39BBC /* Cocoa.framework */; };
 		0133570A12B5D65D00A3E102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0133570912B5D65D00A3E102 /* InfoPlist.strings */; };
-		0133570C12B5D65D00A3E102 /* Tests-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133570B12B5D65D00A3E102 /* Tests-main.m */; };
 		0133570E12B5D65D00A3E102 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0133570D12B5D65D00A3E102 /* MainMenu.xib */; };
 		0133571012B5D65D00A3E102 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0133570F12B5D65D00A3E102 /* Credits.rtf */; };
 		0133571312B5D65D00A3E102 /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133571212B5D65D00A3E102 /* TestsAppDelegate.m */; };
@@ -51,6 +50,7 @@
 		0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 013356CD12B5D37B00A3E102 /* TestAppDelegate.h */; };
 		0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CE12B5D37B00A3E102 /* TestAppDelegate.m */; };
 		0133574212B5D8B100A3E102 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0133574112B5D8B100A3E102 /* RunTests.sh */; };
+		0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356FE12B5D59200A3E102 /* GHUnitTestMain.m */; };
 		0167C0291257DB0C00CD1F35 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */; };
 		01692583125D4ED90010CE55 /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692582125D4ED90010CE55 /* PropertyCell.xib */; };
 		01692597125EA0C80010CE55 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01692596125EA0C80010CE55 /* MainWindow.xib */; };
@@ -563,10 +563,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */,
 				0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */,
 				0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */,
 				0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */,
-				0133570C12B5D65D00A3E102 /* Tests-main.m in Sources */,
 				0133571312B5D65D00A3E102 /* TestsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
