@@ -47,8 +47,6 @@
 		0133572112B5D65E00A3E102 /* TestsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0133572012B5D65E00A3E102 /* TestsTests.h */; };
 		0133572312B5D65E00A3E102 /* TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133572212B5D65E00A3E102 /* TestsTests.m */; };
 		0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */; };
-		0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 013356CD12B5D37B00A3E102 /* TestAppDelegate.h */; };
-		0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CE12B5D37B00A3E102 /* TestAppDelegate.m */; };
 		0133574212B5D8B100A3E102 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0133574112B5D8B100A3E102 /* RunTests.sh */; };
 		0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356FE12B5D59200A3E102 /* GHUnitTestMain.m */; };
 		0133574412B5DB6000A3E102 /* Tests-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133570B12B5D65D00A3E102 /* Tests-main.m */; };
@@ -145,8 +143,6 @@
 		013356CA12B5D37B00A3E102 /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
 		013356CB12B5D37B00A3E102 /* SKTFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTFoundationExtras.h; sourceTree = "<group>"; };
 		013356CC12B5D37B00A3E102 /* SKTFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTFoundationExtras.m; sourceTree = "<group>"; };
-		013356CD12B5D37B00A3E102 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAppDelegate.h; path = Classes/TestAppDelegate.h; sourceTree = "<group>"; };
-		013356CE12B5D37B00A3E102 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAppDelegate.m; path = Classes/TestAppDelegate.m; sourceTree = "<group>"; };
 		013356CF12B5D37B00A3E102 /* TrackingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingArea.h; sourceTree = "<group>"; };
 		013356D012B5D37B00A3E102 /* TrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingArea.m; sourceTree = "<group>"; };
 		013356D112B5D37B00A3E102 /* TreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeController.h; sourceTree = "<group>"; };
@@ -162,8 +158,8 @@
 		0133570B12B5D65D00A3E102 /* Tests-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tests-main.m"; sourceTree = "<group>"; };
 		0133570D12B5D65D00A3E102 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = en.lproj/Tests/MainMenu.xib; sourceTree = "<group>"; };
 		0133570F12B5D65D00A3E102 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = en.lproj/Tests/Credits.rtf; sourceTree = "<group>"; };
-		0133571112B5D65D00A3E102 /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestsAppDelegate.h; sourceTree = "<group>"; };
-		0133571212B5D65D00A3E102 /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsAppDelegate.m; sourceTree = "<group>"; };
+		0133571112B5D65D00A3E102 /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestsAppDelegate.h; path = Classes/TestsAppDelegate.h; sourceTree = "<group>"; };
+		0133571212B5D65D00A3E102 /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate.m; path = Classes/TestsAppDelegate.m; sourceTree = "<group>"; };
 		0133571A12B5D65D00A3E102 /* TestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0133571C12B5D65E00A3E102 /* TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestsTests-Info.plist"; path = "TestsTests/TestsTests-Info.plist"; sourceTree = "<group>"; };
 		0133571D12B5D65E00A3E102 /* TestsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TestsTests-Prefix.pch"; path = "TestsTests/TestsTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -287,8 +283,6 @@
 				013356D312B5D37B00A3E102 /* Workbench.h */,
 				013356D412B5D37B00A3E102 /* WorkspaceObject.h */,
 				013356D512B5D37B00A3E102 /* WorkspaceObject.m */,
-				0133571112B5D65D00A3E102 /* TestsAppDelegate.h */,
-				0133571212B5D65D00A3E102 /* TestsAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -296,10 +290,10 @@
 		013356F712B5D41100A3E102 /* Test Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0133571112B5D65D00A3E102 /* TestsAppDelegate.h */,
+				0133571212B5D65D00A3E102 /* TestsAppDelegate.m */,
 				013356FE12B5D59200A3E102 /* GHUnitTestMain.m */,
 				013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */,
-				013356CD12B5D37B00A3E102 /* TestAppDelegate.h */,
-				013356CE12B5D37B00A3E102 /* TestAppDelegate.m */,
 			);
 			name = "Test Classes";
 			sourceTree = "<group>";
@@ -571,8 +565,6 @@
 				0133574412B5DB6000A3E102 /* Tests-main.m in Sources */,
 				0133574312B5DB0D00A3E102 /* GHUnitTestMain.m in Sources */,
 				0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */,
-				0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */,
-				0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */,
 				0133571312B5D65D00A3E102 /* TestsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
