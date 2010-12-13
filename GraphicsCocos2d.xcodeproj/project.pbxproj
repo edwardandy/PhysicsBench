@@ -47,7 +47,6 @@
 		0133571F12B5D65E00A3E102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0133571E12B5D65E00A3E102 /* InfoPlist.strings */; };
 		0133572112B5D65E00A3E102 /* TestsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0133572012B5D65E00A3E102 /* TestsTests.h */; };
 		0133572312B5D65E00A3E102 /* TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0133572212B5D65E00A3E102 /* TestsTests.m */; };
-		0133573C12B5D67000A3E102 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356FE12B5D59200A3E102 /* GHUnitTestMain.m */; };
 		0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356AA12B5D37B00A3E102 /* FrameworkManagerTest.m */; };
 		0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 013356CD12B5D37B00A3E102 /* TestAppDelegate.h */; };
 		0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013356CE12B5D37B00A3E102 /* TestAppDelegate.m */; };
@@ -564,7 +563,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0133573C12B5D67000A3E102 /* GHUnitTestMain.m in Sources */,
 				0133573D12B5D67000A3E102 /* FrameworkManagerTest.m in Sources */,
 				0133573E12B5D67000A3E102 /* TestAppDelegate.h in Sources */,
 				0133573F12B5D67000A3E102 /* TestAppDelegate.m in Sources */,
