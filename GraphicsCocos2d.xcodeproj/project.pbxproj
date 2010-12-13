@@ -718,12 +718,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -737,12 +736,11 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -946,6 +944,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = GraphicsCocos2d;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
 			};
 			name = Debug;
 		};
@@ -963,6 +962,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = GraphicsCocos2d;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
 			};
 			name = Release;
 		};
