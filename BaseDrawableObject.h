@@ -6,10 +6,9 @@
 //  Copyright (c) 2010 Personal. All rights reserved.
 //
 
+#import "Workbench.h"
 #import <Quartz/Quartz.h>
 #import <Cocoa/Cocoa.h>
-#import "Workbench.h"
-
 
 @interface BaseDrawableObject : CALayer <RenderLayer>{
 @public    
@@ -18,8 +17,8 @@
     
     // Relative to coordinate space that
     // object is currently in
-    NSSize      size;
-    NSPoint     position;
+    NSSize      d_size;
+    NSPoint     d_origin;
     
     // Determine if needs to be rendered
     BOOL        needsRender;
@@ -29,8 +28,8 @@
 }
 
 @property (nonatomic, retain)   NSString    *objName;
-@property (assign)              NSSize       size;
-@property (assign)              NSPoint      origin;
+@property (assign)              NSSize       d_size;
+@property (assign)              NSPoint      d_origin;
 @property (assign)              BOOL        needsRender;
 
 @end

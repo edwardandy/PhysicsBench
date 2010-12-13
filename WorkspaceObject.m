@@ -11,6 +11,8 @@
 
 @implementation WorkspaceObject
 
+@synthesize isEditing, isSelected, isVisible;
+
 - (id)init {
     if ((self = [super init])) {
         // Initialization code here.
@@ -76,6 +78,8 @@
     [NSException raise:NSInternalInconsistencyException 
 				format:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)];
 }
+
+
 
 
 @end

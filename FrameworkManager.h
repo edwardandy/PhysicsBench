@@ -15,9 +15,13 @@
 
 @interface FrameworkManager : NSObject <Physics2dFramework>{
 	id<Physics2dFramework>	framework;
+    // Force our frameworks to initialize a defintion
+	FrameworkDefinition *definition;
+
 }
 
 // Properties
+@property (readonly) FrameworkDefinition *definition;
 @property(assign) 	id<Physics2dFramework>	framework;
 
 // Static Methods

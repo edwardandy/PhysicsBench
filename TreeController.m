@@ -19,6 +19,13 @@
 
 #define COLUMNID_NAME			@"NameColumn"	// the single column name in our outline view
 
+// Private Class
+@interface TreeController (PrivateController)
+- (void)populateOutlineContents:(id)inObject;
+@end
+
+
+// Public Class
 @implementation TreeController
 
 @synthesize document, treeController;

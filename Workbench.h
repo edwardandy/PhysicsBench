@@ -9,16 +9,13 @@
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
 
-@protocol Workbench <NSObject>
-
-@end
 
 
 @protocol RenderLayer <NSObject>
 
 @optional 
 - (void) willDrawContentInContext:(CGContextRef)ctx;
-- (void) didDrawContentInContext;
+- (void) didDrawContentInContext:(CGContextRef)ctx;
 
 @required
 -(void) drawContentInContext:(CGContextRef)ctx;

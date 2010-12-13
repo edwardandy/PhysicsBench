@@ -43,9 +43,7 @@ typedef enum {
 @property (nonatomic, assign)  __weak NSTreeController			*treeController;
 @property (nonatomic, assign)  __weak Document *					document;
 
-
-@end
-
-
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withController:(NSTreeController*)controller;
 
 @end

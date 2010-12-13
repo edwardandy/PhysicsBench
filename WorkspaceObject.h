@@ -22,7 +22,7 @@
 //
 // This is not a concrete class, objects wishing to render in a workspace context
 // must subclass a workspace object 
-@interface WorkspaceObject : BaseDrawableObject {
+@interface WorkspaceObject : BaseDrawableObject <WorkspaceObject> {
     
     BOOL			isVisible;
     BOOL			isSelected; 

@@ -19,7 +19,7 @@
 
 @implementation FrameworkManager
 
-@synthesize framework;
+@synthesize framework, definition;
 
 + (id) sharedFrameworkManager
 {

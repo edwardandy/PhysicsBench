@@ -1,4 +1,4 @@
-Addit//
+//
 //  BaseDrawableObject.m
 //  GraphicsCocos2d
 //
@@ -8,10 +8,9 @@ Addit//
 
 #import "BaseDrawableObject.h"
 
-
 @implementation BaseDrawableObject
 
-@synthesize     objName, needsRender;
+@synthesize     objName,needsRender,d_size, d_origin;
 
 /**
  * Default Initializer
@@ -20,8 +19,8 @@ Addit//
     if ((self = [super init])) {
         // Initialization code here.
         objName = @"";
-        size = NSZeroSize;
-        position = NSZeroPoint;
+        d_size = NSZeroSize;
+        d_origin = NSZeroPoint;
     }
     
     return self;
@@ -70,7 +69,7 @@ Addit//
  *
  * Must be sub-classed
  */
--(void) drawContent {
+-(void) drawContentInContext:(CGContextRef)ctx {
     [NSException raise:NSInternalInconsistencyException 
 				format:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)];
 }

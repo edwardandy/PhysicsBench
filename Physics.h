@@ -34,10 +34,9 @@
 @protocol Physics2dFramework
 
 @required
-	// Force our frameworks to initialize a defintion
-	FrameworkDefinition *definition;
-	@property (readonly) FrameworkDefinition *definition;
-
+    // Definition property should be synthesized or created
+    - (void) setDefinition;
+    - (FrameworkDefinition*) definition;
 	// Methods for our Physics2d framework
 	- (NSArray *)	fetchStringsOfShapesTypes; 
 	- (PhysicsObject *) initObjectWithKey:(NSString*)key;
