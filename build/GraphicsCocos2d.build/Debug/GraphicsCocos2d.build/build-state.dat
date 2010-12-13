@@ -1660,6 +1660,627 @@ t1284426813
 s185
 i"untitled.h"
 
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseGridView.h
+c000000004CF9CB6A00000000000002A4
+t1291438954
+s676
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"Physics.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseGridView.m
+c000000004CF9CB6A0000000000001919
+t1291438954
+s6425
+i"BaseGridView.h"
+i"GridLayer.h"
+i"RulerLayer.h"
+i"GridDrawObject.h"
+i"TrackingArea.h"
+i"GCTabController.h"
+i"ChildNode.h"
+i"GraphicsCocos2dAppDelegate.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseNode.h
+c000000004CF9CB6A0000000000000E09
+t1291438954
+s3593
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseNode.m
+c000000004CF9CB6A0000000000004364
+t1291438954
+s17252
+i"BaseNode.h"
+i"NSArray_Extensions.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Box2dFramework.h
+c000000004CF9CB6A000000000000013E
+t1291438954
+s318
+i"Physics.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Box2dFramework.m
+c000000004CF9CB6A0000000000000DE2
+t1291438954
+s3554
+i"Box2dFramework.h"
+i"Document.h"
+i"GraphicsCocos2dAppDelegate.h"
+i"PhysicsGroup.h"
+i"GCb2Circle.h"
+i"GCb2Rect.h"
+i"FrameworkManager.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ChildNode.h
+c000000004CF9CB6A0000000000000BFA
+t1291438954
+s3066
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+i"BaseNode.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ChildNode.m
+c000000004CF9CB6A0000000000001514
+t1291438954
+s5396
+i"ChildNode.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Document.h
+c000000004CF9CB6A00000000000004E8
+t1291438954
+s1256
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Document.m
+c000000004CF9CB6A000000000000098C
+t1291438954
+s2444
+i"Document.h"
+i"ChildNode.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/English.lproj/InfoPlist.strings
+c000000004CF9CB6A000000000000002D
+t1291438954
+s45
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/English.lproj/MainMenu.xib
+c000000004CF9CB6A0000000000010AEF
+t1291438954
+s68335
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkClass.h
+c000000004CF9CB6A00000000000002D4
+t1291438954
+s724
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkClass.m
+c000000004CF9CB6A0000000000000338
+t1291438954
+s824
+i"FrameworkClass.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkDefinition.h
+c000000004CF9CB6A000000000000013E
+t1291438954
+s318
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkDefinition.m
+c000000004CF9CB6A00000000000001E1
+t1291438954
+s481
+i"FrameworkDefinition.h"
+i"FrameworkClass.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkManager.h
+c000000004CF9CB6A00000000000002C4
+t1291438954
+s708
+i<Cocoa/Cocoa.h>
+i"Physics.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkManager.m
+c000000004CF9CB6A0000000000001439
+t1291438954
+s5177
+i"FrameworkManager.h"
+i"FrameworkDefinition.h"
+i"FrameworkClass.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCTabController.h
+c000000004CF9CB6A0000000000000417
+t1291438954
+s1047
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCTabController.m
+c000000004CF9CB6A0000000000000A57
+t1291438954
+s2647
+i"GCTabController.h"
+i"BaseGridView.h"
+i"Document.h"
+i"GraphicsCocos2dAppDelegate.h"
+i"ChildNode.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Circle.h
+c000000004CF9CB6A0000000000000134
+t1291438954
+s308
+i"Physics.h"
+i"PhysicsObject.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Circle.m
+c000000004CF9CB6A000000000000088F
+t1291438954
+s2191
+i"GCb2Circle.h"
+i"GCb2Types.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Rect.h
+c000000004CF9CB6A00000000000000F5
+t1291438954
+s245
+i"Physics.h"
+i"PhysicsObject.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Rect.m
+c000000004CF9CB6A0000000000000673
+t1291438954
+s1651
+i"GCb2Rect.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Types.h
+c000000004CF9CB6A00000000000000CC
+t1291438954
+s204
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Types.m
+c000000004CF9CB6A00000000000000BB
+t1291438954
+s187
+i"GCb2Types.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Types.plist
+c000000004CF9CB6A0000000000001C48
+t1291438954
+s7240
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GraphicsCocos2dAppDelegate.h
+c000000004CF9CB6A0000000000000248
+t1291438954
+s584
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GraphicsCocos2dAppDelegate.m
+c000000004CF9CB6A0000000000000372
+t1291438954
+s882
+i"GraphicsCocos2dAppDelegate.h"
+i"MyWindowController.h"
+i"Document.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GraphicsCocos2d_Prefix.pch
+c000000004CF9CB6A00000000000000A1
+t1291438954
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridDrawObject.h
+c000000004CF9CB6A0000000000000137
+t1291438954
+s311
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridDrawObject.m
+c000000004CF9CB6A000000000000114F
+t1291438954
+s4431
+i"GridDrawObject.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridLayer.h
+c000000004CF9CB6A00000000000000E1
+t1291438954
+s225
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridLayer.m
+c000000004CF9CB6A0000000000000E92
+t1291438954
+s3730
+i"GridLayer.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ImageAndTextCell.h
+c000000004CF9CB6A0000000000000B02
+t1291438954
+s2818
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ImageAndTextCell.m
+c000000004CF9CB6A000000000000258C
+t1291438954
+s9612
+i"ImageAndTextCell.h"
+i"BaseNode.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MainWindow.xib
+c000000004CF9CB6A0000000000006300
+t1291438954
+s25344
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController.h
+c000000004CF9CB6A0000000000000307
+t1291438954
+s775
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController.m
+c000000004CF9CB6A0000000000000FD0
+t1291438954
+s4048
+i"MyWindowController.h"
+i"TreeController.h"
+i"GCTabController.h"
+i"BaseGridView.h"
+i"FrameworkManager.h"
+i"Document.h"
+i"GraphicsCocos2dAppDelegate.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController2.h
+c000000004CF9CB6A0000000000000510
+t1291438954
+s1296
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController2.m
+c000000004CF9CB6A00000000000084E4
+t1291438954
+s34020
+i"MyWindowController2.h"
+i"ChildNode.h"
+i"SeparatorCell.h"
+i"ImageAndTextCell.h"
+i"PhysicsGrid.h"
+i"PhysicsGroup.h"
+i"Document.h"
+i"GraphicsCocos2dAppDelegate.h"
+i"FrameworkManager.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/NSArray_Extensions.h
+c000000004CF9CB6A0000000000000ABF
+t1291438954
+s2751
+i<Foundation/Foundation.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/NSArray_Extensions.m
+c000000004CF9CB6A0000000000000F35
+t1291438954
+s3893
+i"NSArray_Extensions.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Outline.dict
+c000000004CF9CB6A0000000000000343
+t1291438954
+s835
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Physics.h
+c000000004CF9CB6A00000000000005B1
+t1291438954
+s1457
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGrid.h
+c000000004CF9CB6A00000000000007DC
+t1291438954
+s2012
+i"BaseGridView.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGrid.m
+c000000004CF9CB6A0000000000003FC3
+t1291438954
+s16323
+i"PhysicsGrid.h"
+i"PhysicsGroup.h"
+i"PhysicsObject.h"
+i"Document.h"
+i"GraphicsCocos2dAppDelegate.h"
+i"SKTFoundationExtras.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGroup.h
+c000000004CF9CB6A00000000000001A4
+t1291438954
+s420
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGroup.m
+c000000004CF9CB6A00000000000003E1
+t1291438954
+s993
+i"PhysicsGroup.h"
+i"PhysicsObject.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsObject.h
+c000000004CF9CB6A0000000000000BB4
+t1291438954
+s2996
+i"Physics.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsObject.m
+c000000004CF9CB6A0000000000002292
+t1291438954
+s8850
+i"PhysicsObject.h"
+i"PhysicsGrid.h"
+i"FrameworkManager.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Properties.xib
+c000000004CF9CB6A0000000000006752
+t1291438954
+s26450
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PropertyCell.xib
+c000000004CF9CB6A0000000000007280
+t1291438954
+s29312
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/RulerLayer.h
+c000000004CF9CB6A00000000000000C9
+t1291438954
+s201
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/RulerLayer.m
+c000000004CF9CB6A0000000000000C52
+t1291438954
+s3154
+i"RulerLayer.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SKTFoundationExtras.h
+c000000004CF9CB6A0000000000000A58
+t1291438954
+s2648
+i<AppKit/AppKit.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SKTFoundationExtras.m
+c000000004CF9CB6A0000000000000C42
+t1291438954
+s3138
+i"SKTFoundationExtras.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SeparatorCell.h
+c000000004CF9CB6A0000000000000A36
+t1291438954
+s2614
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SeparatorCell.m
+c000000004CF9CB6A0000000000000FF2
+t1291438954
+s4082
+i"SeparatorCell.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TrackingArea.h
+c000000004CF9CB6A000000000000016C
+t1291438954
+s364
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TrackingArea.m
+c000000004CF9CB6A000000000000069D
+t1291438954
+s1693
+i"TrackingArea.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TreeController.h
+c000000004CF9CB6A000000000000089A
+t1291438954
+s2202
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TreeController.m
+c000000004CF9CB6A0000000000003E2C
+t1291438954
+s15916
+i"TreeController.h"
+i"GraphicsCocos2dAppDelegate.h"
+i"Document.h"
+i"BaseNode.h"
+i"ImageAndTextCell.h"
+i"SeparatorCell.h"
+i"ChildNode.h"
+i"PhysicsGroup.h"
+i"FrameworkManager.h"
+i"MyWindowController.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TreeOutlineView.xib
+c000000004CF9CB6A0000000000004E80
+t1291438954
+s20096
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app
+t1291438954
+s102
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Info.plist
+t1291438954
+s910
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/MacOS/GraphicsCocos2d
+t1291438954
+s201472
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/PkgInfo
+t1291438954
+s8
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/BWToolkitFramework.framework
+t1291438954
+s204
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1291438955
+s92
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj/MainMenu.nib
+t1291438955
+s9691
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/GCb2Types.plist
+t1291438955
+s7240
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/MainWindow.nib
+t1291438955
+s8619
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/Outline.dict
+t1291438955
+s835
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/Properties.nib
+t1291438955
+s1810
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/PropertyCell.nib
+t1291438955
+s2768
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/TreeOutlineView.nib
+t1291438955
+s6129
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseGridView.o
+t1291438955
+s39608
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseNode.o
+t1291438955
+s43776
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Box2dFramework.o
+t1291438955
+s31840
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ChildNode.o
+t1291438955
+s19224
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Document.o
+t1291438955
+s41676
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkClass.o
+t1291438955
+s20368
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkDefinition.o
+t1291438955
+s10056
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkManager.o
+t1291438955
+s23752
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCTabController.o
+t1291438955
+s29616
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Circle.o
+t1291438955
+s17200
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Rect.o
+t1291438955
+s15980
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Types.o
+t1291438955
+s5476
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2d.LinkFileList
+c000000004CF9CB6B00000000000010C2
+t1291438955
+s4290
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2dAppDelegate.o
+t1291438955
+s32124
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridDrawObject.o
+t1291438955
+s19176
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridLayer.o
+t1291438955
+s17512
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ImageAndTextCell.o
+t1291438955
+s39952
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController.o
+t1291438955
+s48076
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController2.o
+t1291438955
+s8676
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/NSArray_Extensions.o
+t1291438955
+s10084
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGrid.o
+t1291438955
+s65112
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGroup.o
+t1291438955
+s13620
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsObject.o
+t1291438955
+s50112
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/RulerLayer.o
+t1291438955
+s16508
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SKTFoundationExtras.o
+t1291438955
+s10044
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SeparatorCell.o
+t1291438955
+s19424
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TrackingArea.o
+t1291438955
+s13660
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TreeController.o
+t1291438955
+s76292
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/main.o
+t1291438955
+s5032
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/main.m
+c000000004CF9CB6B00000000000000F8
+t1291438955
+s248
+i<Cocoa/Cocoa.h>
+
 N/Users/jonathanfontanez/Downloads/BWToolkit/BWToolkitFramework.framework/BWToolkitFramework
 c000000004B596EAB00000000000E843C
 t1264152235
@@ -1677,13 +2298,17 @@ N/var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/Shared
 t2
 s0
 
+N/var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-fgdqcwezlcohcobsymrwqvatalto/GraphicsCocos2d_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch.gch
 t1287352191
 s54265616
 
 NGraphicsCocos2d-Info.plist
-c000000004C759A4E00000000000003EA
-t1282775630
+c000000004CF9CB6A00000000000003EA
+t1291438954
 s1002
 
 CCheck dependencies
@@ -1705,6 +2330,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m: In f
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m:218: warning: unused variable 'insertions'
 lSLF07#2@81"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m309327718#309327719#0(271"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m: In function '-[BaseGridView observeValueForKeyPath:ofObject:change:context:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m:218: warning: unused variable 'insertions'1(22@28"Unused variable 'insertions'309327718#154#117#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m309327714#218#0#218#0#19"unused variable '*'0(0#0#73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m8735259104#2113"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseGridView.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseGridView.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseGridView.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseGridView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseNode.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324151.688127
 e309324152.061404
@@ -1717,6 +2345,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseNode.m309324151#309324152#0(0"0(0#0#69"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseNode.m8738340352#2105"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BaseNode.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseNode.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/BaseNode.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/BaseNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Box2dFramework.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Box2dFramework.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.345234
@@ -1731,6 +2362,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Box2dFramework.m309044994#309044994#0(0"0(0#0#75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Box2dFramework.m8758535296#2117"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Box2dFramework.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Box2dFramework.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Box2dFramework.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Box2dFramework.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ChildNode.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ChildNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324152.061552
 e309324152.249279
@@ -1743,6 +2377,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ChildNode.m309324152#309324152#0(0"0(0#0#70"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ChildNode.m8639080544#2107"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ChildNode.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ChildNode.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ChildNode.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ChildNode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Document.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324152.449583
@@ -1759,6 +2396,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m: In funct
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m:200: warning: control reaches end of non-void function
 lSLF07#2@77"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m309324152#309324152#0(242"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m: In function '-[Document objectAtIndexPath:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m:200: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function309324152#117#125#0(6@69"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m309020083#200#0#200#0#40"control reaches end of non-void function0(0#0#69"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m8720356384#2105"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Document.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Document.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/Document.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Document.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkClass.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkClass.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044995.037268
 e309044995.244873
@@ -1772,6 +2412,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkClass.m309044995#309044995#0(0"0(0#0#75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkClass.m8758933760#2117"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkClass.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkClass.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkClass.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkClass.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkDefinition.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkDefinition.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.907182
 e309044995.133094
@@ -1784,6 +2427,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkDefinition.m309044994#309044995#0(0"0(0#0#80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkDefinition.m8735918784#2127"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkDefinition.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkDefinition.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkDefinition.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkDefinition.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkManager.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.113902
@@ -1804,6 +2450,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m: 
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m:191: warning: property 'definition' requires method '-definition' to be defined - use @synthesize, @dynamic or provide a method implementation
 lSLF07#2@85"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m309044994#309044994#0(860"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m: In function '-[FrameworkManager initObjectWithKey:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m:64: warning: control reaches end of non-void function/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m: In function '-[FrameworkManager queryFrameworkClassForProperties:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m:190: warning: control reaches end of non-void function/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m: At top level:/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m:191: warning: property 'definition' requires method '-definition' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@40"Control reaches end of non-void function309044994#133#132#0(6@77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m308191765#64#0#64#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function309044994#413#133#0(6@77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m308191765#190#0#190#0#40"control reaches end of non-void function0(23@13"At top level:309044994#546#93#0(6@77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m308191765#0#0#0#0#0"0(22@128"Property 'definition' requires method '-definition' to be defined - use @synthesize, @dynamic or provide a method implementation309044994#639#221#0(6@77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m308191765#191#0#191#0#0"0(0#0#77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m8733145536#2121"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/FrameworkManager.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkManager.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/FrameworkManager.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/FrameworkManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCTabController.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCTabController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309327966.086259
 e309327966.414151
@@ -1816,6 +2465,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCTabController.m309327966#309327966#0(0"0(0#0#76"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCTabController.m8788000896#2119"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCTabController.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCTabController.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCTabController.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCTabController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Body.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Body.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s304566030.936879
@@ -1846,6 +2498,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Circle.m309044993#309044994#0(0"0(0#0#71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Circle.m8642982240#2109"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Circle.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Circle.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Circle.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Circle.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Cirlce.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Cirlce.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s305079845.051927
 e305079845.320267
@@ -1874,6 +2529,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Rect.m309044994#309044995#0(0"0(0#0#69"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Rect.m8731606816#2105"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Rect.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Rect.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Rect.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Rect.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Types.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Types.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044992.886720
 e309044993.089397
@@ -1886,6 +2544,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Types.m309044992#309044993#0(0"0(0#0#70"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Types.m8757836640#2107"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GCb2Types.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Types.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GCb2Types.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GCb2Types.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2dAppDelegate.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2dAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044991.993591
@@ -1900,6 +2561,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2dAppDelegate.m309044991#309044992#0(0"0(0#0#87"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2dAppDelegate.m8697150656#2141"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2dAppDelegate.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2dAppDelegate.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2dAppDelegate.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GraphicsCocos2dAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridDrawObject.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridDrawObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044995.599779
 e309044995.913286
@@ -1912,6 +2576,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridDrawObject.m309044995#309044995#0(0"0(0#0#75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridDrawObject.m8760003968#2117"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridDrawObject.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridDrawObject.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridDrawObject.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridDrawObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridLayer.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.396301
@@ -1928,6 +2595,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m: In func
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m:93: warning: unused variable 'array'
 lSLF07#2@78"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m309044994#309044994#0(222"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m: In function '-[GridLayer drawGridLayer]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m:93: warning: unused variable 'array'1(22@23"Unused variable 'array'309044994#114#108#0(6@70"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m308541411#93#0#93#0#19"unused variable '*'0(0#0#70"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m8741299168#2107"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GridLayer.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridLayer.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GridLayer.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GridLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ImageAndTextCell.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ImageAndTextCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324152.249591
 e309324152.449183
@@ -1941,6 +2611,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ImageAndTextCell.m309324152#309324152#0(0"0(0#0#77"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ImageAndTextCell.m8733744640#2121"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/ImageAndTextCell.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ImageAndTextCell.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/ImageAndTextCell.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/ImageAndTextCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309327966.081344
 e309327966.470325
@@ -1953,6 +2626,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController.m309327966#309327966#0(0"0(0#0#79"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController.m8738167360#2125"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController2.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324462.023402
@@ -1973,6 +2649,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-setContents:' not found
 lSLF07#2@88"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m309324462#309324462#0(889"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: incomplete implementation of class 'MyWindowController2'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-populateMenu' not found/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-addGroupToDocument:withName:' not found/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-addPhysicsGroup:' not found/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-contents' not found/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m:1068: warning: method definition for '-setContents:' not found6(22@56"Incomplete implementation of class 'MyWindowController2'309324462#0#153#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-populateMenu' not found309324462#153#144#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#35"method definition for '*' not found0(22@63"Method definition for '-addGroupToDocument:withName:' not found309324462#297#160#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#35"method definition for '*' not found0(22@51"Method definition for '-addPhysicsGroup:' not found309324462#457#148#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#35"method definition for '*' not found0(22@43"Method definition for '-contents' not found309324462#605#140#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#35"method definition for '*' not found0(22@47"Method definition for '-setContents:' not found309324462#745#144#0(6@80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m308373878#1068#0#1068#0#35"method definition for '*' not found0(0#0#80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m8727197440#2127"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/MyWindowController2.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController2.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/MyWindowController2.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MyWindowController2.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/NSArray_Extensions.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/NSArray_Extensions.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044992.697624
 e309044992.886602
@@ -1985,6 +2664,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/NSArray_Extensions.m309044992#309044992#0(0"0(0#0#79"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/NSArray_Extensions.m8761409376#2125"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/NSArray_Extensions.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/NSArray_Extensions.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/NSArray_Extensions.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/NSArray_Extensions.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGrid.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324462.681702
@@ -2020,6 +2702,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In fu
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:377: warning: comparison is always true due to limited range of data type
 lSLF07#2@80"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m309324462#309324463#0(2865"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In function '-[PhysicsGrid drawRect:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:72: warning: unused variable 'i'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In function '-[PhysicsGrid selectAndTrackMouseWithEvent:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:253: warning: 'PhysicsGrid' may not respond to '-moveSelectedGraphicsWithEvent:'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:253: warning: (Messages without a matching method signature/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:253: warning: will be assumed to return 'id' and accept/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:253: warning: '...' as arguments.)/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In function '-[PhysicsGrid trackKnob:ofGraphic:withEvent:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:268: warning: 'PhysicsGrid' may not respond to '-snapsToGrid'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:268: warning: initialization makes integer from pointer without a cast/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:272: warning: 'PhysicsObject' may not respond to '-startBoundsManipulation'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:274: warning: 'PhysicsGrid' may not respond to '-beginEchoingMoveToRulers:'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:284: warning: 'PhysicsObject' may not respond to '-resizeByMovingKnob:toPoint:'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:284: warning: assignment makes integer from pointer without a cast/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:287: warning: 'PhysicsGrid' may not respond to '-continueEchoingMoveToRulers:'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:294: warning: 'PhysicsGrid' may not respond to '-stopEchoingMoveToRulers'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:297: warning: 'PhysicsObject' may not respond to '-stopBoundsManipulation'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In function '-[PhysicsGrid selectGraphic:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:364: warning: comparison is always false due to limited range of data type/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m: In function '-[PhysicsGrid deselectGraphic:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m:377: warning: comparison is always true due to limited range of data type14(22@19"Unused variable 'i'309324462#114#106#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#72#0#72#0#19"unused variable '*'0(22@66"'PhysicsGrid' may not respond to '-moveSelectedGraphicsWithEvent:'309324462#354#154#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#253#0#253#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309324462#508#133#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#253#0#253#0#0"0(22@47"'PhysicsGrid' may not respond to '-snapsToGrid'309324462#1013#135#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#268#0#268#0#26"'*' may not respond to '*'0(22@56"Initialization makes integer from pointer without a cast309324462#1148#144#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#268#0#268#0#0"0(22@61"'PhysicsObject' may not respond to '-startBoundsManipulation'309324462#1292#149#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#272#0#272#0#26"'*' may not respond to '*'0(22@61"'PhysicsGrid' may not respond to '-beginEchoingMoveToRulers:'309324462#1441#149#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#274#0#274#0#26"'*' may not respond to '*'0(22@65"'PhysicsObject' may not respond to '-resizeByMovingKnob:toPoint:'309324462#1590#153#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#284#0#284#0#26"'*' may not respond to '*'0(22@52"Assignment makes integer from pointer without a cast309324462#1743#140#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#284#0#284#0#0"0(22@64"'PhysicsGrid' may not respond to '-continueEchoingMoveToRulers:'309324462#1883#152#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#287#0#287#0#26"'*' may not respond to '*'0(22@59"'PhysicsGrid' may not respond to '-stopEchoingMoveToRulers'309324462#2035#147#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#294#0#294#0#26"'*' may not respond to '*'0(22@60"'PhysicsObject' may not respond to '-stopBoundsManipulation'309324462#2182#148#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#297#0#297#0#26"'*' may not respond to '*'0(22@60"Comparison is always false due to limited range of data type309324462#2449#148#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#364#0#364#0#0"0(22@59"Comparison is always true due to limited range of data type309324462#2718#147#0(6@72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m307748870#377#0#377#0#59"comparison is always true due to limited range of data type0(0#0#72"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m8722402976#2111"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGrid.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGrid.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGrid.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGrid.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGroup.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGroup.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044993.612295
 e309044993.832026
@@ -2032,6 +2717,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGroup.m309044993#309044993#0(0"0(0#0#73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGroup.m8733827712#2113"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsGroup.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGroup.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsGroup.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsGroup.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsObject.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324462.510728
@@ -2047,6 +2735,9 @@ xcom.apple.compilers.gcc.4_2
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m: In function '-[PhysicsObject hitTest:isSelected:]':
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m:144: warning: control reaches end of non-void function
 lSLF07#2@82"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m309324462#309324462#0(258"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m: In function '-[PhysicsObject hitTest:isSelected:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m:144: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function309324462#128#130#0(6@74"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m308428142#144#0#144#0#40"control reaches end of non-void function0(0#0#74"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m8711533024#2115"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/PhysicsObject.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsObject.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/PhysicsObject.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PhysicsObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/RulerLayer.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.585729
@@ -2069,6 +2760,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:76: war
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:57: warning: unused variable 'frameOrigin'
 lSLF07#2@79"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m309044994#309044994#0(961"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m: In function '-[RulerLayer drawInContext:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:31: warning: 'RulerLayer' may not respond to '-drawRulerLayer'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:31: warning: (Messages without a matching method signature/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:31: warning: will be assumed to return 'id' and accept/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:31: warning: '...' as arguments.)/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m: In function '-[RulerLayer drawRulerLayer]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:76: warning: unused variable 'minorLine'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m:57: warning: unused variable 'frameOrigin'4(22@49"'RulerLayer' may not respond to '-drawRulerLayer'309044994#117#135#0(6@71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m308428349#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309044994#252#131#0(6@71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m308428349#31#0#31#0#0"0(22@27"Unused variable 'minorLine'309044994#733#113#0(6@71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m308428349#76#0#76#0#19"unused variable '*'0(22@29"Unused variable 'frameOrigin'309044994#846#115#0(6@71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m308428349#57#0#57#0#19"unused variable '*'0(0#0#71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m8762538880#2109"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/RulerLayer.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/RulerLayer.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/RulerLayer.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/RulerLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SKTFoundationExtras.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SKTFoundationExtras.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044994.700358
 e309044994.907059
@@ -2082,6 +2776,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SKTFoundationExtras.m309044994#309044994#0(0"0(0#0#80"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SKTFoundationExtras.m8735889600#2127"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SKTFoundationExtras.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SKTFoundationExtras.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SKTFoundationExtras.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SKTFoundationExtras.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SeparatorCell.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SeparatorCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044993.089521
 e309044993.298915
@@ -2094,6 +2791,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SeparatorCell.m309044993#309044993#0(0"0(0#0#74"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SeparatorCell.m8758362080#2115"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/SeparatorCell.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SeparatorCell.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/SeparatorCell.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/SeparatorCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TrackingArea.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044995.746033
@@ -2119,6 +2819,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: w
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: warning: property 'endPoint' requires the method 'setEndPoint:' to be defined - use @synthesize, @dynamic or provide a method implementation
 lSLF07#2@81"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m309044995#309044996#0(1691"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m: In function '-[TrackingArea drawInContext:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:39: warning: invalid receiver type 'CGPathRef'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:40: warning: invalid receiver type 'CGPathRef'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m: In function '-[TrackingArea drawLayer:inContext:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:62: warning: invalid receiver type 'CGPathRef'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:63: warning: invalid receiver type 'CGPathRef'/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m: At top level:/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: warning: property 'startPoint' requires method '-startPoint' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: warning: property 'startPoint' requires the method 'setStartPoint:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: warning: property 'endPoint' requires method '-endPoint' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m:72: warning: property 'endPoint' requires the method 'setEndPoint:' to be defined - use @synthesize, @dynamic or provide a method implementation9(22@33"Invalid receiver type 'CGPathRef'309044995#121#121#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#39#0#39#0#0"0(22@33"Invalid receiver type 'CGPathRef'309044995#242#121#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#40#0#40#0#0"0(22@33"Invalid receiver type 'CGPathRef'309044995#490#121#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#62#0#62#0#0"0(22@33"Invalid receiver type 'CGPathRef'309044995#611#121#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#63#0#63#0#0"0(23@13"At top level:309044995#732#89#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#0#0#0#0#0"0(22@128"Property 'startPoint' requires method '-startPoint' to be defined - use @synthesize, @dynamic or provide a method implementation309044995#821#216#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#72#0#72#0#0"0(22@135"Property 'startPoint' requires the method 'setStartPoint:' to be defined - use @synthesize, @dynamic or provide a method implementation309044995#1037#223#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#72#0#72#0#0"0(22@124"Property 'endPoint' requires method '-endPoint' to be defined - use @synthesize, @dynamic or provide a method implementation309044995#1260#212#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#72#0#72#0#0"0(22@131"Property 'endPoint' requires the method 'setEndPoint:' to be defined - use @synthesize, @dynamic or provide a method implementation309044995#1472#219#0(6@73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m308631922#72#0#72#0#0"0(0#0#73"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m8734420736#2113"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TrackingArea.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TrackingArea.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TrackingArea.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TrackingArea.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TreeController.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309324152.711852
 e309324153.083762
@@ -2137,6 +2840,9 @@ o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m: In
 o/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:206: warning: local declaration of 'tableColumn' hides instance variable
 lSLF07#2@83"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m309324152#309324153#0(757"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m: In function '-[TreeController outlineView:dataCellForTableColumn:item:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:149: warning: local declaration of 'tableColumn' hides instance variable/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:151: warning: local declaration of 'tableColumn' hides instance variable/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m: In function '-[TreeController outlineView:willDisplayCell:forTableColumn:item:]':/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m:206: warning: local declaration of 'tableColumn' hides instance variable3(22@58"Local declaration of 'tableColumn' hides instance variable309324152#151#149#0(6@75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m309321673#149#0#149#0#0"0(22@58"Local declaration of 'tableColumn' hides instance variable309324152#300#149#0(6@75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m309321673#151#0#151#0#0"0(22@58"Local declaration of 'tableColumn' hides instance variable309324152#608#149#0(6@75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m309321673#206#0#206#0#0"0(0#0#75"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m8692677152#2117"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeController.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TreeController.o0#
 
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/TreeController.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TreeController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/main.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s309044991.962441
 e309044992.195262
@@ -2149,6 +2855,9 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/main.m309044991#309044992#0(0"0(0#0#65"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/main.m8692684192#2097"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/main.m -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/main.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/untitled.o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2210,6 +2919,21 @@ r1
 xCompileXIB
 x/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeOutlineView.xib
 lSLF07#2@30"CompileXIB TreeOutlineView.xib309056530#309056530#0(0"0(0#0#78"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeOutlineView.xib8685045696#418"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/TreeOutlineView.nib /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/TreeOutlineView.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/English.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/MainWindow.xib
+r0
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Properties.xib
+r0
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/PropertyCell.xib
+r0
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/TreeOutlineView.xib
+r0
 
 CCopyPlistFile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/BWAddMiniBottomBar.classdescription BWToolkit.ibplugin/Contents/Resources/BWAddMiniBottomBar.classdescription
 r0
@@ -2322,6 +3046,12 @@ x/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/Graphics
 xOutline.dict
 lSLF07#2@17"Copy Outline.dict309044982#309044982#0(0"0(0#0#71"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/Outline.dict8763916544#289"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist Outline.dict --outdir /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources0#
 
+CCopyPlistFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/GCb2Types.plist GCb2Types.plist
+r0
+
+CCopyPlistFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/Outline.dict Outline.dict
+r0
+
 CCopyStringsFile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj/InfoPlist.strings BWToolkit.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings
 r0
 
@@ -2333,6 +3063,9 @@ xCopyStringsFile
 x/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings309044982#309044982#0(0"0(0#0#90"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/English.lproj/InfoPlist.strings8734565248#413"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
 
 CCopyTiffFile /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Resources/GradientWellPattern.tif BWToolkit.ibplugin/Contents/Resources/GradientWellPattern.tif
 r0
@@ -2534,6 +3267,9 @@ xx86_64
 old: warning: directory '/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit' following -F not found
 lSLF07#2@126"Link /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/MacOS/GraphicsCocos2d309327966#309327966#0(136"ld: warning: directory '/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit' following -F not found1(22@122"Directory '/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit' following -F not found309327966#0#136#0(6@0"309327966#0#0#0#0#0"0(0#0#0"8737385984#1095"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -L/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit/BWToolkitFramework.framework -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../../Downloads/BWToolkit -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/BWToolkit.ibplugin/Contents/Frameworks -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/../../BWToolkit -filelist /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/Objects-normal/x86_64/GraphicsCocos2d.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework QuartzCore -framework Quartz -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/MacOS/GraphicsCocos2d0#
 
+CLd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/MacOS/GraphicsCocos2d normal x86_64
+r0
+
 CPBXCp build/Debug/GraphicsCocos2d.app/Contents/Frameworks/BWToolkitFramework.framework /Users/jonathanfontanez/Development/BWToolkit/BWToolkitFramework.framework
 s305083953.678154
 e305083953.819577
@@ -2561,6 +3297,9 @@ x/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/Graphics
 xGraphicsCocos2d-Info.plist
 lSLF07#2@34"Process GraphicsCocos2d-Info.plist309044982#309044982#0(0"0(0#0#85"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2d-Info.plist8735524224#394"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    builtin-infoPlistUtility GraphicsCocos2d-Info.plist -genpkginfo /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app/Contents/Info.plist0#
 
+CProcessInfoPlistFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app/Contents/Info.plist GraphicsCocos2d-Info.plist
+r0
+
 CProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-ahntuouembbgqsbmlwmxekhqhtau/GraphicsCocos2d_Prefix.pch.gch GraphicsCocos2d_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
@@ -2578,6 +3317,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile GraphicsCocos2d_Prefix.pch304468517#304468529#0(0"0(0#0#85"/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2d_Prefix.pch8668380000#1708"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/GraphicsCocos2d-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources/x86_64 -I/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/GraphicsCocos2d.build/Debug/GraphicsCocos2d.build/DerivedSources -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/GraphicsCocos2d_Prefix.pch -o /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-cxrfafqjcukyhgbihumpdphckzok/GraphicsCocos2d_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-ecojahjfyokrdnfwvaxlmdyefpih/GraphicsCocos2d_Prefix.pch.gch GraphicsCocos2d_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-fgdqcwezlcohcobsymrwqvatalto/GraphicsCocos2d_Prefix.pch.gch GraphicsCocos2d_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphicsCocos2d_Prefix-hfchdsdarsrjhwbjackrfungcatp/GraphicsCocos2d_Prefix.pch.gch GraphicsCocos2d_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -2600,4 +3342,7 @@ r1
 xTouch
 x/Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app
 lSLF07#2@96"Touch /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app309327966#309327966#0(0"0(0#0#0"8651972000#179"    cd /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d    /usr/bin/touch -c /Users/jonathanfontanez/Development/MacOsX/GraphicsCocos2d/build/Debug/GraphicsCocos2d.app0#
+
+CTouch /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/GraphicsCocos2d.app
+r0
 
