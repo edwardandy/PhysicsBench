@@ -359,10 +359,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01CE4A8712B6F6A4002FE649 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				01AF365012B6FAFF004F15B8 /* ShellScript */,
 				01CE4A7012B6F6A3002FE649 /* Resources */,
 				01CE4A6E12B6F6A3002FE649 /* Sources */,
 				01CE4A6F12B6F6A3002FE649 /* Frameworks */,
-				01AF365012B6FAFF004F15B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -446,14 +446,14 @@
 /* Begin PBXShellScriptBuildPhase section */
 		01AF365012B6FAFF004F15B8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "sh RunTests.sh";
 		};

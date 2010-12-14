@@ -22,7 +22,7 @@ export NSHangOnUncaughtException=YES
 export NSAutoreleaseFreedObjectCheckEnabled=YES
 
 export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
-RUN_CMD="$PROJECT_DIR/Tests -RegisterForSystemEvents"
+RUN_CMD="$TARGET_BUILD_DIR/$EXECUTABLE_PATH -RegisterForSystemEvents"
 
 echo "Running: $RUN_CMD"
 $RUN_CMD
