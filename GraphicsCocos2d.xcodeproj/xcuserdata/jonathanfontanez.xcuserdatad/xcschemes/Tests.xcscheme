@@ -22,7 +22,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0133570312B5D65D00A3E102"
+            BlueprintIdentifier = "01CE4A7112B6F6A3002FE649"
             BuildableName = "Tests.app"
             BlueprintName = "Tests"
             ReferencedContainer = "container:GraphicsCocos2d.xcodeproj">
@@ -41,7 +41,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0133570312B5D65D00A3E102"
+            BlueprintIdentifier = "01CE4A7112B6F6A3002FE649"
             BuildableName = "Tests.app"
             BlueprintName = "Tests"
             ReferencedContainer = "container:GraphicsCocos2d.xcodeproj">

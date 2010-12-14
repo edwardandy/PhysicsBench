@@ -1,0 +1,433 @@
+TTests
+v7
+r0
+t313981329.829094
+cCheck dependencies
+cProcessInfoPlistFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Info.plist Tests-Info.plist
+cCopyStringsFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib
+cCpResource build/Debug/Tests.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+cProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch.gch Tests-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/FrameworkManagerTest.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/GHUnitTestMain.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/TestsAppDelegate.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests normal i386
+cTouch /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app
+
+N/Library/Frameworks/GHUnit.framework/GHUnit
+c000000004C7DEB7C00000000000A9650
+t1283320700
+s693840
+
+N/Library/Frameworks/GHUnit.framework/Headers/BWSplitView.h
+c000000004C7DEB570000000000000636
+t1283320663
+s1590
+i<Cocoa/Cocoa.h>
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHAsyncTestCase.h
+c000000004C7DEB5700000000000010C3
+t1283320663
+s4291
+i"GHTestCase.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTest+JUnitXML.h
+c000000004C7DEB57000000000000059E
+t1283320663
+s1438
+i"GHTest.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTest.h
+c000000004C7DEB570000000000001553
+t1283320663
+s5459
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestApp.h
+c000000004C7DEB57000000000000016F
+t1283320663
+s367
+i"GHTestWindowController.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestCase.h
+c000000004C7DEB570000000000001095
+t1283320663
+s4245
+i"GHTestMacros.h"
+i"GHTest.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestGroup+JUnitXML.h
+c000000004C7DEB57000000000000057C
+t1283320663
+s1404
+i"GHTestGroup.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestGroup.h
+c000000004C7DEB570000000000001311
+t1283320663
+s4881
+i"GHTest.h"
+i"GHTestCase.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestMacros.h
+c000000004C7DEB570000000000009E8F
+t1283320663
+s40591
+i"NSException+GHTestFailureExceptions.h"
+i"NSValue+GHValueFormatter.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestOperation.h
+c000000004C7DEB5700000000000005C8
+t1283320663
+s1480
+i"GHTest.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestOutlineViewModel.h
+c000000004C7DEB5700000000000002CA
+t1283320663
+s714
+i"GHTestViewModel.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestRunner.h
+c000000004C7DEB570000000000001362
+t1283320663
+s4962
+i"GHTestGroup.h"
+i"GHTestSuite.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestSuite.h
+c000000004C7DEB570000000000000E73
+t1283320663
+s3699
+i"GHTestGroup.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestViewController.h
+c000000004C7DEB570000000000000C40
+t1283320663
+s3136
+i"GHTestViewModel.h"
+i"GHTestGroup.h"
+i"GHTestOutlineViewModel.h"
+i"BWSplitView.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestViewModel.h
+c000000004C7DEB570000000000001104
+t1283320663
+s4356
+i"GHTestGroup.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTestWindowController.h
+c000000004C7DEB5700000000000005EC
+t1283320663
+s1516
+i"GHTestViewController.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHTesting.h
+c000000004C7DEB570000000000001044
+t1283320663
+s4164
+
+N/Library/Frameworks/GHUnit.framework/Headers/GHUnit.h
+c000000004C7DEB570000000000000711
+t1283320663
+s1809
+i"GHTestCase.h"
+i"GHAsyncTestCase.h"
+i"GHTestSuite.h"
+i"GHTestMacros.h"
+i"GHTestRunner.h"
+i"GHTest.h"
+i"GHTesting.h"
+i"GHTestOperation.h"
+i"GHTestGroup.h"
+i"GHTest+JUnitXML.h"
+i"GHTestGroup+JUnitXML.h"
+i"NSException+GHTestFailureExceptions.h"
+i"NSValue+GHValueFormatter.h"
+
+N/Library/Frameworks/GHUnit.framework/Headers/NSException+GHTestFailureExceptions.h
+c000000004C7DEB570000000000000F3E
+t1283320663
+s3902
+i<Foundation/Foundation.h>
+
+N/Library/Frameworks/GHUnit.framework/Headers/NSValue+GHValueFormatter.h
+c000000004C7DEB570000000000000BDB
+t1283320663
+s3035
+i<Foundation/Foundation.h>
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004BE54CE90000000000000124
+t1273318633
+s292
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/FrameworkManager.h
+c000000004D058DCC0000000000000353
+t1292209612
+s851
+i<Cocoa/Cocoa.h>
+i"Physics.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/Physics.h
+c000000004D058E3E00000000000005CA
+t1292209726
+s1482
+i<Cocoa/Cocoa.h>
+i"Workbench.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.h
+c000000004D06BF240000000000000129
+t1292287780
+s297
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m
+c000000004D06BF24000000000000015E
+t1292287780
+s350
+i"TestsAppDelegate.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/Workbench.h
+c000000004D058C2C0000000000000194
+t1292209196
+s404
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m
+c000000004D0579CD0000000000000DC7
+t1292204493
+s3527
+i<Foundation/Foundation.h>
+i<GHUnit/GHUnit.h>
+i<GHUnit/GHTestApp.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-Prefix.pch
+c000000004D06BF23000000000000008D
+t1292287779
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m
+c000000004D06BF2300000000000000F5
+t1292287779
+s245
+i<Cocoa/Cocoa.h>
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m
+c000000004D057DDF00000000000003D9
+t1292205535
+s985
+i<GHUnit/GHUnit.h>
+i"FrameworkManager.h"
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app
+t1292288529
+s102
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Info.plist
+t1292288524
+s869
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests
+t1292288529
+s20020
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/PkgInfo
+t1292288524
+s8
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/Credits.rtf
+t1292288524
+s436
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1292288524
+s92
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/MainMenu.nib
+t1292288525
+s34351
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/FrameworkManagerTest.o
+t1292288529
+s12212
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/GHUnitTestMain.o
+t1292288529
+s28368
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests-main.o
+t2
+s0
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests.LinkFileList
+c000000004D06C20C00000000000001A9
+t1292288524
+s425
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/TestsAppDelegate.o
+t1292288529
+s15088
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/Credits.rtf
+c000000004D06BF2400000000000001B4
+t1292287780
+s436
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/InfoPlist.strings
+c000000004D06BF23000000000000002D
+t1292287779
+s45
+
+N/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib
+c000000004D06BF24000000000002BB55
+t1292287780
+s179029
+
+N/var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch.gch
+t1292288529
+s56891248
+
+NTests-Info.plist
+c000000004D06BF23000000000000042F
+t1292287779
+s1071
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313981324#313981324#0(0"0(0#1#0"8608624736#0"0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/FrameworkManagerTest.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313981329.336199
+e313981329.731294
+r1
+xCompileC
+xbuild/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/FrameworkManagerTest.o
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m313981329#313981329#0(0"0(0#0#84"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m8617033312#1667"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources/i386 -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests/FrameworkManagerTest.m -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/FrameworkManagerTest.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/GHUnitTestMain.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313981329.337974
+e313981329.547536
+r1
+xCompileC
+xbuild/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/GHUnitTestMain.o
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m313981329#313981329#0(0"0(0#0#72"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m8615703264#1649"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources/i386 -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/GHUnitTestMain.m -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/GHUnitTestMain.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests-main.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313980973.137064
+e313980973.297687
+r1
+xCompileC
+xbuild/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests-main.o
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m313980973#313980973#0(0"0(0#0#68"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m8595000384#1641"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources/i386 -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-main.m -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests-main.o0#
+
+CCompileC build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/TestsAppDelegate.o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313981329.547645
+e313981329.774427
+r1
+xCompileC
+xbuild/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/TestsAppDelegate.o
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m313981329#313981329#0(0"0(0#0#82"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m8615544160#1661"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources/i386 -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources -include /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/TestsAppDelegate.m -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/TestsAppDelegate.o0#
+
+CCompileXIB /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib
+s313981324.381392
+e313981325.047000
+r1
+xCompileXIB
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib
+lSLF07#2@32"CompileXIB en.lproj/MainMenu.xib313981324#313981325#0(0"0(0#0#77"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib8615147392#375"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/MainMenu.nib /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/MainMenu.xib --sdk ""0#
+
+CCopyStringsFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s313981324.380520
+e313981324.554638
+r1
+xCopyStringsFile
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings313981324#313981324#0(0"0(0#0#82"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/InfoPlist.strings8615289856#387"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 en.lproj/InfoPlist.strings --outdir /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj0#
+
+CCpResource build/Debug/Tests.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+s313981324.554736
+e313981324.562903
+r1
+xCpResource
+xbuild/Debug/Tests.app/Contents/Resources/en.lproj/Credits.rtf
+xen.lproj/Credits.rtf
+lSLF07#2@25"Copy en.lproj/Credits.rtf313981324#313981324#0(0"0(0#0#76"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/Credits.rtf8617041504#394"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/en.lproj/Credits.rtf /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Resources/en.lproj0#
+
+CLd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests normal i386
+s313981329.774524
+e313981329.825870
+r1
+xLd
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests
+xnormal
+xi386
+lSLF07#2@103"Link /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests313981329#313981329#0(0"0(0#0#0"8615604288#600"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -filelist /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Objects-normal/i386/Tests.LinkFileList -mmacosx-version-min=10.6 -framework GHUnit -framework Cocoa -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/MacOS/Tests0#
+
+CProcessInfoPlistFile /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Info.plist Tests-Info.plist
+s313981324.376537
+e313981324.380402
+r1
+xProcessInfoPlistFile
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Info.plist
+xTests-Info.plist
+lSLF07#2@24"Process Tests-Info.plist313981324#313981324#0(0"0(0#0#72"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-Info.plist8615462752#355"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    builtin-infoPlistUtility Tests-Info.plist -genpkginfo /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch.gch Tests-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313981325.047127
+e313981329.335729
+r1
+xProcessPCH
+x/var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch.gch
+xTests-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Tests-Prefix.pch313981325#313981329#0(0"0(0#0#72"/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-Prefix.pch8615581504#1512"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-generated-files.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-own-target-headers.hmap -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-all-target-headers.hmap -iquote /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/Tests-project-headers.hmap -F/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/include -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources/i386 -I/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/GraphicsCocos2d.build/Debug/Tests.build/DerivedSources -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Tests-Prefix.pch -o /var/folders/CG/CGlcD-SBGMODlXd7K0OzOk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tests-Prefix-gnarljozzdbiqvajilglekigkciz/Tests-Prefix.pch.gch0#
+
+CTouch /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app
+s313981329.825973
+e313981329.829056
+r1
+xTouch
+x/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app
+lSLF07#2@83"Touch /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app313981329#313981329#0(0"0(0#0#0"8615735968#163"    cd /Users/jonathanfontanez/Development/MacOsX/PhysicsBench    /usr/bin/touch -c /Users/jonathanfontanez/Development/MacOsX/PhysicsBench/build/Debug/Tests.app0#
+

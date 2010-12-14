@@ -9,15 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Tests 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Tests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
-		</dict>
-		<key>TestsTests.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,6 +42,36 @@
 			<true/>
 		</dict>
 		<key>0133571912B5D65D00A3E102</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B7081512B6EA2D00C0A93A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B7084212B6EC4600C0A93A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B7086712B6EC6900C0A93A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B708F812B6F26800C0A93A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B7092412B6F2C600C0A93A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01CE4A7112B6F6A3002FE649</key>
 		<dict>
 			<key>primary</key>
 			<true/>
