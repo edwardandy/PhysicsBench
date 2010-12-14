@@ -59,6 +59,16 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0189834C12B7025000A25528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = GraphicsCocos2d;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0167C0611257DB3300CD1F35 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -359,14 +369,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01CE4A8712B6F6A4002FE649 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				01AF365012B6FAFF004F15B8 /* ShellScript */,
 				01CE4A7012B6F6A3002FE649 /* Resources */,
 				01CE4A6E12B6F6A3002FE649 /* Sources */,
 				01CE4A6F12B6F6A3002FE649 /* Frameworks */,
+				01AF365012B6FAFF004F15B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0189834D12B7025000A25528 /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = Tests;
@@ -508,6 +519,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0189834D12B7025000A25528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* GraphicsCocos2d */;
+			targetProxy = 0189834C12B7025000A25528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		01CE4A7712B6F6A3002FE649 /* InfoPlist.strings */ = {
@@ -668,6 +687,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
@@ -687,6 +707,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
