@@ -11,6 +11,7 @@
 		010E3F9812B6F8F400935F1F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		0167C0291257DB0C00CD1F35 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0167C0281257DB0C00CD1F35 /* BWToolkitFramework.framework */; };
 		01AF364F12B6F9DF004F15B8 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AF364E12B6F9DF004F15B8 /* Quartz.framework */; };
+		01AF365112B6FB1B004F15B8 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7089112B6F1F600C0A93A /* RunTests.sh */; };
 		01B7089312B6F1F600C0A93A /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088B12B6F1F600C0A93A /* build.sh */; };
 		01B7089412B6F1F600C0A93A /* GCb2Types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088C12B6F1F600C0A93A /* GCb2Types.plist */; };
 		01B7089512B6F1F600C0A93A /* GraphicsCocos2d-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088D12B6F1F600C0A93A /* GraphicsCocos2d-Info.plist */; };
@@ -361,6 +362,7 @@
 				01CE4A7012B6F6A3002FE649 /* Resources */,
 				01CE4A6E12B6F6A3002FE649 /* Sources */,
 				01CE4A6F12B6F6A3002FE649 /* Frameworks */,
+				01AF365012B6FAFF004F15B8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -417,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AF365112B6FB1B004F15B8 /* RunTests.sh in Resources */,
 				01CE4A7912B6F6A3002FE649 /* InfoPlist.strings in Resources */,
 				01CE4A7E12B6F6A4002FE649 /* MainMenu.xib in Resources */,
 				01CE4A8112B6F6A4002FE649 /* Credits.rtf in Resources */,
@@ -439,6 +442,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01AF365012B6FAFF004F15B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh RunTests.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01CE4A6E12B6F6A3002FE649 /* Sources */ = {
