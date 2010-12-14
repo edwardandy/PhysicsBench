@@ -11,4 +11,4 @@ clean:
 	-rm -rf build/*
 
 test:
-	GHUNIT_AUTORUN=1 GHUNIT_AUTOEXIT=1 $(COMMAND) -verbose -arch $(ARCH) -target $(TEST_TARGET) -configuration Debug -sdk $(SDK) build
+	GHUNIT_AUTORUN=1 GHUNIT_AUTOEXIT=1 xcodebuild clean install -configuration Debug -target $(TEST_TARGET)
