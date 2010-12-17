@@ -7,7 +7,11 @@
 //
 
 #import <GHUnit/GHUnit.h>
+#import "Physics.h"
 #import "FrameworkManager.h"
+#import "FrameworkDefinition.h"
+#import "Box2dFramework.h"
+#import "GCb2Circle.h"
 
 @interface FrameworkManagerTest : GHTestCase { }
 @end
@@ -31,16 +35,18 @@
     [super tearDown];
 }
 
-- (void) testFoo {
-    NSString *a = @"foo";
-    GHTestLog(@"I can log to the GHUnit test console: %@", a);
+- (void) testCreatePhysicsObject {
+    // Going with Default implementation
+    id<Physics2dFramework> box2d = [[FrameworkManager sharedFrameworkManager] framework];
+    PhysicsObject *pObj =  [box2d initObjectWithKey:@"Circle"];
+    GHAssertNotNULL(pObj, nil);
+    GHTestLog(@"Object not null");
     
-    // Assert a is not NULL, with no custom error description
-    GHAssertNotNULL(a, nil);
     
-    // Assert equal objects, add custom error description
-    NSString *b = @"foo";
-    GHAssertEqualObjects(a, b, @"A custom error message. a should be equal to: %@.", b);
+    // Check if our objects match
+    GHAssertTrue([pObj isKindOfClass:[GCb2Circle class]], @"Class should be equal to %@", @"GCb2Circle");
+    GHTestLog(@"Object of correct type");
 }
+
 
 @end

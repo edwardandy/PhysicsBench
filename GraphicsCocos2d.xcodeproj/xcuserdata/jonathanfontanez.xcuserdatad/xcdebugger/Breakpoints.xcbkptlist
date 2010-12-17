@@ -8,13 +8,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "DocNode.m"
-         timestampString = "313799622.167411"
+         filePath = "Classes/NSTreeController_Extensions.m"
+         timestampString = "314249504.685641"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "50"
-         endingLineNumber = "50"
-         landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+         startingLineNumber = "22"
+         endingLineNumber = "22"
+         landmarkName = "-insert:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -22,13 +22,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "GCb2Circle.m"
-         timestampString = "313801139.566809"
+         filePath = "Classes/NSTreeController_Extensions.m"
+         timestampString = "314249504.685641"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "24"
-         endingLineNumber = "24"
-         landmarkName = "-init"
+         startingLineNumber = "58"
+         endingLineNumber = "58"
+         landmarkName = "-insertChild:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
