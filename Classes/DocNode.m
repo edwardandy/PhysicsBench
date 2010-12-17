@@ -10,7 +10,7 @@
 
 @implementation DocNode
 
-@synthesize nodeTitle, contents, nodeIcon;
+@synthesize nodeTitle, contents, nodeIcon, isLeaf;
 
 /**
  * Standard initialization method
@@ -18,13 +18,23 @@
 - (id)init {
     if ((self = [super init])) {
         // Initialization code here.
-        nodeTitle = @"LABEL";
-        contents  = nil;
-        
+        [self setNodeTitle:@"LABEL_UNTITLED"];
+        [self setIsLeaf:NO];
         [self addObserver:self forKeyPath:@"childNodes" options:NSKeyValueObservingOptionNew context:nil];
     }
     
     return self;
+}
+
+/**
+ * Standard init leaf method
+ */
+- (id)initLeaf
+{
+	if ((self = [self init])) {
+		[self setIsLeaf:YES];
+	}
+	return self;
 }
 
 /**

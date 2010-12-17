@@ -21,6 +21,11 @@
         objName = @"";
         d_size = NSZeroSize;
         d_origin = NSZeroPoint;
+        needsRender = YES;
+
+        self.delegate = self;
+        self.frame = CGRectMake(200.0, 200.0, 200.0, 200.0);
+         
     }
     
     return self;
@@ -62,6 +67,8 @@
 	CGContextSetShouldAntialias(myContext, YES);
 	
 	[NSGraphicsContext restoreGraphicsState];
+    
+    [self setNeedsRender:NO];
 }
 
 /**

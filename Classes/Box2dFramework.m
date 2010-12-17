@@ -62,13 +62,13 @@
 - (PhysicsObject *) initObjectWithKey:(NSString*)key {
 	if ( [key compare:@"Circle"] == NSOrderedSame ) {
 		NSLog(@"Creating a new circle object");	
-		PhysicsObject *circle = [GCb2Circle node];
+		PhysicsObject *circle = [[GCb2Circle alloc] init];
 		return circle;
 	}
 	
 	else if ( [key compare:@"Rectangle"] == NSOrderedSame ) {
-		NSLog(@"Creating a new circle object");	
-		PhysicsObject *rectangle = [GCb2Rect node];
+		NSLog(@"Creating a new rectangle object");	
+		PhysicsObject *rectangle = [[GCb2Rect alloc] init];
 		return rectangle;
 	}
 	return nil;

@@ -9,13 +9,14 @@
 #import "TreeController.h"
 #import "GraphicsCocos2dAppDelegate.h"
 #import "Document.h"
-#import "BaseNode.h"
 #import "ImageAndTextCell.h"
 #import "SeparatorCell.h"
 #import "DocNode.h"
 #import "PhysicsObject.h"
+#import "EmptyObject.h"
 #import "FrameworkManager.h"
 #import "MyWindowController.h"
+#import "NSTreeController+Extensions.h"
 
 #define COLUMNID_NAME			@"NameColumn"	// the single column name in our outline view
 
@@ -104,13 +105,13 @@
 	// Force selection to begin with default group (version 1.0)
 	NSString *title = @"DEFAULT";
     
-    PhysicsObject *obj = [[PhysicsObject alloc] init];
-    DocNode *node = [[DocNode alloc] initWithRepresentedObject:obj];
+    PhysicsObject *obj = [[EmptyObject alloc] init];
+    DocNode *node = [[DocNode alloc] init];
     [node setNodeTitle:title];
     [node setContents:obj];
     [node setNodeIcon:nil];
     
-    [treeController add:node];
+    [treeController insertObject:node];
 	
 	[outlineView setHidden:NO];	// we are done populating the outline view content, show it again
 }
@@ -133,7 +134,7 @@
 // -------------------------------------------------------------------------------
 - (NSCell *)outlineView:(NSOutlineView *)outlineView dataCellForTableColumn:(NSTableColumn *)tableColumn item:(id)item
 {
-	NSCell* returnCell = [tableColumn dataCell];
+    NSCell* returnCell = [tableColumn dataCell];
 	
 	if ([[tableColumn identifier] isEqualToString:COLUMNID_NAME])
 	{
@@ -177,7 +178,7 @@
 // -------------------------------------------------------------------------------
 - (void)outlineView:(NSOutlineView *)olv willDisplayCell:(NSCell*)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item
 {	 
-	if ([[tableColumn identifier] isEqualToString:COLUMNID_NAME])
+    if ([[tableColumn identifier] isEqualToString:COLUMNID_NAME])
 	{
 		// we are displaying the single and only column
 		if ([cell isKindOfClass:[ImageAndTextCell class]])

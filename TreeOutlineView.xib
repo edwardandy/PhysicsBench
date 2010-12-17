@@ -3,7 +3,7 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
 		<string key="IBDocument.SystemVersion">10H574</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1222</string>
+		<string key="IBDocument.InterfaceBuilderVersion">1246</string>
 		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -62,7 +62,7 @@
 										<string key="NSFrameSize">{292, 760}</string>
 										<reference key="NSSuperview" ref="3253856"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="897358141"/>
+										<reference key="NSNextKeyView" ref="28042394"/>
 										<bool key="NSEnabled">YES</bool>
 										<object class="NSTableHeaderView" key="NSHeaderView" id="948718302">
 											<reference key="NSNextResponder" ref="897358141"/>
@@ -84,6 +84,7 @@
 										<object class="NSMutableArray" key="NSTableColumns">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSTableColumn" id="874993220">
+												<string key="NSIdentifier">NameColumn</string>
 												<double key="NSWidth">276</double>
 												<double key="NSMinWidth">16</double>
 												<double key="NSMaxWidth">1000</double>
@@ -94,7 +95,7 @@
 													<object class="NSFont" key="NSSupport">
 														<string key="NSName">LucidaGrande</string>
 														<double key="NSSize">11</double>
-														<int key="NSfFlags">3088</int>
+														<int key="NSfFlags">3100</int>
 													</object>
 													<object class="NSColor" key="NSBackgroundColor">
 														<int key="NSColorSpace">3</int>
@@ -117,7 +118,7 @@
 													<object class="NSFont" key="NSSupport">
 														<string key="NSName">LucidaGrande</string>
 														<double key="NSSize">13</double>
-														<int key="NSfFlags">1040</int>
+														<int key="NSfFlags">1044</int>
 													</object>
 													<reference key="NSControlView" ref="916205092"/>
 													<object class="NSColor" key="NSBackgroundColor" id="784819426">
@@ -193,6 +194,7 @@
 								<string key="NSFrame">{{1, 762}, {292, 15}}</string>
 								<reference key="NSSuperview" ref="1032974885"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<int key="NSsFlags">1</int>
 								<reference key="NSTarget" ref="1032974885"/>
 								<string key="NSAction">_doScroller:</string>
@@ -218,7 +220,7 @@
 						<string key="NSFrameSize">{294, 778}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="3253856"/>
+						<reference key="NSNextKeyView" ref="897358141"/>
 						<int key="NSsFlags">562</int>
 						<reference key="NSVScroller" ref="28042394"/>
 						<reference key="NSHScroller" ref="246852644"/>
@@ -239,7 +241,7 @@
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<object class="NSArray" key="connectionRecords">
+			<object class="NSMutableArray" key="connectionRecords">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -446,11 +448,11 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
-		<object class="NSDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1060" key="NS.object.0"/>
 		</object>
-		<object class="NSDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
 		</object>

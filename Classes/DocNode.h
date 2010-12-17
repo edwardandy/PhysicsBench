@@ -15,12 +15,15 @@
     NSString                *nodeTitle;
     WorkspaceObject         *contents;
     NSImage                 *nodeIcon;
+    BOOL                    isLeaf;
 @private
     
 }
 
+- (id)initLeaf;
 
 // Property Identifies
+@property (nonatomic, assign) BOOL              isLeaf;
 @property (nonatomic, retain) NSImage           *nodeIcon;
 @property (nonatomic, retain) NSString          *nodeTitle;
 @property (nonatomic, retain) WorkspaceObject   *contents;

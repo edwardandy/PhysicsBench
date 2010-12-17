@@ -19,7 +19,7 @@
 
 @implementation PhysicsGrid
 
-@synthesize _document, _renderTimer;
+@synthesize _renderTimer, _document;
 
 
 /**
@@ -46,6 +46,7 @@
  * Initialize our grid with a document
  */
 - (void) gridWithDocument:(Document*) newDocument {
+    
     // Grab the document
     _document = newDocument;
     
@@ -56,6 +57,7 @@
     // Create a render loop
     NSTimeInterval interval = 1/30;
     _renderTimer = [NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(render:) userInfo:nil repeats:YES];
+    [_renderTimer fire];
 
 }
 
@@ -82,6 +84,8 @@
     
     // Scroll the sub layers and refresh if needed
     [self walkLayerTreeRender:_document.rootLayer];
+    
+    rendering = false;
 }
 
 /**
@@ -107,7 +111,10 @@
         if ( [nLayer isKindOfClass:[WorkspaceObject class]]) {
             WorkspaceObject *obj = (WorkspaceObject*)nLayer;
             if ([obj needsRender] ) {
-                [obj setNeedsDisplay];    
+                [obj display];   
+                [obj setNeedsLayout];
+                [obj setNeedsRender:YES];
+                [obj setNeedsDisplay];
             }
         }
     }

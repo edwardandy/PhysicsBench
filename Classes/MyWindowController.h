@@ -9,6 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
 
+
+
+
 @class TreeController, GCTabController, Document;
 
 @interface MyWindowController : NSWindowController {

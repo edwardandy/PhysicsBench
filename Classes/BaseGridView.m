@@ -14,6 +14,7 @@
 #import "GCTabController.h"
 
 #import "GraphicsCocos2dAppDelegate.h"
+#import "MyWindowController.h"
 
 @interface BaseGridView (Private)
 //- (void) drawGridLayer;
@@ -34,9 +35,7 @@
 - (id)initWithFrame:(NSRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        GraphicsCocos2dAppDelegate *delegate = [[NSApplication sharedApplication] delegate];
-        document = [delegate document];
-        
+
 		[self setWantsLayer:YES];
 		self.layer.frame = NSRectToCGRect(frame); 
 		// Initialization code here.
@@ -69,7 +68,7 @@
 		trackingLayer = [TrackingArea layer];
 		[self.layer addSublayer:trackingLayer];
 		
-        [self addObserver:self forKeyPath:@"document.m_physicsGroups" options:NSKeyValueObservingOptionNew context:nil];
+        
     }
     return self;
 }
@@ -191,18 +190,6 @@
 	return nil;
 }
 
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    NSLog(@"here");	
-    
-    for (id keys in [change allKeys] ) {
-        id value = [change objectForKey:keys];
-        NSLog(@"key: %@ value %@", keys, value);
-    }
-    
-    
-    id obj = [object valueForKeyPath:keyPath];
-    NSLog(@"object type: %@", [obj class]);
-}
 
 
 @end

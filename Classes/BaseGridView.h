@@ -20,16 +20,16 @@
 
 	
 	@private
-        Document *document; 
+ 
 		struct _TrackingRegion {
 			NSPoint startPoint;
 			NSPoint endPoint;
 		} trackingRegion;
-        NSArray		*_contents;
+        NSArray	*   _contents;
 }
 
-@property (nonatomic, assign) __weak Document *document;
-@property (nonatomic, retain) 	NSArray		*_contents;
+
+@property (nonatomic, retain) NSArray   *_contents;
 @property (nonatomic, retain) CALayer *drawingLayer;
 
 @end

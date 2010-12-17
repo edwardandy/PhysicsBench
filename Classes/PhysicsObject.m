@@ -32,7 +32,7 @@
 {
 	self = [super init];
 	if (self != nil) {
-        properties = [[FrameworkManager sharedFrameworkManager] bindFrameworkToClass:self];
+        //properties = [[FrameworkManager sharedFrameworkManager] bindFrameworkToClass:self];
 	}
 	return self;
 }

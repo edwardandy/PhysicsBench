@@ -7,6 +7,8 @@
 //
 
 #import "MyWindowController.h"
+#import "NSTreeController+Extensions.h"
+
 #import "TreeController.h"
 #import "GCTabController.h"
 #import "PhysicsGrid.h"
@@ -15,6 +17,9 @@
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"
 #import "DocNode.h"
+#import "GCb2Circle.h"
+#import "EmptyObject.h"
+
 
 //=========================
 // Private class Methods
@@ -97,13 +102,13 @@
 //	addPhysicsGroup:(id)sender
 // -------------------------------------------------------------------------------
 - (IBAction) addPhysicsGroup:(id)sender {
-    PhysicsObject *pObj = [[PhysicsObject alloc] init];
+    PhysicsObject *pObj = [[EmptyObject alloc] init];
     
-    DocNode *node = [[DocNode alloc] initWithRepresentedObject:pObj];
+    DocNode *node = [[DocNode alloc] init];
     [node setNodeTitle:@"Group"];
     [node setContents:pObj];
     
-    [outlineController add:node];
+    [outlineController insertObject:node];
 }
 
 // -------------------------------------------------------------------------------
@@ -140,15 +145,22 @@
 	NSMenuItem *item = (NSMenuItem*) sender;
 	
     // Create our object
-	PhysicsObject *pObj = [[FrameworkManager sharedFrameworkManager] initObjectWithKey:item.title];
-	
+    id<Physics2dFramework> fw = [[FrameworkManager sharedFrameworkManager] framework];
+	PhysicsObject *pObj = [fw initObjectWithKey:item.title];
+
+    if ( nil != pObj ) {
+        NSLog(@"Object made %@", [pObj class]);
+    } else {
+        NSLog(@"Object not made");      
+    }
+    
     // Create a docnode
-    DocNode *node = [[DocNode alloc] init];
+    DocNode *node = [[DocNode alloc] initLeaf];
     [node setNodeTitle:item.title];
-    [node setContents:pObj];    
-        
+    [node setContents:pObj]; 
+            
     // Add to our controller
-    [outlineController add:node];
+    [outlineController insertChildObject:node];
 
 	
 }
