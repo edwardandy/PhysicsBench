@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010C480012BB2B690084DCFA /* EmptyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C47FF12BB2B690084DCFA /* EmptyObject.m */; };
+		010C480212BB2D3A0084DCFA /* README in Resources */ = {isa = PBXBuildFile; fileRef = 010C480112BB2D3A0084DCFA /* README */; };
+		010C480512BC57900084DCFA /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088B12B6F1F600C0A93A /* build.sh */; };
+		012DE91D12BD821B00FC7B6B /* FrameworkDefinitionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 012DE91C12BD821B00FC7B6B /* FrameworkDefinitionTest.m */; };
+		012DE91F12BD86B400FC7B6B /* GCb2Types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088C12B6F1F600C0A93A /* GCb2Types.plist */; };
+		0143F03512B86E3E007AD151 /* FrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AF12B6F25B00C0A93A /* FrameworkManager.m */; };
+		0143F03612B86E9E007AD151 /* Box2dFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708A312B6F25B00C0A93A /* Box2dFramework.m */; };
+		0143F03712B86E9E007AD151 /* FrameworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AB12B6F25B00C0A93A /* FrameworkClass.m */; };
+		0143F03812B86E9E007AD151 /* FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AD12B6F25B00C0A93A /* FrameworkDefinition.m */; };
+		0143F03912B86EC2007AD151 /* PhysicsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708CA12B6F25B00C0A93A /* PhysicsObject.m */; };
+		0143F03A12B86EC2007AD151 /* GCb2Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B112B6F25B00C0A93A /* GCb2Circle.m */; };
+		0143F03B12B86EC2007AD151 /* GCb2Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B312B6F25B00C0A93A /* GCb2Rect.m */; };
+		0143F03C12B86EC2007AD151 /* GCb2Types.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B512B6F25B00C0A93A /* GCb2Types.m */; };
+		0143F03D12B86ECC007AD151 /* WorkspaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708D712B6F25B00C0A93A /* WorkspaceObject.m */; };
+		0143F03E12B86ED6007AD151 /* BaseDrawableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7089D12B6F25B00C0A93A /* BaseDrawableObject.m */; };
+		014536BA12BD0AAE00C355C7 /* GraphicsCocos2d-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 014536B912BD0AAE00C355C7 /* GraphicsCocos2d-Info.plist */; };
+		0165643612BB09FD00E734FE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0165643512BB09FD00E734FE /* Quartz.framework */; };
+		0165643812BB0A0200E734FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0165643712BB0A0200E734FE /* Cocoa.framework */; };
+		0165643A12BB0A1B00E734FE /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0165643912BB0A1B00E734FE /* GHUnit.framework */; };
+		0165643B12BB0A2300E734FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0165643712BB0A0200E734FE /* Cocoa.framework */; };
+		0165643C12BB0A2600E734FE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0165643512BB09FD00E734FE /* Quartz.framework */; };
+		0165643F12BB13AF00E734FE /* NSTreeController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0165643E12BB13AF00E734FE /* NSTreeController+Extensions.m */; };
+		016DD3E012BE79D200D0CAAE /* PhysicsFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DD3DF12BE79D200D0CAAE /* PhysicsFramework.m */; };
+		01AF365112B6FB1B004F15B8 /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7089112B6F1F600C0A93A /* RunTests.sh */; };
+		01B7089312B6F1F600C0A93A /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088B12B6F1F600C0A93A /* build.sh */; };
+		01B7089412B6F1F600C0A93A /* GCb2Types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088C12B6F1F600C0A93A /* GCb2Types.plist */; };
+		01B7089712B6F1F600C0A93A /* Properties.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088F12B6F1F600C0A93A /* Properties.xib */; };
+		01B7089812B6F1F600C0A93A /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B7089012B6F1F600C0A93A /* PropertyCell.xib */; };
+		01B7089912B6F1F600C0A93A /* RunTests.sh in Resources */ = {isa = PBXBuildFile; fileRef = 01B7089112B6F1F600C0A93A /* RunTests.sh */; };
+		01B7089A12B6F1F600C0A93A /* TreeOutlineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B7089212B6F1F600C0A93A /* TreeOutlineView.xib */; };
+		01B708D812B6F25B00C0A93A /* BaseDrawableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7089D12B6F25B00C0A93A /* BaseDrawableObject.m */; };
+		01B708D912B6F25B00C0A93A /* BaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7089F12B6F25B00C0A93A /* BaseGridView.m */; };
+		01B708DB12B6F25B00C0A93A /* Box2dFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708A312B6F25B00C0A93A /* Box2dFramework.m */; };
+		01B708DD12B6F25B00C0A93A /* DocNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708A712B6F25B00C0A93A /* DocNode.m */; };
+		01B708DE12B6F25B00C0A93A /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708A912B6F25B00C0A93A /* Document.m */; };
+		01B708DF12B6F25B00C0A93A /* FrameworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AB12B6F25B00C0A93A /* FrameworkClass.m */; };
+		01B708E012B6F25B00C0A93A /* FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AD12B6F25B00C0A93A /* FrameworkDefinition.m */; };
+		01B708E112B6F25B00C0A93A /* FrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708AF12B6F25B00C0A93A /* FrameworkManager.m */; };
+		01B708E212B6F25B00C0A93A /* GCb2Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B112B6F25B00C0A93A /* GCb2Circle.m */; };
+		01B708E312B6F25B00C0A93A /* GCb2Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B312B6F25B00C0A93A /* GCb2Rect.m */; };
+		01B708E412B6F25B00C0A93A /* GCb2Types.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B512B6F25B00C0A93A /* GCb2Types.m */; };
+		01B708E512B6F25B00C0A93A /* GCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B712B6F25B00C0A93A /* GCTabController.m */; };
+		01B708E612B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708B912B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.m */; };
+		01B708E812B6F25B00C0A93A /* GridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708BD12B6F25B00C0A93A /* GridLayer.m */; };
+		01B708E912B6F25B00C0A93A /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708BF12B6F25B00C0A93A /* ImageAndTextCell.m */; };
+		01B708EA12B6F25B00C0A93A /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708C112B6F25B00C0A93A /* MyWindowController.m */; };
+		01B708EB12B6F25B00C0A93A /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708C312B6F25B00C0A93A /* NSArray_Extensions.m */; };
+		01B708EC12B6F25B00C0A93A /* PhysicsGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708C612B6F25B00C0A93A /* PhysicsGrid.m */; };
+		01B708EE12B6F25B00C0A93A /* PhysicsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708CA12B6F25B00C0A93A /* PhysicsObject.m */; };
+		01B708EF12B6F25B00C0A93A /* RulerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708CC12B6F25B00C0A93A /* RulerLayer.m */; };
+		01B708F012B6F25B00C0A93A /* SeparatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708CE12B6F25B00C0A93A /* SeparatorCell.m */; };
+		01B708F112B6F25B00C0A93A /* SKTFoundationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708D012B6F25B00C0A93A /* SKTFoundationExtras.m */; };
+		01B708F212B6F25B00C0A93A /* TrackingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708D212B6F25B00C0A93A /* TrackingArea.m */; };
+		01B708F312B6F25B00C0A93A /* TreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708D412B6F25B00C0A93A /* TreeController.m */; };
+		01B708F412B6F25B00C0A93A /* WorkspaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B708D712B6F25B00C0A93A /* WorkspaceObject.m */; };
+		01CE4A8112B6F6A4002FE649 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01CE4A7F12B6F6A4002FE649 /* Credits.rtf */; };
+		01CE4A8412B6F6A4002FE649 /* TestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CE4A8312B6F6A4002FE649 /* TestsAppDelegate.m */; };
+		01CE4A9E12B6F6BA002FE649 /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CE4A6512B6F344002FE649 /* GHUnitTestMain.m */; };
+		01CE4A9F12B6F6BD002FE649 /* FrameworkManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7091F12B6F27E00C0A93A /* FrameworkManagerTest.m */; };
+		01FCDCF312BD4A3900EAA432 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B7088E12B6F1F600C0A93A /* MainWindow.xib */; };
+		01FCDCF412BD4A4000EAA432 /* GCMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01CE720312BD1EF1002DB0DA /* GCMainMenu.xib */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0189834C12B7025000A25528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = GraphicsCocos2d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0167C0611257DB3300CD1F35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		010C47FE12BB2B690084DCFA /* EmptyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyObject.h; sourceTree = "<group>"; };
+		010C47FF12BB2B690084DCFA /* EmptyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyObject.m; sourceTree = "<group>"; };
+		010C480112BB2D3A0084DCFA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		012DE91C12BD821B00FC7B6B /* FrameworkDefinitionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkDefinitionTest.m; sourceTree = "<group>"; };
+		014536B612BD0AAE00C355C7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		014536B912BD0AAE00C355C7 /* GraphicsCocos2d-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GraphicsCocos2d-Info.plist"; sourceTree = "<group>"; };
+		0165643512BB09FD00E734FE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		0165643712BB0A0200E734FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		0165643912BB0A1B00E734FE /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = /Library/Frameworks/GHUnit.framework; sourceTree = "<absolute>"; };
+		0165643D12BB13AF00E734FE /* NSTreeController+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTreeController+Extensions.h"; sourceTree = "<group>"; };
+		0165643E12BB13AF00E734FE /* NSTreeController+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTreeController+Extensions.m"; sourceTree = "<group>"; };
+		016DD3DE12BE79D200D0CAAE /* PhysicsFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsFramework.h; sourceTree = "<group>"; };
+		016DD3DF12BE79D200D0CAAE /* PhysicsFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsFramework.m; sourceTree = "<group>"; };
+		0177ADFD12BC5BCE00BC702B /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01B7088B12B6F1F600C0A93A /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		01B7088C12B6F1F600C0A93A /* GCb2Types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GCb2Types.plist; sourceTree = "<group>"; };
+		01B7088E12B6F1F600C0A93A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		01B7088F12B6F1F600C0A93A /* Properties.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Properties.xib; sourceTree = "<group>"; };
+		01B7089012B6F1F600C0A93A /* PropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
+		01B7089112B6F1F600C0A93A /* RunTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
+		01B7089212B6F1F600C0A93A /* TreeOutlineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreeOutlineView.xib; sourceTree = "<group>"; };
+		01B7089C12B6F25B00C0A93A /* BaseDrawableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawableObject.h; sourceTree = "<group>"; };
+		01B7089D12B6F25B00C0A93A /* BaseDrawableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDrawableObject.m; sourceTree = "<group>"; };
+		01B7089E12B6F25B00C0A93A /* BaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGridView.h; sourceTree = "<group>"; };
+		01B7089F12B6F25B00C0A93A /* BaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGridView.m; sourceTree = "<group>"; };
+		01B708A212B6F25B00C0A93A /* Box2dFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2dFramework.h; sourceTree = "<group>"; };
+		01B708A312B6F25B00C0A93A /* Box2dFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box2dFramework.m; sourceTree = "<group>"; };
+		01B708A612B6F25B00C0A93A /* DocNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocNode.h; sourceTree = "<group>"; };
+		01B708A712B6F25B00C0A93A /* DocNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocNode.m; sourceTree = "<group>"; };
+		01B708A812B6F25B00C0A93A /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		01B708A912B6F25B00C0A93A /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		01B708AA12B6F25B00C0A93A /* FrameworkClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkClass.h; sourceTree = "<group>"; };
+		01B708AB12B6F25B00C0A93A /* FrameworkClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkClass.m; sourceTree = "<group>"; };
+		01B708AC12B6F25B00C0A93A /* FrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkDefinition.h; sourceTree = "<group>"; };
+		01B708AD12B6F25B00C0A93A /* FrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkDefinition.m; sourceTree = "<group>"; };
+		01B708AE12B6F25B00C0A93A /* FrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkManager.h; sourceTree = "<group>"; };
+		01B708AF12B6F25B00C0A93A /* FrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkManager.m; sourceTree = "<group>"; };
+		01B708B012B6F25B00C0A93A /* GCb2Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Circle.h; sourceTree = "<group>"; };
+		01B708B112B6F25B00C0A93A /* GCb2Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Circle.m; sourceTree = "<group>"; };
+		01B708B212B6F25B00C0A93A /* GCb2Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Rect.h; sourceTree = "<group>"; };
+		01B708B312B6F25B00C0A93A /* GCb2Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Rect.m; sourceTree = "<group>"; };
+		01B708B412B6F25B00C0A93A /* GCb2Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCb2Types.h; sourceTree = "<group>"; };
+		01B708B512B6F25B00C0A93A /* GCb2Types.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCb2Types.m; sourceTree = "<group>"; };
+		01B708B612B6F25B00C0A93A /* GCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCTabController.h; sourceTree = "<group>"; };
+		01B708B712B6F25B00C0A93A /* GCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCTabController.m; sourceTree = "<group>"; };
+		01B708B812B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCocos2dAppDelegate.h; sourceTree = "<group>"; };
+		01B708B912B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsCocos2dAppDelegate.m; sourceTree = "<group>"; };
+		01B708BC12B6F25B00C0A93A /* GridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLayer.h; sourceTree = "<group>"; };
+		01B708BD12B6F25B00C0A93A /* GridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLayer.m; sourceTree = "<group>"; };
+		01B708BE12B6F25B00C0A93A /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		01B708BF12B6F25B00C0A93A /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		01B708C012B6F25B00C0A93A /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		01B708C112B6F25B00C0A93A /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		01B708C212B6F25B00C0A93A /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
+		01B708C312B6F25B00C0A93A /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
+		01B708C412B6F25B00C0A93A /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		01B708C512B6F25B00C0A93A /* PhysicsGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsGrid.h; sourceTree = "<group>"; };
+		01B708C612B6F25B00C0A93A /* PhysicsGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsGrid.m; sourceTree = "<group>"; };
+		01B708C912B6F25B00C0A93A /* PhysicsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsObject.h; sourceTree = "<group>"; };
+		01B708CA12B6F25B00C0A93A /* PhysicsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsObject.m; sourceTree = "<group>"; };
+		01B708CB12B6F25B00C0A93A /* RulerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerLayer.h; sourceTree = "<group>"; };
+		01B708CC12B6F25B00C0A93A /* RulerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerLayer.m; sourceTree = "<group>"; };
+		01B708CD12B6F25B00C0A93A /* SeparatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorCell.h; sourceTree = "<group>"; };
+		01B708CE12B6F25B00C0A93A /* SeparatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorCell.m; sourceTree = "<group>"; };
+		01B708CF12B6F25B00C0A93A /* SKTFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTFoundationExtras.h; sourceTree = "<group>"; };
+		01B708D012B6F25B00C0A93A /* SKTFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTFoundationExtras.m; sourceTree = "<group>"; };
+		01B708D112B6F25B00C0A93A /* TrackingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingArea.h; sourceTree = "<group>"; };
+		01B708D212B6F25B00C0A93A /* TrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingArea.m; sourceTree = "<group>"; };
+		01B708D312B6F25B00C0A93A /* TreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeController.h; sourceTree = "<group>"; };
+		01B708D412B6F25B00C0A93A /* TreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeController.m; sourceTree = "<group>"; };
+		01B708D512B6F25B00C0A93A /* Workbench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workbench.h; sourceTree = "<group>"; };
+		01B708D612B6F25B00C0A93A /* WorkspaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkspaceObject.h; sourceTree = "<group>"; };
+		01B708D712B6F25B00C0A93A /* WorkspaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkspaceObject.m; sourceTree = "<group>"; };
+		01B7091F12B6F27E00C0A93A /* FrameworkManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameworkManagerTest.m; sourceTree = "<group>"; };
+		01CE4A6512B6F344002FE649 /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = SOURCE_ROOT; };
+		01CE4A7212B6F6A3002FE649 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CE4A7512B6F6A3002FE649 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		01CE4A7612B6F6A3002FE649 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		01CE4A7A12B6F6A3002FE649 /* Tests-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tests-main.m"; sourceTree = "<group>"; };
+		01CE4A8012B6F6A4002FE649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		01CE4A8212B6F6A4002FE649 /* TestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestsAppDelegate.h; path = ../Classes/TestsAppDelegate.h; sourceTree = "<group>"; };
+		01CE4A8312B6F6A4002FE649 /* TestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate.m; path = ../Classes/TestsAppDelegate.m; sourceTree = "<group>"; };
+		01CE720312BD1EF1002DB0DA /* GCMainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCMainMenu.xib; sourceTree = "<group>"; };
+		01D7F48212B5C9D70000E6EC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		01D7F48312B5C9D70000E6EC /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3F00F4B6AF500CF3369 /* GraphicsCocos2d_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsCocos2d_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* GraphicsCocos2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsCocos2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CE4A6F12B6F6A3002FE649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0165643A12BB0A1B00E734FE /* GHUnit.framework in Frameworks */,
+				0165643B12BB0A2300E734FE /* Cocoa.framework in Frameworks */,
+				0165643C12BB0A2600E734FE /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0165643812BB0A0200E734FE /* Cocoa.framework in Frameworks */,
+				0165643612BB09FD00E734FE /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010C480312BC56930084DCFA /* ReflectionTools */ = {
+			isa = PBXGroup;
+			children = (
+				01B708AA12B6F25B00C0A93A /* FrameworkClass.h */,
+				01B708AB12B6F25B00C0A93A /* FrameworkClass.m */,
+				01B708AC12B6F25B00C0A93A /* FrameworkDefinition.h */,
+				01B708AD12B6F25B00C0A93A /* FrameworkDefinition.m */,
+			);
+			name = ReflectionTools;
+			sourceTree = "<group>";
+		};
+		014536AC12BD097F00C355C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0177ADFC12BC5BCE00BC702B /* MainMenu.xib */,
+				01CE4A7512B6F6A3002FE649 /* Tests-Info.plist */,
+				01CE4A7F12B6F6A4002FE649 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01598FF612B858B600455D70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B708D612B6F25B00C0A93A /* WorkspaceObject.h */,
+				01B708D712B6F25B00C0A93A /* WorkspaceObject.m */,
+				01B708A812B6F25B00C0A93A /* Document.h */,
+				01B708A912B6F25B00C0A93A /* Document.m */,
+				01B7089C12B6F25B00C0A93A /* BaseDrawableObject.h */,
+				01B7089D12B6F25B00C0A93A /* BaseDrawableObject.m */,
+				01B708A612B6F25B00C0A93A /* DocNode.h */,
+				01B708A712B6F25B00C0A93A /* DocNode.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		01598FF712B858E100455D70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				018804A812BE94B000A8E461 /* Components */,
+				018804A612BE947500A8E461 /* Workspace */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		01598FF812B858F300455D70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01B708D312B6F25B00C0A93A /* TreeController.h */,
+				01B708D412B6F25B00C0A93A /* TreeController.m */,
+				01B708C012B6F25B00C0A93A /* MyWindowController.h */,
+				01B708C112B6F25B00C0A93A /* MyWindowController.m */,
+				01B708B612B6F25B00C0A93A /* GCTabController.h */,
+				01B708B712B6F25B00C0A93A /* GCTabController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		01598FF912B8590900455D70 /* PhysicsLib */ = {
+			isa = PBXGroup;
+			children = (
+				010C480312BC56930084DCFA /* ReflectionTools */,
+				0189A39412BD6B89000A965D /* Box2d */,
+				01B708AE12B6F25B00C0A93A /* FrameworkManager.h */,
+				01B708AF12B6F25B00C0A93A /* FrameworkManager.m */,
+				01B708C912B6F25B00C0A93A /* PhysicsObject.h */,
+				01B708CA12B6F25B00C0A93A /* PhysicsObject.m */,
+				010C47FE12BB2B690084DCFA /* EmptyObject.h */,
+				010C47FF12BB2B690084DCFA /* EmptyObject.m */,
+				016DD3DE12BE79D200D0CAAE /* PhysicsFramework.h */,
+				016DD3DF12BE79D200D0CAAE /* PhysicsFramework.m */,
+			);
+			name = PhysicsLib;
+			sourceTree = "<group>";
+		};
+		01598FFA12B8597600455D70 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01B708CF12B6F25B00C0A93A /* SKTFoundationExtras.h */,
+				01B708D012B6F25B00C0A93A /* SKTFoundationExtras.m */,
+				01B708C212B6F25B00C0A93A /* NSArray_Extensions.h */,
+				01B708C312B6F25B00C0A93A /* NSArray_Extensions.m */,
+				0165643D12BB13AF00E734FE /* NSTreeController+Extensions.h */,
+				0165643E12BB13AF00E734FE /* NSTreeController+Extensions.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		018804A612BE947500A8E461 /* Workspace */ = {
+			isa = PBXGroup;
+			children = (
+				018804A712BE948800A8E461 /* Layers */,
+				01B7089E12B6F25B00C0A93A /* BaseGridView.h */,
+				01B7089F12B6F25B00C0A93A /* BaseGridView.m */,
+				01B708C512B6F25B00C0A93A /* PhysicsGrid.h */,
+				01B708C612B6F25B00C0A93A /* PhysicsGrid.m */,
+			);
+			name = Workspace;
+			sourceTree = "<group>";
+		};
+		018804A712BE948800A8E461 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				01B708BC12B6F25B00C0A93A /* GridLayer.h */,
+				01B708BD12B6F25B00C0A93A /* GridLayer.m */,
+				01B708D112B6F25B00C0A93A /* TrackingArea.h */,
+				01B708D212B6F25B00C0A93A /* TrackingArea.m */,
+				01B708CB12B6F25B00C0A93A /* RulerLayer.h */,
+				01B708CC12B6F25B00C0A93A /* RulerLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		018804A812BE94B000A8E461 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				01B708CD12B6F25B00C0A93A /* SeparatorCell.h */,
+				01B708CE12B6F25B00C0A93A /* SeparatorCell.m */,
+				01B708BE12B6F25B00C0A93A /* ImageAndTextCell.h */,
+				01B708BF12B6F25B00C0A93A /* ImageAndTextCell.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		0189A39412BD6B89000A965D /* Box2d */ = {
+			isa = PBXGroup;
+			children = (
+				01B708B412B6F25B00C0A93A /* GCb2Types.h */,
+				01B708B512B6F25B00C0A93A /* GCb2Types.m */,
+				01B708B012B6F25B00C0A93A /* GCb2Circle.h */,
+				01B708B112B6F25B00C0A93A /* GCb2Circle.m */,
+				01B708B212B6F25B00C0A93A /* GCb2Rect.h */,
+				01B708B312B6F25B00C0A93A /* GCb2Rect.m */,
+				01B708A212B6F25B00C0A93A /* Box2dFramework.h */,
+				01B708A312B6F25B00C0A93A /* Box2dFramework.m */,
+			);
+			name = Box2d;
+			sourceTree = "<group>";
+		};
+		01B7089B12B6F25B00C0A93A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01B708D512B6F25B00C0A93A /* Workbench.h */,
+				01B708C412B6F25B00C0A93A /* Physics.h */,
+				01598FFA12B8597600455D70 /* Utils */,
+				01598FF912B8590900455D70 /* PhysicsLib */,
+				01598FF812B858F300455D70 /* Controllers */,
+				01598FF712B858E100455D70 /* Views */,
+				01598FF612B858B600455D70 /* Models */,
+				01B708B812B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.h */,
+				01B708B912B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01B7091E12B6F27E00C0A93A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				014536AC12BD097F00C355C7 /* Resources */,
+				01CE4A8212B6F6A4002FE649 /* TestsAppDelegate.h */,
+				01CE4A8312B6F6A4002FE649 /* TestsAppDelegate.m */,
+				01CE4A6512B6F344002FE649 /* GHUnitTestMain.m */,
+				01B7091F12B6F27E00C0A93A /* FrameworkManagerTest.m */,
+				012DE91C12BD821B00FC7B6B /* FrameworkDefinitionTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0165643912BB0A1B00E734FE /* GHUnit.framework */,
+				0165643712BB0A0200E734FE /* Cocoa.framework */,
+				0165643512BB09FD00E734FE /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* GraphicsCocos2d.app */,
+				01CE4A7212B6F6A3002FE649 /* Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* GraphicsCocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				010C480112BB2D3A0084DCFA /* README */,
+				01D7F48212B5C9D70000E6EC /* LICENSE */,
+				01D7F48312B5C9D70000E6EC /* Makefile */,
+				01B7091E12B6F27E00C0A93A /* Tests */,
+				01B7089B12B6F25B00C0A93A /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = GraphicsCocos2d;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* GraphicsCocos2d_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				01CE4A7612B6F6A3002FE649 /* Tests-Prefix.pch */,
+				01CE4A7A12B6F6A3002FE649 /* Tests-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				014536B512BD0AAE00C355C7 /* InfoPlist.strings */,
+				014536B912BD0AAE00C355C7 /* GraphicsCocos2d-Info.plist */,
+				01B7088B12B6F1F600C0A93A /* build.sh */,
+				01B7088C12B6F1F600C0A93A /* GCb2Types.plist */,
+				01B7088E12B6F1F600C0A93A /* MainWindow.xib */,
+				01B7088F12B6F1F600C0A93A /* Properties.xib */,
+				01B7089012B6F1F600C0A93A /* PropertyCell.xib */,
+				01B7089112B6F1F600C0A93A /* RunTests.sh */,
+				01B7089212B6F1F600C0A93A /* TreeOutlineView.xib */,
+				01CE720312BD1EF1002DB0DA /* GCMainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01CE4A7112B6F6A3002FE649 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CE4A8712B6F6A4002FE649 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				01CE4A7012B6F6A3002FE649 /* Resources */,
+				01CE4A6E12B6F6A3002FE649 /* Sources */,
+				01CE4A6F12B6F6A3002FE649 /* Frameworks */,
+				01AF365012B6FAFF004F15B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0189834D12B7025000A25528 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 01CE4A7212B6F6A3002FE649 /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* GraphicsCocos2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GraphicsCocos2d" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				0167C0611257DB3300CD1F35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicsCocos2d;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GraphicsCocos2d;
+			productReference = 8D1107320486CEB800E47090 /* GraphicsCocos2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GraphicsCocos2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* GraphicsCocos2d */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* GraphicsCocos2d */,
+				01CE4A7112B6F6A3002FE649 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01CE4A7012B6F6A3002FE649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012DE91F12BD86B400FC7B6B /* GCb2Types.plist in Resources */,
+				01AF365112B6FB1B004F15B8 /* RunTests.sh in Resources */,
+				01CE4A8112B6F6A4002FE649 /* Credits.rtf in Resources */,
+				010C480212BB2D3A0084DCFA /* README in Resources */,
+				010C480512BC57900084DCFA /* build.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FCDCF412BD4A4000EAA432 /* GCMainMenu.xib in Resources */,
+				01FCDCF312BD4A3900EAA432 /* MainWindow.xib in Resources */,
+				01B7089312B6F1F600C0A93A /* build.sh in Resources */,
+				01B7089412B6F1F600C0A93A /* GCb2Types.plist in Resources */,
+				01B7089712B6F1F600C0A93A /* Properties.xib in Resources */,
+				01B7089812B6F1F600C0A93A /* PropertyCell.xib in Resources */,
+				01B7089912B6F1F600C0A93A /* RunTests.sh in Resources */,
+				01B7089A12B6F1F600C0A93A /* TreeOutlineView.xib in Resources */,
+				014536BA12BD0AAE00C355C7 /* GraphicsCocos2d-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01AF365012B6FAFF004F15B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh RunTests.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01CE4A6E12B6F6A3002FE649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0143F03E12B86ED6007AD151 /* BaseDrawableObject.m in Sources */,
+				0143F03D12B86ECC007AD151 /* WorkspaceObject.m in Sources */,
+				0143F03912B86EC2007AD151 /* PhysicsObject.m in Sources */,
+				0143F03A12B86EC2007AD151 /* GCb2Circle.m in Sources */,
+				0143F03B12B86EC2007AD151 /* GCb2Rect.m in Sources */,
+				0143F03C12B86EC2007AD151 /* GCb2Types.m in Sources */,
+				0143F03612B86E9E007AD151 /* Box2dFramework.m in Sources */,
+				0143F03712B86E9E007AD151 /* FrameworkClass.m in Sources */,
+				0143F03812B86E9E007AD151 /* FrameworkDefinition.m in Sources */,
+				0143F03512B86E3E007AD151 /* FrameworkManager.m in Sources */,
+				01CE4A9F12B6F6BD002FE649 /* FrameworkManagerTest.m in Sources */,
+				01CE4A9E12B6F6BA002FE649 /* GHUnitTestMain.m in Sources */,
+				01CE4A8412B6F6A4002FE649 /* TestsAppDelegate.m in Sources */,
+				012DE91D12BD821B00FC7B6B /* FrameworkDefinitionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				01B708D812B6F25B00C0A93A /* BaseDrawableObject.m in Sources */,
+				01B708D912B6F25B00C0A93A /* BaseGridView.m in Sources */,
+				01B708DB12B6F25B00C0A93A /* Box2dFramework.m in Sources */,
+				01B708DD12B6F25B00C0A93A /* DocNode.m in Sources */,
+				01B708DE12B6F25B00C0A93A /* Document.m in Sources */,
+				01B708DF12B6F25B00C0A93A /* FrameworkClass.m in Sources */,
+				01B708E012B6F25B00C0A93A /* FrameworkDefinition.m in Sources */,
+				01B708E112B6F25B00C0A93A /* FrameworkManager.m in Sources */,
+				01B708E212B6F25B00C0A93A /* GCb2Circle.m in Sources */,
+				01B708E312B6F25B00C0A93A /* GCb2Rect.m in Sources */,
+				01B708E412B6F25B00C0A93A /* GCb2Types.m in Sources */,
+				01B708E512B6F25B00C0A93A /* GCTabController.m in Sources */,
+				01B708E612B6F25B00C0A93A /* GraphicsCocos2dAppDelegate.m in Sources */,
+				01B708E812B6F25B00C0A93A /* GridLayer.m in Sources */,
+				01B708E912B6F25B00C0A93A /* ImageAndTextCell.m in Sources */,
+				01B708EA12B6F25B00C0A93A /* MyWindowController.m in Sources */,
+				01B708EB12B6F25B00C0A93A /* NSArray_Extensions.m in Sources */,
+				01B708EC12B6F25B00C0A93A /* PhysicsGrid.m in Sources */,
+				01B708EE12B6F25B00C0A93A /* PhysicsObject.m in Sources */,
+				01B708EF12B6F25B00C0A93A /* RulerLayer.m in Sources */,
+				01B708F012B6F25B00C0A93A /* SeparatorCell.m in Sources */,
+				01B708F112B6F25B00C0A93A /* SKTFoundationExtras.m in Sources */,
+				01B708F212B6F25B00C0A93A /* TrackingArea.m in Sources */,
+				01B708F312B6F25B00C0A93A /* TreeController.m in Sources */,
+				01B708F412B6F25B00C0A93A /* WorkspaceObject.m in Sources */,
+				0165643F12BB13AF00E734FE /* NSTreeController+Extensions.m in Sources */,
+				010C480012BB2B690084DCFA /* EmptyObject.m in Sources */,
+				016DD3E012BE79D200D0CAAE /* PhysicsFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0189834D12B7025000A25528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* GraphicsCocos2d */;
+			targetProxy = 0189834C12B7025000A25528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		014536B512BD0AAE00C355C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014536B612BD0AAE00C355C7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0177ADFC12BC5BCE00BC702B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0177ADFD12BC5BCE00BC702B /* en */,
+			);
+			name = MainMenu.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		01CE4A7F12B6F6A4002FE649 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01CE4A8012B6F6A4002FE649 /* en */,
+			);
+			name = Credits.rtf;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012C537112B5AFCD00B39BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		012C537212B5AFCD00B39BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		012C537312B5AFCD00B39BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		012C537412B5AFCD00B39BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0133572412B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0133572512B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0133572612B5D65E00A3E102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0133572712B5D65E00A3E102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01B7082612B6EA2D00C0A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01B7082712B6EA2D00C0A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01B7085312B6EC4600C0A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01B7085412B6EC4600C0A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01B7087812B6EC6A00C0A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01B7087912B6EC6A00C0A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01B7090912B6F26900C0A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01B7090A12B6F26900C0A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01B7093512B6F2C700C0A93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01B7093612B6F2C700C0A93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01CE4A8512B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		01CE4A8612B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		01CE4A8812B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01CE4A8912B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01CE4A8A12B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A8B12B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A8C12B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A8D12B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A8E12B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A8F12B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9012B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9112B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9212B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9312B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9412B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9512B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9612B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9712B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9812B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9912B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9A12B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9B12B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		01CE4A9C12B6F6A4002FE649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		01CE4A9D12B6F6A4002FE649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = Tests;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicsCocos2d_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GraphicsCocos2d-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = GraphicsCocos2d;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicsCocos2d_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GraphicsCocos2d-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = GraphicsCocos2d;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "";
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970 x86_64 x86_32";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CE4A8712B6F6A4002FE649 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CE4A8812B6F6A4002FE649 /* Debug */,
+				01CE4A8912B6F6A4002FE649 /* Release */,
+				01CE4A8A12B6F6A4002FE649 /* Debug */,
+				01CE4A8B12B6F6A4002FE649 /* Release */,
+				01CE4A8C12B6F6A4002FE649 /* Debug */,
+				01CE4A8D12B6F6A4002FE649 /* Release */,
+				01CE4A8E12B6F6A4002FE649 /* Debug */,
+				01CE4A8F12B6F6A4002FE649 /* Release */,
+				01CE4A9012B6F6A4002FE649 /* Debug */,
+				01CE4A9112B6F6A4002FE649 /* Release */,
+				01CE4A9212B6F6A4002FE649 /* Debug */,
+				01CE4A9312B6F6A4002FE649 /* Release */,
+				01CE4A9412B6F6A4002FE649 /* Debug */,
+				01CE4A9512B6F6A4002FE649 /* Release */,
+				01CE4A9612B6F6A4002FE649 /* Debug */,
+				01CE4A9712B6F6A4002FE649 /* Release */,
+				01CE4A9812B6F6A4002FE649 /* Debug */,
+				01CE4A9912B6F6A4002FE649 /* Release */,
+				01CE4A9A12B6F6A4002FE649 /* Debug */,
+				01CE4A9B12B6F6A4002FE649 /* Release */,
+				01CE4A9C12B6F6A4002FE649 /* Debug */,
+				01CE4A9D12B6F6A4002FE649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "GraphicsCocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GraphicsCocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				012C537112B5AFCD00B39BBC /* Debug */,
+				012C537212B5AFCD00B39BBC /* Release */,
+				012C537312B5AFCD00B39BBC /* Debug */,
+				012C537412B5AFCD00B39BBC /* Release */,
+				0133572412B5D65E00A3E102 /* Debug */,
+				0133572512B5D65E00A3E102 /* Release */,
+				0133572612B5D65E00A3E102 /* Debug */,
+				0133572712B5D65E00A3E102 /* Release */,
+				01B7082612B6EA2D00C0A93A /* Debug */,
+				01B7082712B6EA2D00C0A93A /* Release */,
+				01B7085312B6EC4600C0A93A /* Debug */,
+				01B7085412B6EC4600C0A93A /* Release */,
+				01B7087812B6EC6A00C0A93A /* Debug */,
+				01B7087912B6EC6A00C0A93A /* Release */,
+				01B7090912B6F26900C0A93A /* Debug */,
+				01B7090A12B6F26900C0A93A /* Release */,
+				01B7093512B6F2C700C0A93A /* Debug */,
+				01B7093612B6F2C700C0A93A /* Release */,
+				01CE4A8512B6F6A4002FE649 /* Debug */,
+				01CE4A8612B6F6A4002FE649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

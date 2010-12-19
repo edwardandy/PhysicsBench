@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_base_drawable_object.html" title="BaseDrawableObject" alt="" coords="9,84,180,111"/>
+<area shape="rect" href="$protocol_physics_renderable&#45;p.html" title="\&lt;PhysicsRenderable\&gt;" alt="" coords="176,161,355,188"/>
+<area shape="rect" href="$interface_workspace_object.html" title="WorkspaceObject" alt="" coords="5,161,152,188"/>
+<area shape="rect" href="$interface_physics_object.html" title="PhysicsObject" alt="" coords="108,239,228,265"/>
+<area shape="rect" href="$interface_empty_object.html" title="EmptyObject" alt="" coords="11,316,125,343"/>
+<area shape="rect" href="$interface_g_cb2_circle.html" title="GCb2Circle" alt="" coords="149,316,251,343"/>
+<area shape="rect" href="$interface_g_cb2_rect.html" title="GCb2Rect" alt="" coords="275,316,365,343"/>
+</map>

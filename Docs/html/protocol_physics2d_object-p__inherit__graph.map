@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_physics_object.html" title="PhysicsObject" alt="" coords="135,84,255,111"/>
+<area shape="rect" href="$interface_empty_object.html" title="EmptyObject" alt="" coords="5,161,120,188"/>
+<area shape="rect" href="$interface_g_cb2_circle.html" title="GCb2Circle" alt="" coords="144,161,245,188"/>
+<area shape="rect" href="$interface_g_cb2_rect.html" title="GCb2Rect" alt="" coords="269,161,360,188"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$protocol_physics2d_object&#45;p.html" title="\&lt;Physics2dObject\&gt;" alt="" coords="424,100,584,127"/>
+<area shape="rect" href="$interface_physics_object.html" title="PhysicsObject" alt="" coords="643,151,763,177"/>
+<area shape="rect" href="$interface_empty_object.html" title="EmptyObject" alt="" coords="811,5,925,32"/>
+<area shape="rect" href="$interface_g_cb2_circle.html" title="GCb2Circle" alt="" coords="817,63,919,89"/>
+<area shape="rect" href="$interface_g_cb2_rect.html" title="GCb2Rect" alt="" coords="823,125,913,152"/>
+<area shape="rect" href="$protocol_render_layer&#45;p.html" title="\&lt;RenderLayer\&gt;" alt="" coords="7,100,143,127"/>
+<area shape="rect" href="$interface_base_drawable_object.html" title="BaseDrawableObject" alt="" coords="193,151,364,177"/>
+<area shape="rect" href="$protocol_physics_renderable&#45;p.html" title="\&lt;PhysicsRenderable\&gt;" alt="" coords="415,49,593,76"/>
+<area shape="rect" href="$interface_workspace_object.html" title="WorkspaceObject" alt="" coords="431,151,577,177"/>
+<area shape="rect" href="$protocol_workspace_object&#45;p.html" title="\&lt;WorkspaceObject\&gt;" alt="" coords="193,100,364,127"/>
+</map>

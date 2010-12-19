@@ -1,0 +1,7 @@
+##Using Applicaiton
+
+Currently the application is in an unstable alpha build. Current functionality that IS working however:
+
+* Group and outline viewing working
+* Render looping is working, objects can be created
+* Selection Marquee is processing

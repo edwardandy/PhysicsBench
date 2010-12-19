@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_n_s_object.html" title="NSObject" alt="" coords="59,208,147,235"/>
+<area shape="rect" href="$interface_framework_class.html" title="FrameworkClass" alt="" coords="299,5,437,32"/>
+<area shape="rect" href="$interface_framework_definition.html" title="FrameworkDefinition" alt="" coords="283,56,453,83"/>
+<area shape="rect" href="$interface_framework_field.html" title="FrameworkField" alt="" coords="300,107,436,133"/>
+<area shape="rect" href="$interface_framework_manager.html" title="FrameworkManager" alt="" coords="285,157,451,184"/>
+<area shape="rect" href="$interface_g_cb2_types.html" title="GCb2Types" alt="" coords="317,208,419,235"/>
+<area shape="rect" href="$interface_graphics_cocos2d_app_delegate.html" title="GraphicsCocos2dAppDelegate" alt="" coords="248,259,488,285"/>
+<area shape="rect" href="$interface_physics_framework.html" title="PhysicsFramework" alt="" coords="292,411,444,437"/>
+<area shape="rect" href="$interface_physics_group.html" title="PhysicsGroup" alt="" coords="311,309,425,336"/>
+<area shape="rect" href="$interface_tests_app_delegate.html" title="TestsAppDelegate" alt="" coords="292,360,444,387"/>
+<area shape="rect" href="$interface_box2d_framework.html" title="Box2dFramework" alt="" coords="537,411,681,437"/>
+<area shape="rect" href="$protocol_physics2d_framework&#45;p.html" title="\&lt;Physics2dFramework\&gt;" alt="" coords="7,411,199,437"/>
+</map>
