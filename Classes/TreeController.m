@@ -126,6 +126,12 @@
 // -------------------------------------------------------------------------------
 - (BOOL)outlineView:(NSOutlineView *)outlineView shouldSelectItem:(id)item;
 {
+    // Notify the object that they have been selected
+    DocNode * node = [item representedObject];
+    if ( nil != node.contents) {
+        node.contents.isSelected = YES;
+    }
+
     return true;
 }
 
@@ -169,7 +175,7 @@
 //	Decide to allow the edit of the given outline view "item".
 // -------------------------------------------------------------------------------
 - (BOOL)outlineView:(NSOutlineView *)outlineView shouldEditTableColumn:(NSTableColumn *)tableColumn item:(id)item
-{
+{    
 	return YES;
 }
 

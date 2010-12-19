@@ -21,6 +21,6 @@
 @property (nonatomic, retain) NSTimer     * _renderTimer;
 
 - (void) gridWithDocument:(Document*) newDocument;
-
+- (void) performSelectorOnAllGraphics:(SEL)callback withTarget:(id)target;
 @end
 

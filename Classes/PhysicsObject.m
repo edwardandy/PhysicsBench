@@ -7,8 +7,6 @@
 //
 
 #import "PhysicsObject.h"
-#import "PhysicsGrid.h"
-#import "FrameworkManager.h"
 
 @implementation PhysicsObject
 
@@ -32,7 +30,7 @@
 {
 	self = [super init];
 	if (self != nil) {
-        //properties = [[FrameworkManager sharedFrameworkManager] bindFrameworkToClass:self];
+      //  properties = [self bindFrameworkToClass:self];
 	}
 	return self;
 }

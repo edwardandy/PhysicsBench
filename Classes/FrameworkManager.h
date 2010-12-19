@@ -7,30 +7,23 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Physics.h"
 
-#define CLASS_DEF_ROOT @"ClassDef"
 
-@class FrameworkDefinition, PhysicsObject, FrameworkClass;
+#define DEFAULT_FRAMEWORK_CLASS @"Box2dFramework"
 
-@interface FrameworkManager : NSObject <Physics2dFramework>{
-	id<Physics2dFramework>	framework;
-    // Force our frameworks to initialize a defintion
-	FrameworkDefinition *definition;
+@class PhysicsFramework;
 
+@interface FrameworkManager : NSObject{
+	PhysicsFramework	*framework;
 }
 
 // Properties
-@property (readonly) FrameworkDefinition *definition;
-@property(assign) 	id<Physics2dFramework>	framework;
+@property(assign) 	PhysicsFramework *framework;
 
 // Static Methods
 + (id)  sharedFrameworkManager;
-+ (FrameworkDefinition*) loadFrameworkFromFile:(NSString*)file;
+- (NSArray *) fetchStringsOfShapesTypes;
 
-// Methods
-- (NSArray*) bindFrameworkToClass:(PhysicsObject*)obj;
-- (NSArray*) queryFrameworkClassForProperties:(FrameworkClass*) fClass; 
 
 @end
 

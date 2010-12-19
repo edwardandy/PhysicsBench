@@ -33,3 +33,8 @@
 @property (nonatomic, retain) CALayer *drawingLayer;
 
 @end
+
+@interface BaseGridView (Tracking)
+- (void)graphicsIntersectingRect:(NSRect)rect;
+- (void)resetSelectedObjects;
+@end

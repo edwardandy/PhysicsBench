@@ -12,7 +12,7 @@
 @class Document;
 
 @interface GraphicsCocos2dAppDelegate : NSObject <NSApplicationDelegate> {
-	MyWindowController	*windowController;
+	IBOutlet MyWindowController	*windowController;
 
 	// Shared instance of our current document
 	// We will likely move this to a document manager
@@ -20,6 +20,6 @@
 }
 
 @property (nonatomic, retain) 	Document			*document;
-@property (nonatomic, retain) 	MyWindowController  *windowController;
+@property (nonatomic, retain) 	IBOutlet MyWindowController  *windowController;
 
 @end

@@ -47,7 +47,7 @@
  */
 
 #import "ImageAndTextCell.h"
-#import "BaseNode.h"
+#import "DocNode.h"
 
 @implementation ImageAndTextCell
 
@@ -239,7 +239,7 @@
 	if (hostingOutlineView)
 	{
 		NSInteger selectedRow = [hostingOutlineView selectedRow];
-		BaseNode* node = [[hostingOutlineView itemAtRow:selectedRow] representedObject];
+		DocNode* node = [[hostingOutlineView itemAtRow:selectedRow] representedObject];
 
 		if (![node isDraggable])	// is the node isDraggable (i.e. non-file system based objects)
 			result = NSCellHitTrackableArea;

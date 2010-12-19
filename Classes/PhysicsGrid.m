@@ -9,11 +9,14 @@
 #import "PhysicsGrid.h"
 #import "Document.h"
 #import "WorkspaceObject.h"
+#import "EmptyObject.h"
 
 
 @interface PhysicsGrid (PrivateMethods) 
 - (void) render:(id)sender;
 - (void) walkLayerTreeRender:(CALayer*)aLayer;
+- (void) selectorOnAllSubLayers:(CALayer*)aLayer withSelector:(SEL)callback withTarget:(id)target;
+- (void) performGraphicReset:(WorkspaceObject*)workspaceObject;
 @end
 
 
@@ -119,5 +122,110 @@
         }
     }
 }
-     
+    
+/**
+ * <p>
+ * Responds with a set of objects within the grid that will respond as selected
+ * items based on coordinate space provided within the rect
+ * </p>
+ *
+ * <b>Parameters</p>
+ * <i>rect</i>
+ *   NSRect that contains the coordinate space for handling intersections
+ * 
+ * <b>Return Value</b>
+ * An NSSet that contains all WorkspaceObjects that intersect to tracking rect
+ */
+- (void)graphicsIntersectingRect:(NSRect)rect withLayer:(CALayer*)aLayer{
+
+    CGRect cgRect = NSRectToCGRect(rect);
+    NSArray *graphics = [aLayer sublayers];
+    
+    CALayer *nLayer;
+    for ( nLayer in graphics ) {
+        // If the layer we are working on has sublayers recursively
+        // call first to ensure we move from back to forwards
+        NSArray *nSubLayers = [nLayer sublayers];
+        if ( nil != nSubLayers ) {
+            [self graphicsIntersectingRect:rect withLayer:nLayer];
+        }
+        
+        // First make sure that we are a workspace object
+        
+        if ( [nLayer isKindOfClass:[WorkspaceObject class]] ) {
+			CGRect nrect = [self.layer convertRect:cgRect toLayer:nLayer];
+            WorkspaceObject *obj = (WorkspaceObject*)nLayer;
+			// We want to continually render updates, during these calls we are
+            // constantly being asked to update the state, we will flip the flags
+            // back and forth.
+            if ( NSIntersectsRect(NSRectFromCGRect(nrect), NSRectFromCGRect(obj.bounds)) ) {
+				
+                // optimize the call
+                if ( ![obj isSelected] ) {
+                    [obj setIsSelected:YES];
+                    [obj setNeedsRender:YES];
+                }
+			} else {
+                
+                // optimize the call
+                if ( [obj isSelected] ) {
+                    [obj setIsSelected:NO];
+                    [obj setNeedsRender:YES];
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Wrapper function for abstracted method within parent class. This forces the root
+ * layer from our document to respond and check if there are any fields that have been selected. 
+ * if so it will take care of selecting and the render loop should catch the changes.
+ */
+- (void)graphicsIntersectingRect:(NSRect)rect {
+    CALayer *rootLayer = _document.rootLayer;
+    [self graphicsIntersectingRect:rect withLayer:rootLayer];
+}
+
+/**
+ * Responds to requests to reset all selections on an object
+ */
+- (void) resetSelectedObjects {
+    [self performSelectorOnAllGraphics:@selector(performGraphicReset:) withTarget:self];
+}
+
+/**
+ *
+ */
+- (void) performGraphicReset:(WorkspaceObject*)workspaceObject {
+    [workspaceObject setIsSelected:NO];
+    [workspaceObject setNeedsRender:YES];
+}
+
+- (void) performSelectorOnAllGraphics:(SEL)callback withTarget:(id)target {
+    CALayer *rootLayer = _document.rootLayer;
+    [self selectorOnAllSubLayers:rootLayer withSelector:callback withTarget:target];
+}
+
+- (void) selectorOnAllSubLayers:(CALayer*)aLayer withSelector:(SEL)callback withTarget:(id)target {
+    
+    CALayer *nLayer;
+    NSArray *graphics = [aLayer sublayers];
+    
+    for ( nLayer in graphics ) {
+        // If the layer we are working on has sublayers recursively
+        // call first to ensure we move from back to forwards
+        NSArray *nSubLayers = [nLayer sublayers];
+        if ( nil != nSubLayers ) {
+            [self selectorOnAllSubLayers:nLayer withSelector:callback withTarget:target];
+        }
+        
+        // First make sure that we are a workspace object
+        
+        if ( [nLayer isKindOfClass:[WorkspaceObject class]]) {
+			[target performSelector:callback withObject:nLayer];
+        }
+    }    
+}
+
 @end

@@ -17,8 +17,8 @@
 #import "Document.h"
 #import "GraphicsCocos2dAppDelegate.h"
 #import "DocNode.h"
-#import "GCb2Circle.h"
 #import "EmptyObject.h"
+#import "PhysicsFramework.h"
 
 
 //=========================
@@ -145,7 +145,7 @@
 	NSMenuItem *item = (NSMenuItem*) sender;
 	
     // Create our object
-    id<Physics2dFramework> fw = [[FrameworkManager sharedFrameworkManager] framework];
+    PhysicsFramework *fw = [[FrameworkManager sharedFrameworkManager] framework];
 	PhysicsObject *pObj = [fw initObjectWithKey:item.title];
 
     if ( nil != pObj ) {

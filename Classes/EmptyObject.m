@@ -30,6 +30,9 @@
     [super dealloc];
 }
 
+#pragma mark -
+#pragma PhysicsRenderable Implementation
+
 // -------------------------------------------------------------------------------
 //	simulateRenderObject
 //

@@ -9,7 +9,6 @@
 #import "BaseGridView.h"
 #import "GridLayer.h"
 #import "RulerLayer.h"
-#import "GridDrawObject.h"
 #import "TrackingArea.h"
 #import "GCTabController.h"
 
@@ -20,7 +19,6 @@
 //- (void) drawGridLayer;
 - (void) drawRulerLayer;
 - (void) trackMouseWithEvent:(NSEvent*)theEvent;
-- (NSSet *)graphicsIntersectingRect:(NSRect)rect;
 @end
 
 
@@ -58,12 +56,6 @@
 		drawingLayer = [CALayer layer];
 		drawingLayer.frame =  NSRectToCGRect(frame);
 		[self.layer addSublayer:drawingLayer];
-
-         
-		CALayer *drawObj = [GridDrawObject layer];
-		drawObj.frame  = CGRectMake(20.0f, 200.0f, 500.0f, 500.0f);
-		[self.layer addSublayer:drawObj];
-		[drawObj display];
 		
 		trackingLayer = [TrackingArea layer];
 		[self.layer addSublayer:trackingLayer];
@@ -117,6 +109,7 @@
 		// Reset tracking area
 		trackingRegion.startPoint = NSZeroPoint;
 		trackingRegion.endPoint = NSZeroPoint;
+        [self resetSelectedObjects];
 		CGMutablePathRef mutablePath = CGPathCreateMutable();
 		CGPathAddRect(mutablePath, NULL, CGRectMake(trackingRegion.startPoint.x, trackingRegion.startPoint.y, trackingRegion.endPoint.x - trackingRegion.startPoint.x, trackingRegion.endPoint.y - trackingRegion.startPoint.y));
 		[trackingLayer setPath:mutablePath];
@@ -168,28 +161,21 @@
 	}
 }
 
-// -------------------------------------------------------------------------------
-//	trackMouseWithEvent:(NSEvent*)theEvent
-// -------------------------------------------------------------------------------
-- (NSSet *)graphicsIntersectingRect:(NSRect)rect {
-    
-    CGRect cgRect = NSRectToCGRect(rect);
-    NSArray *graphics = [self.layer sublayers];
-	
-	for (CALayer *slayer in graphics) {
-		if ( [slayer isKindOfClass:[GridDrawObject class]]  ) {
-			CGRect nrect = [self.layer convertRect:cgRect toLayer:slayer];
-			if ( NSIntersectsRect(NSRectFromCGRect(nrect), NSRectFromCGRect(slayer.bounds)) ) {
-				[((GridDrawObject*) slayer) setIsSelected:YES];
-				[slayer setNeedsDisplay];
-			}
-		}
-		
-	}
-	
-	return nil;
+
+/**
+ * Graphics intersecting should be implemented by subclass
+ */
+- (void)graphicsIntersectingRect:(NSRect)rect {
+    [NSException raise:NSInternalInconsistencyException 
+				format:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)];
 }
 
-
+/**
+ * 
+ */
+- (void)resetSelectedObjects {
+    [NSException raise:NSInternalInconsistencyException 
+				format:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)];
+}
 
 @end

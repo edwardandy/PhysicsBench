@@ -8,6 +8,9 @@
 
 #import "RulerLayer.h"
 
+@interface RulerLayer (PrivateMethods)
+- (void) drawRulerLayer;
+@end
 
 @implementation RulerLayer
 
@@ -54,7 +57,7 @@
 	CGFloat maxY = NSMaxY(NSRectFromCGRect(self.frame));
 	
 	NSSize originalSize = {self.frame.size.width, self.frame.size.height};
-	NSPoint frameOrigin = {self.frame.origin.x + 5.0f, self.frame.origin.y +8.0f};
+	//NSPoint frameOrigin = {self.frame.origin.x + 5.0f, self.frame.origin.y +8.0f};
 	NSRect rect = 	NSMakeRect(0.0f , maxY-1.0f, originalSize.width-5.0f , -height);	
 	
 	// Begin outlining our path
@@ -73,7 +76,7 @@
 	NSBezierPath *line = [NSBezierPath bezierPath];
 	int lines = 35;
 	float space = (originalSize.width-5.0f) / lines;
-	int minorLine = maxY / lines;
+	//int minorLine = maxY / lines;
 	for (int i = 0; i < lines; i++ ) {
 		NSPoint penStart = {0.0f + (space*i), maxY-height+5.0f};
 		NSPoint penEnd = {0.0f + (space*i), maxY-height};		
