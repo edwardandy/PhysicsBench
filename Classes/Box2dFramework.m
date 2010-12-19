@@ -8,116 +8,76 @@
 
 #import "Box2dFramework.h"
 
-#import "Document.h"
-#import "GraphicsCocos2dAppDelegate.h"
-
-#import "GCb2Circle.h"
-#import "GCb2Rect.h"
-#import "FrameworkManager.h"
-
-
-@interface Box2dFramework (Private)
-- (void) createObjectInCurDoc:(id)object;
-
-@end
-
-
 
 @implementation Box2dFramework
+ 
+@synthesize frameworkClasses;
 
-@synthesize definition;
 
+/**
+ * Standard init
+ */
 - (id) init
 {
 	self = [super init];
 	if (self != nil) {
 		//
-		definition = [FrameworkManager loadFrameworkFromFile:[[NSBundle mainBundle] pathForResource:@"GCb2Types" ofType:@"plist"]]; 
+		definition = [super loadFrameworkFromFile:[[NSBundle mainBundle] pathForResource:@"GCb2Types" ofType:@"plist"]];
+        
+        frameworkClasses = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            @"GCb2Circle", @"Circle",
+                            @"GCb2Rect", @"Rectangle",
+                            nil];
 	}
 	return self;
 }
 
+/**
+ * Standard memory-management dealloc
+ */
+- (void)dealloc {
+    [frameworkClasses release];
+    [definition release];
+    [super dealloc];
+}
 
+
+#pragma mark 
 #pragma mark Physics2dFramework Delegate
 
-// -------------------------------------------------------------------------------
-// fetchStringsOfShapesTypes
-//
-// Fetch the available string shape types, we will hold on to this
-// internally to build out our object types
-// -------------------------------------------------------------------------------
-
+/**
+ * Fetch the available string shape types, we will hold on to this
+ * internally to build out our object types
+ */
 - (NSArray *) fetchStringsOfShapesTypes {
 	// This isn't going to change during run-time
-	NSArray *objectTypes = [[NSArray arrayWithObjects:@"Circle", @"Rectangle", nil] retain];
-	return objectTypes;
+	return [frameworkClasses allKeys];
+    
 }
 
-// -------------------------------------------------------------------------------
-// @Abstract Method
-//	initObjectWithKey:(NSString*)key
-//
-// Responsible for calling subroutine within initialized framework
-// -------------------------------------------------------------------------------
+/**
+ * Creates a class based on the framework type dynamically. These classes
+ * are constructed at run-time. If the class does not exist nil is returned.
+ */
 - (PhysicsObject *) initObjectWithKey:(NSString*)key {
-	if ( [key compare:@"Circle"] == NSOrderedSame ) {
-		NSLog(@"Creating a new circle object");	
-		PhysicsObject *circle = [[GCb2Circle alloc] init];
-		return circle;
-	}
-	
-	else if ( [key compare:@"Rectangle"] == NSOrderedSame ) {
-		NSLog(@"Creating a new rectangle object");	
-		PhysicsObject *rectangle = [[GCb2Rect alloc] init];
-		return rectangle;
-	}
-	return nil;
+    
+    // Attempt to create object
+	NSLog(@"Creating a %@", key);
+    
+    // Class type to create
+    Class classRef = NSClassFromString([frameworkClasses objectForKey:key]);
+    if ( nil == classRef ) {
+        return nil;
+    }
+    
+    // Dynamically create a new object from Class
+    PhysicsObject * obj = (PhysicsObject*) [[classRef alloc] init];
+    
+    // Bind our Object to its framework
+    [self bindFrameworkToClass:obj];
+    
+    return obj;
 }
 
-
-// -------------------------------------------------------------------------------
-// @Abstract Method
-// createObjectWithKey:(NSString*)key
-//
-// Responsible for calling defined frameworks method
-// -------------------------------------------------------------------------------
-- (void) createObjectWithKey:(NSString*)key {
-	if ( [key compare:@"Circle"] == NSOrderedSame ) {
-		NSLog(@"Creating a new circle object");	
-		PhysicsObject *circle = [GCb2Circle node];
-		[self createObjectInCurDoc:circle];
-	}
-	
-	else if ( [key compare:@"Rectangle"] == NSOrderedSame ) {
-		NSLog(@"Creating a new circle object");	
-		PhysicsObject *rectangle = [GCb2Rect node];
-		[self createObjectInCurDoc:rectangle];
-	}
-}
-
-// -------------------------------------------------------------------------------
-//	createObjectWithKey:(NSString*)key inGroup:(id)group
-//
-//	Create new object within specified group
-// -------------------------------------------------------------------------------
-- (void) createObjectWithKey:(NSString*)key inGroup:(id)group {
-	NSException* myException = [NSException
-								exceptionWithName:@"MethodIncomplete"
-								reason:@"Framework could not provide complete implementation yet"
-								userInfo:nil];
-	@throw myException;
-
-}
-
-#pragma mark Box2dFramework Delegate
-
-- (void) createObjectInCurDoc:(id)object {
-	GraphicsCocos2dAppDelegate *delegate = [[NSApplication sharedApplication] delegate];
-	
-	// This needs to change this isn't safe, document should dictate this
-	
-	
-	
-}
 
 @end

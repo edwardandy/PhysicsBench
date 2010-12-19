@@ -6,11 +6,15 @@
 //  Copyright 2010 Personal. All rights reserved.
 //
 
-#import "Physics.h"
+#import "PhysicsFramework.h"
 
-@interface Box2dFramework : NSObject <Physics2dFramework> {
-    	FrameworkDefinition *definition;
+@interface Box2dFramework : PhysicsFramework {
+
+    
+    @private
+        NSDictionary *frameworkClasses;
 }
-	@property (readonly) FrameworkDefinition *definition;
+
+@property (nonatomic, retain) NSDictionary *frameworkClasses;
 
 @end

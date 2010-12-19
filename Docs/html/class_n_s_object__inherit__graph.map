@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_framework_class.html" title="FrameworkClass" alt="" coords="195,5,333,32"/>
+<area shape="rect" href="$interface_framework_definition.html" title="FrameworkDefinition" alt="" coords="179,56,349,83"/>
+<area shape="rect" href="$interface_framework_field.html" title="FrameworkField" alt="" coords="196,107,332,133"/>
+<area shape="rect" href="$interface_framework_manager.html" title="FrameworkManager" alt="" coords="181,157,347,184"/>
+<area shape="rect" href="$interface_g_cb2_types.html" title="GCb2Types" alt="" coords="213,208,315,235"/>
+<area shape="rect" href="$interface_graphics_cocos2d_app_delegate.html" title="GraphicsCocos2dAppDelegate" alt="" coords="144,259,384,285"/>
+<area shape="rect" href="$interface_physics_framework.html" title="PhysicsFramework" alt="" coords="188,309,340,336"/>
+<area shape="rect" href="$interface_physics_group.html" title="PhysicsGroup" alt="" coords="207,360,321,387"/>
+<area shape="rect" href="$interface_tests_app_delegate.html" title="TestsAppDelegate" alt="" coords="188,411,340,437"/>
+<area shape="rect" href="$interface_box2d_framework.html" title="Box2dFramework" alt="" coords="433,309,577,336"/>
+</map>

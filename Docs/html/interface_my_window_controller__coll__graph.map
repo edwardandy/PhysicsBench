@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$interface_tree_controller.html" title="TreeController" alt="" coords="184,103,309,129"/>
+<area shape="rect" href="$interface_document.html" title="Document" alt="" coords="40,7,136,33"/>
+<area shape="rect" href="$interface_g_c_tab_controller.html" title="GCTabController" alt="" coords="5,103,147,129"/>
+<area shape="rect" href="$interface_separator_cell.html" title="SeparatorCell" alt="" coords="200,7,320,33"/>
+<area shape="rect" href="$class_n_s_tree_controller.html" title="NSTreeController" alt="" coords="344,7,488,33"/>
+</map>

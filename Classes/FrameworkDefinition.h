@@ -8,14 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class FrameworkClass;
 
 @interface FrameworkDefinition : NSObject {
-	NSSet *	classDefs;
+	NSSet               *classDefs;
+    
+    @private
+        NSDictionary        *_classDictionary; 
 }
 
-@property  (readonly) NSSet *classDefs;
+@property (nonatomic, retain) NSDictionary   *_classDictionary;    
+@property (readonly) NSSet          *classDefs;
 
 - (id) initWithSet:(NSSet*)defSet;
-
+- (FrameworkClass*) classWithName:(NSString*)key;
 
 @end
