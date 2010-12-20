@@ -27,12 +27,15 @@
 </div>
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <h1>WorkspaceObject Class Reference</h1>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="WorkspaceObject" --><!-- doxytag: inherits="BaseDrawableObject,WorkspaceObject-p" --><!-- startSectionHeader --><div class="dynheader">
+<!-- doxytag: class="WorkspaceObject" --><!-- doxytag: inherits="BaseDrawableObject,WorkspaceObject-p" -->
+<p><code>#import &lt;<a class="el" href="_workspace_object_8h_source.html">WorkspaceObject.h</a>&gt;</code></p>
+<!-- startSectionHeader --><div class="dynheader">
 Inheritance diagram for WorkspaceObject:<!-- endSectionHeader --></div>
 <!-- startSectionSummary --><!-- endSectionSummary --><!-- startSectionContent --><div class="dyncontent">
 <div class="center"><img src="interface_workspace_object__inherit__graph.png" border="0" usemap="#_workspace_object_inherit__map" alt="Inheritance graph"/></div>
@@ -49,6 +52,22 @@ Collaboration diagram for WorkspaceObject:<!-- endSectionHeader --></div>
 
 <p><a href="class_workspace_object-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8605189f6facfbab06d66850d98f259e"></a><!-- doxytag: member="WorkspaceObject::isEditing" ref="a8605189f6facfbab06d66850d98f259e" args="()" -->
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isEditing</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b0d6c8e897ca2ec3cf6d9de43ce5b7c"></a><!-- doxytag: member="WorkspaceObject::setIsEditing:" ref="a6b0d6c8e897ca2ec3cf6d9de43ce5b7c" args="(BOOL newIsEditing)" -->
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>setIsEditing:</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0de7902fd3a51fba92b1f9f19054f0a"></a><!-- doxytag: member="WorkspaceObject::isSelected" ref="ac0de7902fd3a51fba92b1f9f19054f0a" args="()" -->
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isSelected</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0ddcf02d1316ca6c7b39fecdb2ba4e47"></a><!-- doxytag: member="WorkspaceObject::setIsSelected:" ref="a0ddcf02d1316ca6c7b39fecdb2ba4e47" args="(BOOL newIsSelected)" -->
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>setIsSelected:</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd269f15546578eb89ed8e52087782a5"></a><!-- doxytag: member="WorkspaceObject::isVisible" ref="afd269f15546578eb89ed8e52087782a5" args="()" -->
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isVisible</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8b61137281fea250198f220101f16e0"></a><!-- doxytag: member="WorkspaceObject::setIsVisible:" ref="af8b61137281fea250198f220101f16e0" args="(BOOL newIsVisible)" -->
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>setIsVisible:</b></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a032f2fdd079b4fb1e54b48c6e65188bd"></a><!-- doxytag: member="WorkspaceObject::drawPerimeter" ref="a032f2fdd079b4fb1e54b48c6e65188bd" args="()" -->
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>drawPerimeter</b></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ba3e507991990e6a0a96fdf56803412"></a><!-- doxytag: member="WorkspaceObject::isVisible" ref="a3ba3e507991990e6a0a96fdf56803412" args="" -->
@@ -58,11 +77,15 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>isSelected</b></td></
 <tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0fcb5726a2aaa62b2645f699f946226"></a><!-- doxytag: member="WorkspaceObject::isEditing" ref="ad0fcb5726a2aaa62b2645f699f946226" args="" -->
 BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>isEditing</b></td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/><a name="_details"></a><h2>Detailed Description</h2>
+<p>Workspace objects are representations of any drawable objects that can be rendered and edited within the context of the IDE workspace. This provides a uniform set of operations that are relevant within a workspace context such as selection, highlighting, drag and drop operations, etc...</p>
+<p>This is not a concrete class, objects wishing to render in a workspace context must subclass a workspace object </p>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/<a class="el" href="_workspace_object_8h_source.html">WorkspaceObject.h</a></li>
+<li>/Users/jonathanfontanez/Development/MacOsX/PhysicsBench/Classes/WorkspaceObject.m</li>
 </ul>
 </div>
-<hr class="footer"/><address class="footer"><small>Generated on Sun Dec 19 2010 12:55:11 for PhysicsBench by&#160;
+<hr class="footer"/><address class="footer"><small>Generated on Sun Dec 19 2010 19:10:58 for PhysicsBench by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.2 </small></address>
 </body>
