@@ -9,20 +9,27 @@
 #import <Cocoa/Cocoa.h>
 
 
+
 #define DEFAULT_FRAMEWORK_CLASS @"Box2dFramework"
 
-@class PhysicsFramework;
+@class PhysicsFramework, PropertyView;
 
 @interface FrameworkManager : NSObject{
 	PhysicsFramework	*framework;
+    
+    @private
+        PropertyView      *_pView;
 }
 
 // Properties
 @property(assign) 	PhysicsFramework *framework;
+@property(nonatomic, retain) PropertyView      *_pView;
 
 // Static Methods
 + (id)  sharedFrameworkManager;
 - (NSArray *) fetchStringsOfShapesTypes;
+- (void)setPropertyManager:(PropertyView*)pView;
+- (void)displayFrameworkProperties:(NSArray*)properties;
 
 
 @end

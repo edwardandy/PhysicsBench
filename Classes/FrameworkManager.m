@@ -8,6 +8,7 @@
 
 #import "FrameworkManager.h"
 #import "PhysicsObject.h"
+#import "PropertyView.h"
 
 /**
  * <p>
@@ -20,7 +21,7 @@
  */
 @implementation FrameworkManager
 
-@synthesize framework;
+@synthesize framework, _pView;
 
 /**
  * Provides a shared instance of the framework manager. Allows for all classes
@@ -55,6 +56,7 @@
  * Standard memory-management dealloc
  */
 - (void)dealloc {
+    [_pView release];
     [framework release];
     [super dealloc];
 }
@@ -89,6 +91,18 @@
 	return nil;
 }
 
+/**
+ * Property manager for displaying 
+ */
+- (void)setPropertyManager:(PropertyView*)pView {
+    _pView = pView;            
+}
 
+/**
+ * Display framework properties
+ */
+- (void)displayFrameworkProperties:(NSArray*)properties {
+    [_pView displayAllProperties:properties];
+}
 
 @end

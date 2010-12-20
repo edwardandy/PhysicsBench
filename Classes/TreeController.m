@@ -128,8 +128,10 @@
 {
     // Notify the object that they have been selected
     DocNode * node = [item representedObject];
+    PhysicsObject *obj = (PhysicsObject*)[node contents];
     if ( nil != node.contents) {
-        node.contents.isSelected = YES;
+        node.contents.isSelected = YES;                
+        [[FrameworkManager sharedFrameworkManager] displayFrameworkProperties:obj.properties];
     }
 
     return true;

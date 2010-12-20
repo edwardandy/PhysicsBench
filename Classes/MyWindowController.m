@@ -19,6 +19,7 @@
 #import "DocNode.h"
 #import "EmptyObject.h"
 #import "PhysicsFramework.h"
+#import "PropertyView.h"
 
 
 //=========================
@@ -79,15 +80,15 @@
 	// Create our tab view with a physics grid
 	
 	PhysicsGrid *grid = [[PhysicsGrid alloc] initWithFrame:middleView.bounds];
-//	[middleView addSubview:grid];
 	tabController = [[GCTabController alloc] initWithView:grid controller:outlineController];
-	
 	[middleView addSubview:tabController.view];
 
 	
 	// Right View
 	// Create our properties view & hide
-	
+	PropertyView *propView = [[PropertyView alloc] initWithFrame:rightView.bounds];
+    [[FrameworkManager sharedFrameworkManager] setPropertyManager:propView];
+    [rightView addSubview:propView];
 	
 	// Toolbar Menu
 	[self populateMenu];
